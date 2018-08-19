@@ -1947,11 +1947,9 @@ This document is released under the terms of the GNU Library General Public Lice
 ### Recent Changes to this document
 
 
-This section keeps you informed what parts of this document changed
-recently.
+This section keeps you informed what parts of this document changed recently.
 
 
-	pridat jak udelat backtrace, kompilace s debug apod.
 - Adam Pribyl, menuprogreload, runonce, win95 key usage, MFAQ about WM_CLASS, removed some refs to icewm.moal.ch, xrandr (thnx Tomas Linden), taskbar can only be increased (fix), how to disable alt+mouse
 - Marko Macek, updates to icewm-session / startup / icewmbg (2005-05-24)
 - Adam Pribyl, alt+drag, winoption .workspace (thnx Oliver Kosmann and Christophe Badoit), font defs explain better, some udates regarding 1.2.14 (2004/06/15)
@@ -1959,31 +1957,31 @@ recently.
 - Adam Pribyl, font handling problem question and answer. (2004/02/10)
 - Adam Pribyl, startup script section improvements, corrected path in example section (thx to Michael Dipperstein), MFAQ add showdestop
 - Adam Pribyl, added icewm-session to most FAQ; Fulltext advice made more visible;
-    Section Example configuration A-Z added - this is preliminary version - comments welcomed. (2003/10/14)
+  Section Example configuration A-Z added - this is preliminary version - comments welcomed. (2003/10/14)
 - Adam Pribyl, added idesk and dfm links to tools section. icewm-session
-    and prefoverride added. Some small improvements. (2003/09/14)
+  and prefoverride added. Some small improvements. (2003/09/14)
 - Adam Pribyl, updated Howto prevent IceWM from grabbing keystrokes, with text sent by Marco Molteni.
-    Some more hyperlinking. (2003/09/11)
+  Some more hyperlinking. (2003/09/11)
 - Adam Pribyl, updates to reflect latest icewm development (icewmtray, icewmbg,
-    .icewm/theme). License note add. MenuMaker add. Minor hyperlink and some answers updates. (2003/08/25)
+  .icewm/theme). License note add. MenuMaker add. Minor hyperlink and some answers updates. (2003/08/25)
 - Adam Pribyl makes some answers more accurate, added IceMC, bigger icons answer.
-    (2003/05/10)
+  (2003/05/10)
 - Adam Pribyl updated FAQs to fit nowadays needs, put them on
-    the website and added few new things. (2003/03/29)
+  the website and added few new things. (2003/03/29)
 - New maintainer. Markus Ackermann took over and reorganized much of the
-    FAQ. I've even renamed it to "IceWM FAQ and Howto", since that's what it's already
-    been. Moved homepage of the English version.
-    (2001/07/25).
+  FAQ. I've even renamed it to "IceWM FAQ and Howto", since that's what it's already
+  been. Moved homepage of the English version.
+  (2001/07/25).
 - Revision of FAQ because some formats (Postscript for example)
-    weren't OK (2000/01/08).
+  weren't OK (2000/01/08).
 - Added sections *"Switching Desktop using keyboard"* and
-    *"Moving windows between desktops using keyboard"*
-    (2000/01/08).
+  *"Moving windows between desktops using keyboard"*
+  (2000/01/08).
 - IceWM homepage has moved, update URL (1999/12/26).
 - This section has been added (1999/10/10).
 - The themes.org site  is up now. This information has been
-    added to "IceWM related web pages"
-    section (1999/10/10).
+  added to "IceWM related web pages"
+  section (1999/10/10).
 - Contact mail address has been changed.  (1999/10/10).
 
 
