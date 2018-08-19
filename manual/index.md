@@ -11,7 +11,7 @@ The goal of IceWM is to provide a small, fast and familiar window manager for th
 
 IceWM originally was designed to emulate the look of Motif, OS/2 Warp 4, OS/2 Warp 3 and Windows 95. Since it has a theming engine others styles are possible. A large number of original themes have been created and [published by users](https://www.box-look.org/browse/cat/142/ord/latest/).
 
-Further information can be found at [the original IceWM website](http://www.icewm.org/), which is no longer being updated, and at the [current site of development](https://github.com/bbidulock/icewm/), which includes the [support requests](https://github.com/bbidulock/icewm/issues/).
+Further information can be found at [the IceWM website](https://ice-wm.github.io/), which is no longer being updated, and at the [current site of development](https://github.com/bbidulock/icewm/), which includes the [support requests](https://github.com/bbidulock/icewm/issues/).
 
 First steps
 ===========
@@ -272,28 +272,28 @@ Configuration Files
 
 IceWM uses the following configuration files:
 
-theme
+- theme
 Currently selected theme
 
-preferences
+- preferences
 General settings - paths, colors, fonts…​
 
-prefoverride
+- prefoverride
 Settings that should override the themes.
 
-menu
+- menu
 Menu of startable applications. Usually customized by the user.
 
-programs
+- programs
 Automatically generated menu of startable applications (this should be used for **wmconfig**, **menu** or similar packages, perhaps as a part of the login or X startup sequence).
 
-winoptions
+- winoptions
 Application window options
 
-keys
+- keys
 Global keybindings to launch applications (not window manager related)
 
-toolbar
+- toolbar
 Quick launch application icons on the taskbar.
 
 Theme
@@ -311,220 +311,220 @@ Focus and Behavior
 
 The following settings can be set to value 1 (enabled) or value 0 (disabled).
 
-ClickToFocus = 1
+- ClickToFocus = 1
 Enables click to focus mode.
 
-RaiseOnFocus = 1
+- RaiseOnFocus = 1
 Window is raised when focused.
 
-FocusOnClickClient = 1
+- FocusOnClickClient = 1
 Window is focused when client area is clicked.
 
-RaiseOnClickClient = 1
+- RaiseOnClickClient = 1
 Window is raised when client area is clicked.
 
-RaiseOnClickTitleBar = 1
+- RaiseOnClickTitleBar = 1
 Window is raised when titlebar is clicked.
 
-RaiseOnClickButton = 1
+- RaiseOnClickButton = 1
 Window is raised when title bar button is clicked.
 
-RaiseOnClickFrame = 1
+- RaiseOnClickFrame = 1
 Window is raised when frame is clicked.
 
-LowerOnClickWhenRaised = 0
+- LowerOnClickWhenRaised = 0
 Lower the active window when clicked again.
 
-PassFirstClickToClient = 1
+- PassFirstClickToClient = 1
 The click which raises the window is also passed to the client.
 
-FocusChangesWorkspace = 0
+- FocusChangesWorkspace = 0
 Change to the workspace of newly focused windows.
 
-AutoRaise = 0
+- AutoRaise = 0
 Windows will raise automatically after AutoRaiseDelay when focused.
 
-StrongPointerFocus = 0
+- StrongPointerFocus = 0
 When focus follows mouse always give the focus to the window under mouse pointer - Even when no mouse motion has occured. Using this is not recommended. Please prefer to use just ClickToFocus=0.
 
-FocusOnMap = 1
+- FocusOnMap = 1
 Window is focused after being mapped.
 
-FocusOnMapTransient = 1
+- FocusOnMapTransient = 1
 Transient window is focused after being mapped.
 
-FocusOnMapTransientActive = 1
+- FocusOnMapTransientActive = 1
 Focus dialog window when initially mapped only if parent frame focused.
 
-FocusOnAppRaise = 1
+- FocusOnAppRaise = 1
 The window is focused when application raises it.
 
-RequestFocusOnAppRaise = 1
+- RequestFocusOnAppRaise = 1
 Request focus (flashing in taskbar) when application requests raise.
 
-MapInactiveOnTop = 1
+- MapInactiveOnTop = 1
 Put new windows on top even if not focusing them.
 
-PointerColormap = 0
+- PointerColormap = 0
 Colormap focus follows pointer.
 
-DontRotateMenuPointer = 1
+- DontRotateMenuPointer = 1
 Don’t rotate the cursor for popup menus.
 
-LimitSize = 1
+- LimitSize = 1
 Limit size of windows to screen.
 
-LimitPosition = 1
+- LimitPosition = 1
 Limit position of windows to screen.
 
-LimitByDockLayer = 0
+- LimitByDockLayer = 0
 Let the Dock layer limit the workspace (incompatible with GNOME Panel).
 
-ConsiderHBorder = 0
+- ConsiderHBorder = 0
 Consider border frames when maximizing horizontally.
 
-ConsiderVBorder = 0
+- ConsiderVBorder = 0
 Consider border frames when maximizing vertically.
 
-ConsiderSizeHintsMaximized = 1
+- ConsiderSizeHintsMaximized = 1
 Consider XSizeHints if frame is maximized.
 
-CenterMaximizedWindows = 0
+- CenterMaximizedWindows = 0
 Center maximized windows which can’t fit the screen (like terminals).
 
-HideBordersMaximized = 0
+- HideBordersMaximized = 0
 Hide window borders if window is maximized.
 
-HideTitleBarWhenMaximized = 0
+- HideTitleBarWhenMaximized = 0
 Hide title bar when maximized.
 
-CenterLarge = 0
+- CenterLarge = 0
 Center large windows.
 
-CenterTransientsOnOwner = 1
+- CenterTransientsOnOwner = 1
 Center dialogs on owner window.
 
-SizeMaximized = 0
+- SizeMaximized = 0
 Window can be resized when maximized.
 
-MinimizeToDesktop = 0
+- MinimizeToDesktop = 0
 Window is minimized to desktop area (in addition to the taskbar).
 
-MiniIconsPlaceHorizontal = 0
+- MiniIconsPlaceHorizontal = 0
 Place the mini-icons horizontal instead of vertical.
 
-MiniIconsRightToLeft = 0
+- MiniIconsRightToLeft = 0
 Place new mini-icons from right to left.
 
-MiniIconsBottomToTop = 0
+- MiniIconsBottomToTop = 0
 Place new mini-icons from bottom to top.
 
-GrabRootWindow = 1
+- GrabRootWindow = 1
 Manage root window (EXPERIMENTAL - normally enabled!).
 
-ShowMoveSizeStatus = 1
+- ShowMoveSizeStatus = 1
 Move/resize status window is visible when moving/resizing the window.
 
-ShowWorkspaceStatus = 1
+- ShowWorkspaceStatus = 1
 Show name of current workspace while switching.
 
-ShowWorkspaceStatusAfterSwitch = 1
+- ShowWorkspaceStatusAfterSwitch = 1
 Show name of current workspace while switching workspaces.
 
-ShowWorkspaceStatusAfterActivation = 1
+- ShowWorkspaceStatusAfterActivation = 1
 Show name of current workspace after explicit activation.
 
-WarpPointer = 0
+- WarpPointer = 0
 Pointer is moved in pointer focus move when focus is moved using the keyboard.
 
-OpaqueMove = 1
+- OpaqueMove = 1
 Window is immediately moved when dragged, no outline is shown.
 
-OpaqueResize = 0
+- OpaqueResize = 0
 Window is immediately resized when dragged, no outline is shown.
 
-DelayPointerFocus = 1
+- DelayPointerFocus = 1
 Similar to delayed auto raise.
 
-Win95Keys = 0
+- Win95Keys = 0
 Makes 3 additional keys perform sensible functions. The keys must be mapped to MetaL,MetaR and Menu. The left one will activate the start menu and the right one will display the window list.
 
-ModSuperIsCtrlAlt = 1
+- ModSuperIsCtrlAlt = 1
 Treat Super/Win modifier as Ctrl+Alt.
 
-UseMouseWheel = 0
+- UseMouseWheel = 0
 mouse wheel support
 
-ShowPopupsAbovePointer = 0
+- ShowPopupsAbovePointer = 0
 Show popup menus above mouse pointer.
 
-ReplayMenuCancelClick = 0
+- ReplayMenuCancelClick = 0
 Send the clicks outside menus to target window.
 
-ManualPlacement = 0
+- ManualPlacement = 0
 Windows must be placed manually by the user.
 
-SmartPlacement = 1
+- SmartPlacement = 1
 Smart window placement (minimal overlap).
 
-IgnoreNoFocusHint = 0
+- IgnoreNoFocusHint = 0
 Ignore no-accept-focus hint set by some windows.
 
-MenuMouseTracking = 0
+- MenuMouseTracking = 0
 If enabled, menus will track the mouse even when no mouse button is pressed.
 
-ClientWindowMouseActions = 1
+- ClientWindowMouseActions = 1
 Allow mouse actions on client windows.
 
-SnapMove = 1
+- SnapMove = 1
 Snap to nearest screen edge/window when moving windows.
 
-SnapDistance = 8
+- SnapDistance = 8
 Distance in pixels before windows snap together
 
-ArrangeWindowsOnScreenSizeChange = 1
+- ArrangeWindowsOnScreenSizeChange = 1
 Automatically arrange windows when screen size changes.
 
-MsgBoxDefaultAction = 0
+- MsgBoxDefaultAction = 0
 Preselect to Cancel (0) or the OK (1) button in message boxes
 
-EdgeResistance = 32
+- EdgeResistance = 32
 Resistance to move window with mouse outside screen limits. Setting it to 10000 makes the resistance infinite.
 
-AllowFullscreen = 1
+- AllowFullscreen = 1
 Allow to switch a window to fullscreen.
 
-FullscreenUseAllMonitors = 0
+- FullscreenUseAllMonitors = 0
 Span over all available screens if window goes into fullscreen.
 
-NetWorkAreaBehaviour = 0
+- NetWorkAreaBehaviour = 0
 NET\_WORKAREA behaviour: 0 (single/multimonitor with STRUT information, like metacity), 1 (always full desktop), 2 (singlemonitor with STRUT, multimonitor without STRUT).
 
-ConfirmLogout = 1
+- ConfirmLogout = 1
 Confirm Logout.
 
-MultiByte = 1
+- MultiByte = 1
 Overrides automatic multiple byte detection.
 
-ShapesProtectClientWindow = 1
+- ShapesProtectClientWindow = 1
 Don’t cut client windows by shapes set trough frame corner pixmap.
 
-DoubleBuffer = 1
+- DoubleBuffer = 1
 Use double buffering when redrawing the display.
 
-XRRDisable = 0
+- XRRDisable = 0
 Disable use of new XRANDR API for dual head (nvidia workaround)
 
-PreferFreetypeFonts = 1
+- PreferFreetypeFonts = 1
 Favor \*Xft fonts over core X11 fonts where possible.
 
-IconPath = /usr/share/icons/hicolor:/usr/share/icons:/usr/share/pixmaps
+- IconPath = /usr/share/icons/hicolor:/usr/share/icons:/usr/share/pixmaps
 Icon search path (colon separated)
 
-MailCommand = xterm -name mutt -e mutt
+- MailCommand = xterm -name mutt -e mutt
 Command to run on mailbox.
 
-MailClassHint = mutt.XTerm
+- MailClassHint = mutt.XTerm
 WM\_CLASS to allow runonce for MailCommand.
 
 NewMailCommand =
@@ -533,10 +533,10 @@ Command to run when new mail arrives.
 LockCommand =
 Command to lock display/screensaver.
 
-ClockCommand = xclock -name icewm -title Clock
+- ClockCommand = xclock -name icewm -title Clock
 Command to run on clock.
 
-ClockClassHint = icewm.XClock
+- ClockClassHint = icewm.XClock
 WM\_CLASS to allow runonce for ClockCommand.
 
 RunCommand =
@@ -545,7 +545,7 @@ Command to select and run a program.
 OpenCommand =
 Command to run to open a file.
 
-TerminalCommand = xterm
+- TerminalCommand = xterm
 Terminal emulator must accept -e option.
 
 LogoutCommand =
@@ -566,16 +566,16 @@ Command to send the system to standby mode.
 CPUStatusCommand =
 Command to run on CPU status.
 
-CPUStatusClassHint = top.XTerm
+- CPUStatusClassHint = top.XTerm
 WM\_CLASS to allow runonce for CPUStatusCommand.
 
-CPUStatusCombine = 1
+- CPUStatusCombine = 1
 Combine all CPUs to one.
 
 NetStatusCommand =
 Command to run on Net status.
 
-NetStatusClassHint = netstat.XTerm
+- NetStatusClassHint = netstat.XTerm
 WM\_CLASS to allow runonce for NetStatusCommand.
 
 AddressBarCommand =
@@ -586,57 +586,57 @@ screen/output name of the primary screen.
 
 ### Quick Switch List
 
-QuickSwitch = 1
+- QuickSwitch = 1
 enable Alt+Tab window switcher.
 
-QuickSwitchToMinimized = 1
+- QuickSwitchToMinimized = 1
 Alt+Tab switches to minimized windows too.
 
-QuickSwitchToHidden = 1
+- QuickSwitchToHidden = 1
 Alt+Tab to hidden windows.
 
-QuickSwitchToUrgent = 1
+- QuickSwitchToUrgent = 1
 Priorize Alt+Tab to urgent windows.
 
-QuickSwitchToAllWorkspaces = 1
+- QuickSwitchToAllWorkspaces = 1
 Alt+Tab switches to windows on any workspace.
 
-QuickSwitchGroupWorkspaces = 1
+- QuickSwitchGroupWorkspaces = 1
 Alt+Tab: group windows on current workspace.
 
-QuickSwitchAllIcons = 1
+- QuickSwitchAllIcons = 1
 Show all reachable icons when quick switching.
 
-QuickSwitchTextFirst = 0
+- QuickSwitchTextFirst = 0
 Show the window title above (all reachable) icons.
 
-QuickSwitchSmallWindow = 0
+- QuickSwitchSmallWindow = 0
 Attempt to create a small QuickSwitch window (1/3 instead of 3/5 of
 
-QuickSwitchMaxWidth = 0
+- QuickSwitchMaxWidth = 0
 Go through all window titles and choose width of the longest one.
 
-QuickSwitchVertical = 1
+- QuickSwitchVertical = 1
 Place the icons and titles vertical instead of horizontal.
 
-QuickSwitchHugeIcon = 0
+- QuickSwitchHugeIcon = 0
 Show the huge (48x48) of the window icon for the active window.
 
-QuickSwitchFillSelection = 0
+- QuickSwitchFillSelection = 0
 Fill the rectangle highlighting the current icon.
 
 ### Edge Workspace Switching
 
-EdgeSwitch = 0
+- EdgeSwitch = 0
 Workspace switches by moving mouse to left/right screen edge.
 
-HorizontalEdgeSwitch = 0
+- HorizontalEdgeSwitch = 0
 Workspace switches by moving mouse to left/right screen edge.
 
-VerticalEdgeSwitch = 0
+- VerticalEdgeSwitch = 0
 Workspace switches by moving mouse to top/bottom screen edge.
 
-ContinuousEdgeSwitch = 1
+- ContinuousEdgeSwitch = 1
 Workspace switches continuously when moving mouse to screen edge.
 
 Task Bar
@@ -644,187 +644,187 @@ Task Bar
 
 The following settings can be set to value 1 (enabled) or value 0 (disabled).
 
-ShowTaskBar = 1
+- ShowTaskBar = 1
 Task bar is visible.
 
-TaskBarAtTop = 0
+- TaskBarAtTop = 0
 Task bar is located at top of screen.
 
-TaskBarKeepBelow = 1
+- TaskBarKeepBelow = 1
 Keep the task bar below regular windows
 
-TaskBarAutoHide = 0
+- TaskBarAutoHide = 0
 Task bar will auto hide when mouse leaves it.
 
-TaskBarFullscreenAutoShow = 1
+- TaskBarFullscreenAutoShow = 1
 Auto show task bar when fullscreen window active.
 
-TaskBarShowClock = 1
+- TaskBarShowClock = 1
 Task bar clock is visible.
 
-TaskBarShowAPMStatus = 0
+- TaskBarShowAPMStatus = 0
 Show APM/ACPI/Battery/Power status monitor on task bar.
 
-TaskBarShowAPMAuto = 1
+- TaskBarShowAPMAuto = 1
 Enable TaskBarShowAPMStatus if a battery is present.
 
-TaskBarShowAPMTime = 1
+- TaskBarShowAPMTime = 1
 Show APM status on task bar in time-format.
 
-TaskBarShowAPMGraph = 1
+- TaskBarShowAPMGraph = 1
 Show APM status in graph mode.
 
-TaskBarShowMailboxStatus = 1
+- TaskBarShowMailboxStatus = 1
 Display status of mailbox (see 'Mailbox' below).
 
-TaskBarMailboxStatusBeepOnNewMail = 0
+- TaskBarMailboxStatusBeepOnNewMail = 0
 Beep when new mail arrives.
 
-TaskBarMailboxStatusCountMessages = 0
+- TaskBarMailboxStatusCountMessages = 0
 Display mail message count as tooltip.
 
-TaskBarShowWorkspaces = 1
+- TaskBarShowWorkspaces = 1
 Show workspace switching buttons on task bar.
 
-TaskBarShowWindows = 1
+- TaskBarShowWindows = 1
 Show windows on the taskbar.
 
-TaskBarShowShowDesktopButton = 1
+- TaskBarShowShowDesktopButton = 1
 Show 'show desktop' button on taskbar.
 
-ShowEllipsis = 0
+- ShowEllipsis = 0
 Show Ellipsis in taskbar items.
 
-TaskBarShowTray = 1
+- TaskBarShowTray = 1
 Show windows in the tray.
 
-TrayShowAllWindows = 1
+- TrayShowAllWindows = 1
 Show windows from all workspaces on tray.
 
-TaskBarEnableSystemTray = 1
+- TaskBarEnableSystemTray = 1
 Enable the system tray in the taskbar.
 
-TaskBarShowTransientWindows = 1
+- TaskBarShowTransientWindows = 1
 Show transient (dialogs, …​) windows on task bar.
 
-TaskBarShowAllWindows = 0
+- TaskBarShowAllWindows = 0
 Show windows from all workspaces on task bar.
 
-TaskBarShowWindowIcons = 1
+- TaskBarShowWindowIcons = 1
 Show icons of windows on the task bar.
 
-TaskBarShowStartMenu = 1
+- TaskBarShowStartMenu = 1
 Show button for the start menu on the task bar.
 
-TaskBarShowWindowListMenu = 1
+- TaskBarShowWindowListMenu = 1
 Show button for window list menu on taskbar.
 
-TaskBarShowCPUStatus = 1
+- TaskBarShowCPUStatus = 1
 Show CPU status on task bar (Linux & Solaris).
 
-CPUStatusShowRamUsage = 1
+- CPUStatusShowRamUsage = 1
 Show RAM usage in CPU status tool tip.
 
-CPUStatusShowSwapUsage = 1
+- CPUStatusShowSwapUsage = 1
 Show swap usage in CPU status tool tip.
 
-CPUStatusShowAcpiTemp = 1
+- CPUStatusShowAcpiTemp = 1
 Show ACPI temperature in CPU status tool tip.
 
-CPUStatusShowAcpiTempInGraph = 0
+- CPUStatusShowAcpiTempInGraph = 0
 Show ACPI temperature in CPU graph.
 
 AcpiIgnoreBatteries =
 List of battery names ignore.
 
-CPUStatusShowCpuFreq = 1
+- CPUStatusShowCpuFreq = 1
 Show CPU frequency in CPU status tool tip.
 
-TaskBarShowMEMStatus = 1
+- TaskBarShowMEMStatus = 1
 Show memory usage status on task bar (Linux only).
 
-TaskBarShowNetStatus = 1
+- TaskBarShowNetStatus = 1
 Show network status on task bar (Linux only).
 
-NetworkStatusDevice = "\[ew\]\*"
+- NetworkStatusDevice = "\[ew\]\*"
 List of network devices to be displayed in tray, space separated. Shell wildcard patterns can also be used.
 
-TaskBarShowCollapseButton = 0
+- TaskBarShowCollapseButton = 0
 Show a button to collapse the taskbar.
 
-TaskBarDoubleHeight = 0
+- TaskBarDoubleHeight = 0
 Double height task bar
 
-TaskBarWorkspacesLeft = 1
+- TaskBarWorkspacesLeft = 1
 Place workspace pager on left, not right.
 
-TaskBarWorkspacesTop = 0
+- TaskBarWorkspacesTop = 0
 Place workspace pager on top row when using dual-height taskbar.
 
-PagerShowPreview = 1
+- PagerShowPreview = 1
 Show a mini desktop preview on each workspace button. By pressing the middle mouse button the 'window list' is shown. The right button activates the 'window list menu'. By using the scroll wheel over the 'workspace list' one can quickly cycle over all workspaces.
 
-PagerShowWindowIcons = 1
+- PagerShowWindowIcons = 1
 Draw window icons inside large enough preview windows on pager (if PagerShowPreview=1).
 
-PagerShowMinimized = 1
+- PagerShowMinimized = 1
 Draw even minimized windows as unfilled rectangles (if PagerShowPreview=1).
 
-PagerShowBorders = 1
+- PagerShowBorders = 1
 Draw border around workspace buttons (if PagerShowPreview=1).
 
-PagerShowNumbers = 1
+- PagerShowNumbers = 1
 Show number of workspace on workspace button (if PagerShowPreview=1).
 
-TaskBarLaunchOnSingleClick = 1
+- TaskBarLaunchOnSingleClick = 1
 Execute taskbar applet commands (like MailCommand, ClockCommand, …​) on single click.
 
-EnableAddressBar = 1
+- EnableAddressBar = 1
 Enable address bar functionality in taskbar.
 
-ShowAddressBar = 1
+- ShowAddressBar = 1
 Show address bar in task bar.
 
-TimeFormat = "%X"
+- TimeFormat = "%X"
 format for the taskbar clock (time) (see strftime(3) manpage).
 
-TimeFormatAlt = ""
+- TimeFormatAlt = ""
 Alternate Clock Time format (e.g. for blinking effects).
 
-DateFormat = "%c"
+- DateFormat = "%c"
 format for the taskbar clock tooltip (date+time) (see strftime(3) manpage).
 
-TaskBarCPUSamples = 20
+- TaskBarCPUSamples = 20
 Width of CPU Monitor.
 
-TaskBarMEMSamples = 20
+- TaskBarMEMSamples = 20
 Width of Memory Monitor.
 
-TaskBarNetSamples = 20
+- TaskBarNetSamples = 20
 Width of Net Monitor.
 
-TaskbarButtonWidthDivisor = 3
+- TaskbarButtonWidthDivisor = 3
 Default number of tasks in taskbar.
 
-TaskBarWidthPercentage = 100
+- TaskBarWidthPercentage = 100
 Task bar width as percentage of the screen width.
 
-TaskBarJustify = "left"
+- TaskBarJustify = "left"
 Taskbar justify left, right or center.
 
-TaskBarApmGraphWidth = 10
+- TaskBarApmGraphWidth = 10
 Width of APM Monitor.
 
-TaskBarGraphHeight = 20
+- TaskBarGraphHeight = 20
 Height of taskbar monitoring applets.
 
-XineramaPrimaryScreen = 0
+- XineramaPrimaryScreen = 0
 Primary screen for xinerama (taskbar, …​).
 
 Mailbox Monitoring (updated 2018-03-04)
 ---------------------------------------
 
-MailBoxPath = ""
+- MailBoxPath = ""
 This may contain a list of mailbox specifications. Mailboxes are separated by a space. If `TaskBarShowMailboxStatus` is enabled then IceWM will monitor each mailbox for status changes each `MailCheckDelay` seconds. For each mailbox IceWM will show an icon on the taskbar. The icon shows if there is mail, if there is unread mail, or if there is new mail. Hovering the mouse pointer over an icon shows the number of messages in this mailbox and also the number unread mails. A mailbox can be the path to a file in conventional *mbox* format. If the path points to a directory then *Maildir* format is assumed. Remote mail boxes are specified by an URL using the Common Internet Scheme Syntax (RFC 1738):
 
     scheme://user:password@server[:port][/path]
@@ -851,148 +851,148 @@ Note that for IceWM to access Gmail you must first configure your Gmail account 
 Menus
 -----
 
-AutoReloadMenus = 1
+- AutoReloadMenus = 1
 Reload menu files automatically if set to 1.
 
-ShowProgramsMenu = 0
+- ShowProgramsMenu = 0
 Show programs submenu.
 
-ShowSettingsMenu = 1
+- ShowSettingsMenu = 1
 Show settings submenu.
 
-ShowFocusModeMenu = 1
+- ShowFocusModeMenu = 1
 Show focus mode submenu.
 
-ShowThemesMenu = 1
+- ShowThemesMenu = 1
 Show themes submenu.
 
-ShowLogoutMenu = 1
+- ShowLogoutMenu = 1
 Show logout menu.
 
-ShowHelp = 1
+- ShowHelp = 1
 Show the help menu item.
 
-ShowLogoutSubMenu = 1
+- ShowLogoutSubMenu = 1
 Show logout submenu.
 
-ShowAbout = 1
+- ShowAbout = 1
 Show the about menu item.
 
-ShowRun = 1
+- ShowRun = 1
 Show the run menu item.
 
-ShowWindowList = 1
+- ShowWindowList = 1
 Show the window menu item.
 
-MenuMaximalWidth = 0
+- MenuMaximalWidth = 0
 Maximal width of popup menus, 2/3 of the screen’s width if set to zero.
 
-NestedThemeMenuMinNumber = 25
+- NestedThemeMenuMinNumber = 25
 Minimal number of themes after which the Themes menu becomes nested (0=disabled).
 
 Timings
 -------
 
-DelayFuzziness = 10
+- DelayFuzziness = 10
 Percentage of delay/timeout fuzziness to allow for merging of timer timeouts
 
-ClickMotionDistance = 5
+- ClickMotionDistance = 5
 Movement before click is interpreted as drag.
 
-ClickMotionDelay = 200
+- ClickMotionDelay = 200
 Delay before click gets interpreted as drag.
 
-MultiClickTime = 400
+- MultiClickTime = 400
 Time (ms) to recognize for double click.
 
-MenuActivateDelay = 40
+- MenuActivateDelay = 40
 Delay before activating menu items.
 
-SubmenuMenuActivateDelay = 300
+- SubmenuMenuActivateDelay = 300
 Delay before activating menu submenus.
 
-ToolTipDelay = 5000
+- ToolTipDelay = 5000
 Time before showing the tooltip.
 
-ToolTipTime = 60000
+- ToolTipTime = 60000
 Time before tooltip window is hidden (0 means never)
 
-AutoHideDelay = 300
+- AutoHideDelay = 300
 Time to auto hide taskbar (must enable first with TaskBarAutoHide).
 
-AutoShowDelay = 500
+- AutoShowDelay = 500
 Delay before task bar is shown.
 
-AutoRaiseDelay = 400
+- AutoRaiseDelay = 400
 Time to auto raise (must enable first with AutoRaise)
 
-PointerFocusDelay = 200
+- PointerFocusDelay = 200
 Delay for pointer focus switching.
 
-EdgeSwitchDelay = 600
+- EdgeSwitchDelay = 600
 Screen edge workspace switching delay.
 
-ScrollBarStartDelay = 500
+- ScrollBarStartDelay = 500
 Initial scroll bar autoscroll delay
 
-ScrollBarDelay = 30
+- ScrollBarDelay = 30
 Scroll bar autoscroll delay
 
-AutoScrollStartDelay = 500
+- AutoScrollStartDelay = 500
 Auto scroll start delay
 
-AutoScrollDelay = 60
+- AutoScrollDelay = 60
 Auto scroll delay
 
-WorkspaceStatusTime = 2500
+- WorkspaceStatusTime = 2500
 Time before workspace status window is hidden.
 
-MailCheckDelay = 30
+- MailCheckDelay = 30
 Delay between new-mail checks. (seconds).
 
-TaskBarCPUDelay = 500
+- TaskBarCPUDelay = 500
 Delay between CPU Monitor samples in ms.
 
-TaskBarMEMDelay = 500
+- TaskBarMEMDelay = 500
 Delay between Memory Monitor samples in ms.
 
-TaskBarNetDelay = 500
+- TaskBarNetDelay = 500
 Delay between Net Monitor samples in ms.
 
-FocusRequestFlashTime = 0
+- FocusRequestFlashTime = 0
 Number of seconds the taskbar app will blink when requesting focus (0 = forever).
 
-FocusRequestFlashInterval = 250
+- FocusRequestFlashInterval = 250
 Taskbar blink interval (ms) when requesting focus (0 = blinking disabled).
 
-BatteryPollingPeriod = 10
+- BatteryPollingPeriod = 10
 Delay between power status updates (seconds).
 
 Buttons and Keys
 ----------------
 
-UseRootButtons = 255
+- UseRootButtons = 255
 Bitmask of root window button click to use in window manager.
 
-ButtonRaiseMask = 1
+- ButtonRaiseMask = 1
 Bitmask of buttons that raise the window when pressed.
 
-DesktopWinMenuButton = 0
+- DesktopWinMenuButton = 0
 Desktop mouse-button click to show the window list menu.
 
-DesktopWinListButton = 2
+- DesktopWinListButton = 2
 Desktop mouse-button click to show the window list.
 
-DesktopMenuButton = 3
+- DesktopMenuButton = 3
 Desktop mouse-button click to show the root menu.
 
-TitleBarMaximizeButton = 1
+- TitleBarMaximizeButton = 1
 TitleBar mouse-button double click to maximize the window.
 
-TitleBarRollupButton = 2
+- TitleBarRollupButton = 2
 TitleBar mouse-button double click to rollup the window.
 
-RolloverButtonsSupported = 0
+- RolloverButtonsSupported = 0
 Does it support the 'O' title bar button images (for mouse rollover)
 
 Workspaces
@@ -1092,88 +1092,88 @@ Borders
 
 The following settings can be set to a numeric value.
 
-BorderSizeX = 6
+- BorderSizeX = 6
 Left/right border width.
 
-BorderSizeY = 6
+- BorderSizeY = 6
 Top/bottom border height.
 
-DlgBorderSizeX = 2
+- DlgBorderSizeX = 2
 Left/right border width of non-resizable windows.
 
-DlgBorderSizeY = 2
+- DlgBorderSizeY = 2
 Top/bottom border height of non-resizable windows.
 
-CornerSizeX = 24
+- CornerSizeX = 24
 Width of the window corner.
 
-CornerSizeY = 24
+- CornerSizeY = 24
 Height of the window corner.
 
-TitleBarHeight = 20
+- TitleBarHeight = 20
 Height of the title bar.
 
-TitleBarJustify = 0
+- TitleBarJustify = 0
 Justification of the window title.
 
-TitleBarHorzOffset = 0
+- TitleBarHorzOffset = 0
 Horizontal offset for the window title text.
 
-TitleBarVertOffset = 0
+- TitleBarVertOffset = 0
 Vertical offset for the window title text.
 
-TitleBarCentered = 0
+- TitleBarCentered = 0
 Draw window title centered (obsoleted by TitleBarJustify)
 
-TitleBarJoinLeft = 0
+- TitleBarJoinLeft = 0
 Join title\*S and title\*T
 
-TitleBarJoinRight = 0
+- TitleBarJoinRight = 0
 Join title\*T and title\*B
 
-ScrollBarX = 16
+- ScrollBarX = 16
 Scrollbar width.
 
-ScrollBarY = 16
+- ScrollBarY = 16
 Scrollbar (button) height.
 
-MenuIconSize = 16
+- MenuIconSize = 16
 Menu icon size.
 
-SmallIconSize = 16
+- SmallIconSize = 16
 Dimension of the small icons.
 
-LargeIconSize = 32
+- LargeIconSize = 32
 Dimension of the large icons.
 
-HugeIconSize = 48
+- HugeIconSize = 48
 Dimension of the large icons.
 
-QuickSwitchHorzMargin = 3
+- QuickSwitchHorzMargin = 3
 Horizontal margin of the quickswitch window.
 
-QuickSwitchVertMargin = 3
+- QuickSwitchVertMargin = 3
 Vertical margin of the quickswitch window.
 
-QuickSwitchIconMargin = 4
+- QuickSwitchIconMargin = 4
 Vertical margin in the quickswitch window.
 
-QuickSwitchIconBorder = 2
+- QuickSwitchIconBorder = 2
 Distance between the active icon and it’s border.
 
-QuickSwitchSeparatorSize = 6
+- QuickSwitchSeparatorSize = 6
 Height of the separator between (all reachable) icons and text, 0 to avoid it.
 
-ShowMenuButtonIcon = 1
+- ShowMenuButtonIcon = 1
 Show application icon over menu button.
 
-TitleButtonsLeft = "s"
+- TitleButtonsLeft = "s"
 Titlebar buttons from left to right (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
 
-TitleButtonsRight = "xmir"
+- TitleButtonsRight = "xmir"
 Titlebar buttons from right to left (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
 
-TitleButtonsSupported = "xmis"
+- TitleButtonsSupported = "xmis"
 Titlebar buttons supported by theme (x,m,i,r,h,s,d).
 
 Fonts
@@ -1181,386 +1181,386 @@ Fonts
 
 The following settings can be set to a string value.
 
-TitleFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- TitleFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the title bar font.
 
-MenuFontName = "-\*-sans-bold-r-\*-\*-\*-100-\*-\*-\*-\*-\*-\*"
+- MenuFontName = "-\*-sans-bold-r-\*-\*-\*-100-\*-\*-\*-\*-\*-\*"
 Name of the menu font.
 
-StatusFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- StatusFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the status display font.
 
-QuickSwitchFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- QuickSwitchFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the font for Alt+Tab switcher window.
 
-NormalButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- NormalButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the normal button font.
 
-ActiveButtonFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ActiveButtonFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the active button font.
 
-NormalTaskBarFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- NormalTaskBarFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the normal task bar item font.
 
-ActiveTaskBarFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ActiveTaskBarFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the active task bar item font.
 
-ToolButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ToolButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the tool button font (fallback: NormalButtonFontName).
 
-NormalWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- NormalWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the normal workspace button font (fallback: NormalButtonFontName).
 
-ActiveWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ActiveWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the active workspace button font (fallback: ActiveButtonFontName).
 
-MinimizedWindowFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- MinimizedWindowFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the mini-window font.
 
-ListBoxFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ListBoxFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the window list font.
 
-ToolTipFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
+- ToolTipFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
 Name of the tool tip font.
 
-ClockFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
+- ClockFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
 Name of the task bar clock font.
 
-TempFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
+- TempFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
 Name of the task bar temperature font.
 
-ApmFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
+- ApmFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
 Name of the task bar battery font.
 
-InputFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
+- InputFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
 Name of the input field font.
 
-LabelFontName = "-\*-sans-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
+- LabelFontName = "-\*-sans-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
 Name of the label font.
 
 New in 1.2.14: when IceWM is configured with `--enable-xfreetype`, only the settings with "Xft" suffix will be used. They specifiy the font name in fontconfig format:
 
     MenuFontNameXft="sans-serif:size=12:bold"
 
-TitleFontNameXft = "sans-serif:size=12"
+- TitleFontNameXft = "sans-serif:size=12"
 Name of the title bar font.
 
-MenuFontNameXft = "sans-serif:size=10:bold"
+- MenuFontNameXft = "sans-serif:size=10:bold"
 Name of the menu font.
 
-StatusFontNameXft = "monospace:size=12:bold"
+- StatusFontNameXft = "monospace:size=12:bold"
 Name of the status display font.
 
-QuickSwitchFontNameXft = "monospace:size=12:bold"
+- QuickSwitchFontNameXft = "monospace:size=12:bold"
 Name of the font for Alt+Tab switcher window.
 
-NormalButtonFontNameXft = "sans-serif:size=12"
+- NormalButtonFontNameXft = "sans-serif:size=12"
 Name of the normal button font.
 
-ActiveButtonFontNameXft = "sans-serif:size=12:bold"
+- ActiveButtonFontNameXft = "sans-serif:size=12:bold"
 Name of the active button font.
 
-NormalTaskBarFontNameXft = "sans-serif:size=12"
+- NormalTaskBarFontNameXft = "sans-serif:size=12"
 Name of the normal task bar item font.
 
-ActiveTaskBarFontNameXft = "sans-serif:size=12:bold"
+- ActiveTaskBarFontNameXft = "sans-serif:size=12:bold"
 Name of the active task bar item font.
 
-ToolButtonFontNameXft = "sans-serif:size=12"
+- ToolButtonFontNameXft = "sans-serif:size=12"
 Name of the tool button font (fallback: NormalButtonFontNameXft).
 
-NormalWorkspaceFontNameXft = "sans-serif:size=12"
+- NormalWorkspaceFontNameXft = "sans-serif:size=12"
 Name of the normal workspace button font (fallback: NormalButtonFontNameXft).
 
-ActiveWorkspaceFontNameXft = "sans-serif:size=12"
+- ActiveWorkspaceFontNameXft = "sans-serif:size=12"
 Name of the active workspace button font (fallback: ActiveButtonFontNameXft).
 
-MinimizedWindowFontNameXft = "sans-serif:size=12"
+- MinimizedWindowFontNameXft = "sans-serif:size=12"
 Name of the mini-window font.
 
-ListBoxFontNameXft = "sans-serif:size=12"
+- ListBoxFontNameXft = "sans-serif:size=12"
 Name of the window list font.
 
-ToolTipFontNameXft = "sans-serif:size=12"
+- ToolTipFontNameXft = "sans-serif:size=12"
 Name of the tool tip font.
 
-ClockFontNameXft = "monospace:size=12"
+- ClockFontNameXft = "monospace:size=12"
 Name of the task bar clock font.
 
-TempFontNameXft = "monospace:size=12"
+- TempFontNameXft = "monospace:size=12"
 Name of the task bar temperature font.
 
-ApmFontNameXft = "monospace:size=12"
+- ApmFontNameXft = "monospace:size=12"
 Name of the task bar battery font.
 
-InputFontNameXft = "monospace:size=12"
+- InputFontNameXft = "monospace:size=12"
 Name of the input field font.
 
-LabelFontNameXft = "sans-serif:size=12"
+- LabelFontNameXft = "sans-serif:size=12"
 Name of the label font.
 
 Colors
 ------
 
-ColorDialog = "rgb:C0/C0/C0"
+- ColorDialog = "rgb:C0/C0/C0"
 Background of dialog windows.
 
-ColorNormalBorder = "rgb:C0/C0/C0"
+- ColorNormalBorder = "rgb:C0/C0/C0"
 Border of inactive windows.
 
-ColorActiveBorder = "rgb:C0/C0/C0"
+- ColorActiveBorder = "rgb:C0/C0/C0"
 Border of active windows.
 
-ColorNormalButton = "rgb:C0/C0/C0"
+- ColorNormalButton = "rgb:C0/C0/C0"
 Background of regular buttons.
 
-ColorNormalButtonText = "rgb:00/00/00"
+- ColorNormalButtonText = "rgb:00/00/00"
 Textcolor of regular buttons.
 
-ColorActiveButton = "rgb:E0/E0/E0"
+- ColorActiveButton = "rgb:E0/E0/E0"
 Background of pressed buttons.
 
-ColorActiveButtonText = "rgb:00/00/00"
+- ColorActiveButtonText = "rgb:00/00/00"
 Textcolor of pressed buttons.
 
-ColorNormalTitleButton = "rgb:C0/C0/C0"
+- ColorNormalTitleButton = "rgb:C0/C0/C0"
 Background of titlebar buttons.
 
-ColorNormalTitleButtonText = "rgb:00/00/00"
+- ColorNormalTitleButtonText = "rgb:00/00/00"
 Textcolor of titlebar buttons.
 
-ColorToolButton = ""
+- ColorToolButton = ""
 Background of toolbar buttons, ColorNormalButton is used if empty.
 
-ColorToolButtonText = ""
+- ColorToolButtonText = ""
 Textcolor of toolbar buttons, ColorNormalButtonText is used if empty.
 
-ColorNormalWorkspaceButton = ""
+- ColorNormalWorkspaceButton = ""
 Background of workspace buttons, ColorNormalButton is used if empty.
 
-ColorNormalWorkspaceButtonText = ""
+- ColorNormalWorkspaceButtonText = ""
 Textcolor of workspace buttons, ColorNormalButtonText is used if empty.
 
-ColorActiveWorkspaceButton = ""
+- ColorActiveWorkspaceButton = ""
 Background of the active workspace button, ColorActiveButton is used if empty.
 
-ColorActiveWorkspaceButtonText = ""
+- ColorActiveWorkspaceButtonText = ""
 Textcolor of the active workspace button, ColorActiveButtonText is used if empty.
 
-ColorNormalTitleBar = "rgb:80/80/80"
+- ColorNormalTitleBar = "rgb:80/80/80"
 Background of the titlebar of regular windows.
 
-ColorNormalTitleBarText = "rgb:00/00/00"
+- ColorNormalTitleBarText = "rgb:00/00/00"
 Textcolor of the titlebar of regular windows.
 
-ColorNormalTitleBarShadow = ""
+- ColorNormalTitleBarShadow = ""
 Textshadow of the titlebar of regular windows.
 
-ColorActiveTitleBar = "rgb:00/00/A0"
+- ColorActiveTitleBar = "rgb:00/00/A0"
 Background of the titlebar of active windows.
 
-ColorActiveTitleBarText = "rgb:FF/FF/FF"
+- ColorActiveTitleBarText = "rgb:FF/FF/FF"
 Textcolor of the titlebar of active windows.
 
-ColorActiveTitleBarShadow = ""
+- ColorActiveTitleBarShadow = ""
 Textshadow of the titlebar of active windows.
 
-ColorNormalMinimizedWindow = "rgb:C0/C0/C0"
+- ColorNormalMinimizedWindow = "rgb:C0/C0/C0"
 Background for mini icons of regular windows.
 
-ColorNormalMinimizedWindowText = "rgb:00/00/00"
+- ColorNormalMinimizedWindowText = "rgb:00/00/00"
 Textcolor for mini icons of regular windows.
 
-ColorActiveMinimizedWindow = "rgb:E0/E0/E0"
+- ColorActiveMinimizedWindow = "rgb:E0/E0/E0"
 Background for mini icons of active windows.
 
-ColorActiveMinimizedWindowText = "rgb:00/00/00"
+- ColorActiveMinimizedWindowText = "rgb:00/00/00"
 Textcolor for mini icons of active windows.
 
-ColorNormalMenu = "rgb:C0/C0/C0"
+- ColorNormalMenu = "rgb:C0/C0/C0"
 Background of pop-up menus.
 
-ColorNormalMenuItemText = "rgb:00/00/00"
+- ColorNormalMenuItemText = "rgb:00/00/00"
 Textcolor of regular menu items.
 
-ColorActiveMenuItem = "rgb:A0/A0/A0"
+- ColorActiveMenuItem = "rgb:A0/A0/A0"
 Background of selected menu item, leave empty to force transparency.
 
-ColorActiveMenuItemText = "rgb:00/00/00"
+- ColorActiveMenuItemText = "rgb:00/00/00"
 Textcolor of selected menu items.
 
-ColorDisabledMenuItemText = "rgb:80/80/80"
+- ColorDisabledMenuItemText = "rgb:80/80/80"
 Textcolor of disabled menu items.
 
-ColorDisabledMenuItemShadow = ""
+- ColorDisabledMenuItemShadow = ""
 Shadow of regular menu items.
 
-ColorMoveSizeStatus = "rgb:C0/C0/C0"
+- ColorMoveSizeStatus = "rgb:C0/C0/C0"
 Background of move/resize status window.
 
-ColorMoveSizeStatusText = "rgb:00/00/00"
+- ColorMoveSizeStatusText = "rgb:00/00/00"
 Textcolor of move/resize status window.
 
-ColorQuickSwitch = "rgb:C0/C0/C0"
+- ColorQuickSwitch = "rgb:C0/C0/C0"
 Background of the quick switch window.
 
-ColorQuickSwitchText = "rgb:00/00/00"
+- ColorQuickSwitchText = "rgb:00/00/00"
 Textcolor in the quick switch window.
 
-ColorQuickSwitchActive = ""
+- ColorQuickSwitchActive = ""
 Rectangle arround the active icon in the quick switch window.
 
-ColorDefaultTaskBar = "rgb:C0/C0/C0"
+- ColorDefaultTaskBar = "rgb:C0/C0/C0"
 Background of the taskbar.
 
-ColorNormalTaskBarApp = "rgb:C0/C0/C0"
+- ColorNormalTaskBarApp = "rgb:C0/C0/C0"
 Background for task buttons of regular windows.
 
-ColorNormalTaskBarAppText = "rgb:00/00/00"
+- ColorNormalTaskBarAppText = "rgb:00/00/00"
 Textcolor for task buttons of regular windows.
 
-ColorActiveTaskBarApp = "rgb:E0/E0/E0"
+- ColorActiveTaskBarApp = "rgb:E0/E0/E0"
 Background for task buttons of the active window.
 
-ColorActiveTaskBarAppText = "rgb:00/00/00"
+- ColorActiveTaskBarAppText = "rgb:00/00/00"
 Textcolor for task buttons of the active window.
 
-ColorMinimizedTaskBarApp = "rgb:A0/A0/A0"
+- ColorMinimizedTaskBarApp = "rgb:A0/A0/A0"
 Background for task buttons of minimized windows.
 
-ColorMinimizedTaskBarAppText = "rgb:00/00/00"
+- ColorMinimizedTaskBarAppText = "rgb:00/00/00"
 Textcolor for task buttons of minimized windows.
 
-ColorInvisibleTaskBarApp = "rgb:80/80/80"
+- ColorInvisibleTaskBarApp = "rgb:80/80/80"
 Background for task buttons of windows on other workspaces.
 
-ColorInvisibleTaskBarAppText = "rgb:00/00/00"
+- ColorInvisibleTaskBarAppText = "rgb:00/00/00"
 Textcolor for task buttons of windows on other workspaces.
 
-ColorScrollBar = "rgb:A0/A0/A0"
+- ColorScrollBar = "rgb:A0/A0/A0"
 Scrollbar background (sliding area).
 
-ColorScrollBarSlider = "rgb:C0/C0/C0"
+- ColorScrollBarSlider = "rgb:C0/C0/C0"
 Background of the slider button in scrollbars.
 
-ColorScrollBarButton = "rgb:C0/C0/C0"
+- ColorScrollBarButton = "rgb:C0/C0/C0"
 Background of the arrow buttons in scrollbars.
 
-ColorScrollBarArrow = "rgb:C0/C0/C0"
+- ColorScrollBarArrow = "rgb:C0/C0/C0"
 Background of the arrow buttons in scrollbars (obsolete).
 
-ColorScrollBarButtonArrow = "rgb:00/00/00"
+- ColorScrollBarButtonArrow = "rgb:00/00/00"
 Color of active arrows on scrollbar buttons.
 
-ColorScrollBarInactiveArrow = "rgb:80/80/80"
+- ColorScrollBarInactiveArrow = "rgb:80/80/80"
 Color of inactive arrows on scrollbar buttons.
 
-ColorListBox = "rgb:C0/C0/C0"
+- ColorListBox = "rgb:C0/C0/C0"
 Background of listboxes.
 
-ColorListBoxText = "rgb:00/00/00"
+- ColorListBoxText = "rgb:00/00/00"
 Textcolor in listboxes.
 
-ColorListBoxSelection = "rgb:80/80/80"
+- ColorListBoxSelection = "rgb:80/80/80"
 Background of selected listbox items.
 
-ColorListBoxSelectionText = "rgb:00/00/00"
+- ColorListBoxSelectionText = "rgb:00/00/00"
 Textcolor of selected listbox items.
 
-ColorToolTip = "rgb:E0/E0/00"
+- ColorToolTip = "rgb:E0/E0/00"
 Background of tooltips.
 
-ColorToolTipText = "rgb:00/00/00"
+- ColorToolTipText = "rgb:00/00/00"
 Textcolor of tooltips.
 
-ColorLabel = "rgb:C0/C0/C0"
+- ColorLabel = "rgb:C0/C0/C0"
 Background of labels, leave empty to force transparency.
 
-ColorLabelText = "rgb:00/00/00"
+- ColorLabelText = "rgb:00/00/00"
 Textcolor of labels.
 
-ColorInput = "rgb:FF/FF/FF"
+- ColorInput = "rgb:FF/FF/FF"
 Background of text entry fields (e.g. the addressbar).
 
-ColorInputText = "rgb:00/00/00"
+- ColorInputText = "rgb:00/00/00"
 Textcolor of text entry fields (e.g. the addressbar).
 
-ColorInputSelection = "rgb:80/80/80"
+- ColorInputSelection = "rgb:80/80/80"
 Background of selected text in an entry field.
 
-ColorInputSelectionText = "rgb:00/00/00"
+- ColorInputSelectionText = "rgb:00/00/00"
 Selected text in an entry field.
 
-ColorClock = "rgb:00/00/00"
+- ColorClock = "rgb:00/00/00"
 Background of non-LCD clock, leave empty to force transparency.
 
-ColorClockText = "rgb:00/FF/00"
+- ColorClockText = "rgb:00/FF/00"
 Background of non-LCD monitor.
 
-ColorApm = "rgb:00/00/00"
+- ColorApm = "rgb:00/00/00"
 Background of APM monitor, leave empty to force transparency.
 
-ColorApmText = "rgb:00/FF/00"
+- ColorApmText = "rgb:00/FF/00"
 Textcolor of APM monitor.
 
-ColorApmBattary = "rgb:FF/FF/00"
+- ColorApmBattary = "rgb:FF/FF/00"
 Color of APM monitor in battary mode.
 
-ColorApmLine = "rgb:00/FF/00"
+- ColorApmLine = "rgb:00/FF/00"
 Color of APM monitor in line mode.
 
-ColorApmGraphBg = "rgb:00/00/00"
+- ColorApmGraphBg = "rgb:00/00/00"
 Background color for graph mode.
 
-ColorCPUStatusUser = "rgb:00/FF/00"
+- ColorCPUStatusUser = "rgb:00/FF/00"
 User load on the CPU monitor.
 
-ColorCPUStatusSystem = "rgb:FF/00/00"
+- ColorCPUStatusSystem = "rgb:FF/00/00"
 System load on the CPU monitor.
 
-ColorCPUStatusInterrupts = "rgb:FF/FF/00"
+- ColorCPUStatusInterrupts = "rgb:FF/FF/00"
 Interrupts on the CPU monitor.
 
-ColorCPUStatusIoWait = "rgb:60/00/60"
+- ColorCPUStatusIoWait = "rgb:60/00/60"
 IO Wait on the CPU monitor.
 
-ColorCPUStatusSoftIrq = "rgb:00/FF/FF"
+- ColorCPUStatusSoftIrq = "rgb:00/FF/FF"
 Soft Interrupts on the CPU monitor.
 
-ColorCPUStatusNice = "rgb:00/00/FF"
+- ColorCPUStatusNice = "rgb:00/00/FF"
 Nice load on the CPU monitor.
 
-ColorCPUStatusIdle = "rgb:00/00/00"
+- ColorCPUStatusIdle = "rgb:00/00/00"
 Idle (non) load on the CPU monitor, leave empty to force transparency.
 
-ColorCPUStatusSteal = "rgb:FF/8A/91"
+- ColorCPUStatusSteal = "rgb:FF/8A/91"
 Involuntary Wait on the CPU monitor.
 
-ColorCPUStatusTemp = "rgb:60/60/C0"
+- ColorCPUStatusTemp = "rgb:60/60/C0"
 Temperature of the CPU.
 
-ColorMEMStatusUser = "rgb:40/40/80"
+- ColorMEMStatusUser = "rgb:40/40/80"
 User program usage in the memory monitor.
 
-ColorMEMStatusBuffers = "rgb:60/60/C0"
+- ColorMEMStatusBuffers = "rgb:60/60/C0"
 OS buffers usage in the memory monitor.
 
-ColorMEMStatusCached = "rgb:80/80/FF"
+- ColorMEMStatusCached = "rgb:80/80/FF"
 OS cached usage in the memory monitor.
 
-ColorMEMStatusFree = "rgb:00/00/00"
+- ColorMEMStatusFree = "rgb:00/00/00"
 Free memory in the memory monitor.
 
-ColorNetSend = "rgb:FF/FF/00"
+- ColorNetSend = "rgb:FF/FF/00"
 Outgoing load on the network monitor.
 
-ColorNetReceive = "rgb:FF/00/FF"
+- ColorNetReceive = "rgb:FF/00/FF"
 Incoming load on the network monitor.
 
-ColorNetIdle = "rgb:00/00/00"
+- ColorNetIdle = "rgb:00/00/00"
 Idle (non) load on the network monitor, leave empty to force transparency.
 
-ColorApmBattery = rgb:FF/FF/00
+- ColorApmBattery = rgb:FF/FF/00
 Color of APM monitor in battery mode.
 
 Desktop Background
@@ -1568,34 +1568,34 @@ Desktop Background
 
 The following options are used by `icewmbg`:
 
-DesktopBackgroundCenter = 0
+- DesktopBackgroundCenter = 0
 Display desktop background centered and not tiled. (set to 0 or 1).
 
-DesktopBackgroundScaled = 0
+- DesktopBackgroundScaled = 0
 Resize desktop background to full screen.
 
-DesktopBackgroundColor = ""
+- DesktopBackgroundColor = ""
 Color(s) of the desktop background.
 
-DesktopBackgroundImage = ""
+- DesktopBackgroundImage = ""
 Image(s) for desktop background. If you want IceWM to ignore the desktop background image / color set both DesktopBackgroundColor ad DesktopBackgroundImage to an empty value ("").
 
-SupportSemitransparency = 1
+- SupportSemitransparency = 1
 Support for semitransparent terminals like Eterm or gnome-terminal.
 
-DesktopTransparencyColor = ""
+- DesktopTransparencyColor = ""
 Color(s) to announce for semitransparent windows.
 
-DesktopTransparencyImage = ""
+- DesktopTransparencyImage = ""
 Image(s) to announce for semitransparent windows.
 
-DesktopBackgroundMultihead = 0
+- DesktopBackgroundMultihead = 0
 Paint the background image over all multihead monitors combined.
 
 Task Bar
 --------
 
-TaskBarClockLeds = 1
+- TaskBarClockLeds = 1
 Display clock using LCD style pixmaps.
 
 Menus and Toolbar (updated 2018-05-06)
@@ -1943,7 +1943,7 @@ These directories contain other directories that contain related theme files and
 
 The theme to use is specified in `~/.icewm/theme` file:
 
-Theme = "nice/default.theme"
+- Theme = "nice/default.theme"
 Name of the theme to use. Both the directory and theme file name must be specified.
 
 If the theme directory contains a file named *fonts.dir* created by mkfontdir the theme directory is inserted into the X servers font search path.

@@ -1969,7 +1969,7 @@ recently.
 - Adam Pribyl makes some answers more accurate, added IceMC, bigger icons answer.
     (2003/05/10)
 - Adam Pribyl updated FAQs to fit nowadays needs, put them on
-    icewm.org site and added few new things. (2003/03/29)
+    the website and added few new things. (2003/03/29)
 - New maintainer. Markus Ackermann took over and reorganized much of the
     FAQ. I've even renamed it to "IceWM FAQ and Howto", since that's what it's already
     been. Moved homepage of the English version.
