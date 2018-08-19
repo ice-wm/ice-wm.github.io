@@ -1,3 +1,7 @@
+---
+title: IceWM Manual
+---
+
 This document is the manual for the **IceWM** X11 window manager. The IceWM manpages provide additional documentation. IceWM and its documentation are covered by a GNU LGPL license, which is included in the distribution.
 
 Introduction

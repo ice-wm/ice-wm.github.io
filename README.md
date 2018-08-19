@@ -53,7 +53,7 @@ IceWM is translated into about three dozen languages.
 
 ### Documentation
 
-- [IceWM Manual](manual.md)
+- [IceWM Manual](manual/)
 - [Themes Howto](themes/)
 
 ### Bug Tracking
