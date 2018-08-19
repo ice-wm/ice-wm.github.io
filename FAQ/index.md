@@ -77,18 +77,18 @@ See [here](/).
 IceWM successfully ran under (in alphabetical order):
 
 
-- **AIX 4.3.3** 
+- **AIX 4.3.3**
 - **Digital Unix (Compaq Tru64 Unix)**
 - **FreeBSD**
-        
+
 - **Linux on DEC Alpha (64 bit architecture)**
 - **Linux on Intel compatibles (32 bit architecture)**
 - **NetBSD**
-        
+
 - **OpenBSD**
-        
+
 - **Solaris**
-        
+
 
 
 ### Minimal Requirements
@@ -293,8 +293,8 @@ Therefore you can use `icewm-session` to start IceWM.
 `icewm` now starts only window manager itself.
 
 
-If you want to start only some parts of the IceWM, then you can add them to 
-your `.xsession` or similar file before `exec icewm`, otherwise it is 
+If you want to start only some parts of the IceWM, then you can add them to
+your `.xsession` or similar file before `exec icewm`, otherwise it is
 enough to use only `exec icewm-session`.
 
 ### Configuration
@@ -304,7 +304,7 @@ Congratulations! Now you have IceWM up and running. You don't like
 the default look? Don't worry: This section is on customizing IceWM.
 
 As it is the case with most Linux and Unix programs IceWM can be
-configured using plain text config files. 
+configured using plain text config files.
 
 ### You mean I have to edit these files?
 
@@ -315,7 +315,7 @@ The config files need to be changed if you want to change IceWM's
 behavior.  This does not necessarily mean that you have to use an
 editor for this - graphical configuration tools for IceWM are
 available, although IceWM doesn't feature in-built configuration. More
-about these tools in the Utilities section. 
+about these tools in the Utilities section.
 Still hand editing of these files is most effective and you can find even more
 than you are looking for.
 To notify IceWM about the
@@ -352,21 +352,21 @@ You can customize IceWM by editing the following configuration files:
 
 - `"menu"`
     Controls the contents of the `start` menu
-- `"preferences"` 
+- `"preferences"`
     Controls the general behavior of IceWM
-- `"keys"` 
+- `"keys"`
     Controls which additional key combos are available to users
-- `"toolbar"` 
+- `"toolbar"`
     Controls the row of launcher icons on the taskbar and has the
     same syntax as the menu file
-- `"winoptions"` 
+- `"winoptions"`
     Controls the behavior of individual applications (as identified
     by the names of their respective windows)
-- `"startup"` 
+- `"startup"`
     Script or command (must be executable) executed by `icewm-session` on startup
-- `"theme"` 
-    IceWM theme path/name. 
-- `"prefoverride"` 
+- `"theme"`
+    IceWM theme path/name.
+- `"prefoverride"`
     To override theme preferences.
 
 
@@ -381,7 +381,7 @@ right?). It has the following syntax:
 ```
 
 `prog` is a keyword, telling IceWM that it's a program entry. Other keywords
-are `separator` to draw a separator and 
+are `separator` to draw a separator and
 ```
 menu Xyz folder_icon {
   prog ...
@@ -397,7 +397,7 @@ a user chooses this entry.
 Note that the menu only shows entries which are found in your PATH, IceWM is
 clever enough to omit non-usable entries.
 
-There are also two advanced options `runonce` and 
+There are also two advanced options `runonce` and
 `menuprogreload "title" icon_name timeout program_exec`
 
 `runonce` is used to start application only once - if its already running do not start it upon
@@ -461,9 +461,9 @@ The existing entries make clear what one has to define.
 
 
 The `toolbar` file defines some buttons which can be clicked next to
-the menu in the toolbar. It uses the same format as the menu file. 
-You can also have folders in the toolbar. The easiest way to do that 
-is simply by copying a menu from the /menu file over to the /toolbar file. 
+the menu in the toolbar. It uses the same format as the menu file.
+You can also have folders in the toolbar. The easiest way to do that
+is simply by copying a menu from the /menu file over to the /toolbar file.
 
 ### winoptions
 
@@ -475,13 +475,13 @@ border, menu, titlebar, etc.
 ### startup
 
 
-The `startup` is a script (must be executable) that is executed by 
+The `startup` is a script (must be executable) that is executed by
 `icewm-session` command on startup.
 
 It can look like this:
 ```
 #!/bin/sh
-idesk& 
+idesk&
 (sleep 2; psi&)&
 ```
 
@@ -490,7 +490,7 @@ Do not forget to make this file executable
 $ chmod +x startup
 ```
 
-Note: It is recommended to use '#!/bin/sh' as the first line, to use /bin/sh 
+Note: It is recommended to use '#!/bin/sh' as the first line, to use /bin/sh
 to execute the script.
 
 Also make sure all applications are starting at background (&).
@@ -498,25 +498,25 @@ Also make sure all applications are starting at background (&).
 ### theme
 
 
-The `theme` file is new from IceWM 1.2.10. It specifies which 
+The `theme` file is new from IceWM 1.2.10. It specifies which
 theme should be used
 ```
 Theme=myfavorittheme/default.theme
 #Theme=myfavorittheme/default.theme
 ```
 
-# contains theme history (max. 10 lines). 
+# contains theme history (max. 10 lines).
 
 
-The `theme` file is changed every time you 
+The `theme` file is changed every time you
 switch theme in menu and selected theme is therefore used after IceWM restart.
 
 ### prefoverride
 
 
 The `prefoverride` file is new from IceWM 1.2.12. In this file you can
-specify any preference which will override any preference specified by theme or 
-anything else. This is introduced to solve troubles with order of preferences 
+specify any preference which will override any preference specified by theme or
+anything else. This is introduced to solve troubles with order of preferences
 interpretation and give a user possibility to customize global things he wants to
 have allways the same.
 
@@ -536,18 +536,18 @@ To answer this question it is a good idea to first take a look at the
 four general focus models that are implemented by IceWM:
 
 
-- `ClickToRaise` 
+- `ClickToRaise`
     When a window is clicked, it is raised and activated. This is the
     behavior of Win95 and OS/2.
-- `ClickToFocus` 
+- `ClickToFocus`
     A Window is raised and focused when titlebar or frame border is
     clicked and it is focused but not raised when the window interior
     is clicked.
-- `PointerFocus` 
+- `PointerFocus`
     When the mouse is moved, focus is set to window the mouse is
     pointing at. It should be possible to change the focus with the
     keyboard when the mouse is not moved.
-- `ExplicitFocus` 
+- `ExplicitFocus`
     When a window is clicked, it is activated but not raised. New
     windows do not automatically get the focus unless they are
     transient windows for the active window.
@@ -644,14 +644,11 @@ argument) to lock your screen. There may be several reasons for using
 a different lock command:
 
 
-- 
-    There is no `xlock` on your machine.
-- 
-    `xlock` tends to crash on your machine either
+- There is no `xlock` on your machine.
+- `xlock` tends to crash on your machine either
     leaving you locked out (best case) or unlocking your session
     (worst case).
-- 
-    `xlock` has some CPU intensive modes compiled in that
+- `xlock` has some CPU intensive modes compiled in that
     interfere with your SETI@HOME session.
 
 
@@ -684,7 +681,7 @@ commercial Unices tend to use another format for their network interfaces.
 
 ### Can the taskbar applet monitor more devices?
 
- 
+
 In the `preferences` file just change the option
 `NetworkStatusDevice` to read
 
@@ -765,8 +762,8 @@ Netscape Navigator window, use this option:
 ```
 
 The other options work according to roughly the same pattern. The list
-of winoptions you can find in 
-<HTMLURL URL="http://www.icewm.org/manual/" 
+of winoptions you can find in
+<HTMLURL URL="http://www.icewm.org/manual/"
 NAME="IceWM manual"> chapter about Window Options.
 
 
@@ -834,7 +831,7 @@ Alt-F9 = Minimizes a window
 Alt-F10 = Maximizes a window
 Alt-F12 = Rolls the window up
 (leaving only the titlebar visible, press Alt-F12 again and the window rolls back down)
-Alt-Shift-F10 = Maximizes the window vertically 
+Alt-Shift-F10 = Maximizes the window vertically
 Alt-Ctrl-arrow left = Changes workspaces from 1-12
 Alt-Ctrl-arrow right = Changes workspaces from 12-1
 Alt-Ctrl-Esc = Opens the  window list
@@ -992,14 +989,14 @@ keycode 116 = Meta_R
 add Mod4 = Meta_L Meta_R
 ```
 
-in `.Xmodmap` there is: 
+in `.Xmodmap` there is:
 ```
 add Mod1 = Alt_L
 add Mod2 = Mode_switch
-keycode 117 = Menu 
+keycode 117 = Menu
 ```
 
-and then in 
+and then in
 
 `~/.icewm/preferences`
 
@@ -1010,7 +1007,7 @@ Win95Keys=1 # was 0
 ```
 
 as can be seen I did _not_ enable the above, as I don't like pressing
-two keys. If one wants to use it, it does work.   
+two keys. If one wants to use it, it does work.
 
 On a free workspace the right Win95 opens the list of Workspaces.
 
@@ -1025,8 +1022,8 @@ on the pc.
 ### Customizing The Look Through Themes
 
 
-IceWM can be customized using a great variety of themes. You can download them 
-usually as .tar.gz archives on the net. 
+IceWM can be customized using a great variety of themes. You can download them
+usually as .tar.gz archives on the net.
 To install themes simply unpack them into your `~/.icewm/themes/` directory.
 
 ### What image formats can I use with IceWM?
@@ -1041,7 +1038,7 @@ common image formats including jpeg, gif, png, and tiff.
 
 
 If you provide the appropriate options in your
-`preferences` file and start `icewmbg`, IceWM will set the 
+`preferences` file and start `icewmbg`, IceWM will set the
 background color or the background image for you. You can use
 
 ```
@@ -1064,12 +1061,12 @@ color/image you simply set *both* options to an empty string:
 
 **Hints:**
 
-1. 
+1.
     Commenting out
     `DesktopBackgroundColor="color"`
     and `DesktopBackgroundImage="image"`
     does not have the intended effect.
-2. 
+2.
     IMHO using a background image (especially a huge one) isn't that
     good an idea. It awfully slows down the X windowing system.
 
@@ -1150,57 +1147,57 @@ on my machine with hardware clock and Linux running UTC, local being
 "C" (i.e.  no internationalization at all):
 
 
-- `"%a"` (Sat) restricted 
+- `"%a"` (Sat) restricted
     The abbreviated weekday name according to the current locale.
-- `"%A"` (Saturday) restricted 
+- `"%A"` (Saturday) restricted
     The full weekday name according to the current locale.
-- `"%b"` (Sep) restricted 
+- `"%b"` (Sep) restricted
     The abbreviated month name according to the current locale.
-- `"%B"` (September) restricted 
+- `"%B"` (September) restricted
     The full month name according to the current locale.
-- `"%c"` (Sat Sep 04 19:09:22 1999) restricted 
+- `"%c"` (Sat Sep 04 19:09:22 1999) restricted
     The preferred date and time representation for the current
     locale.
-- `"%d"` (04) 
+- `"%d"` (04)
     The day of the month as a decimal number (range 01 to 31).
-- `"%H"` (19) 
+- `"%H"` (19)
     The hour as a decimal number using a 24-hour clock (range 00 to
     23).
-- `"%I"` (07) 
+- `"%I"` (07)
     The hour as a decimal number using a 12-hour clock (range 01 to
     12).
-- `"%j"` (247) 
+- `"%j"` (247)
     The day of the year as a decimal number (range 001 to 366).
-- `"%m"` (09) 
+- `"%m"` (09)
     The month as a decimal number (range 01 to 12).
-- `"%M"` (09) 
+- `"%M"` (09)
     The minute as a decimal number.
-- `"%p"` (PM) restricted 
+- `"%p"` (PM) restricted
     Either "am" or "pm" according to the given
     time value, or the corresponding strings for the current locale.
-- `"%S"` (22) 
+- `"%S"` (22)
     The second as a decimal number.
-- `"%U"` (35) 
+- `"%U"` (35)
     The week number of the current year as a decimal number, starting
     with the first Sunday as the first day of the first week.
-- `"%W"` (35) 
+- `"%W"` (35)
     The week number of the current year as a decimal number, starting
     with the first Monday as the first day of the first week.
-- `"%w"` (06) 
+- `"%w"` (06)
     The day of the week as a decimal, Sunday being 0.
-- `"%x"` (09/04/99) restricted 
+- `"%x"` (09/04/99) restricted
     The preferred date representation for the current locale without
     the time.
-- `"%X"` (19:09:22) restricted 
+- `"%X"` (19:09:22) restricted
     The preferred time representation for the current locale without
     the date.
-- `"%y"` (99) 
+- `"%y"` (99)
     The year as a decimal number without a century (range 00 to 99).
-- `"%Y"` (1999) 
+- `"%Y"` (1999)
     The year as a decimal number including the century.
-- `"%Z"` (UTC) restricted 
+- `"%Z"` (UTC) restricted
     The time zone or its name or its abbreviation.
-- `"%%"` restricted 
+- `"%%"` restricted
     A literal "%" character.
 
 
@@ -1288,13 +1285,13 @@ a modifier (from Marco Molteni):
     mod2        Num_Lock (0x4d)
     mod3
     mod4        Super_L (0x73),  Super_R (0x74)
-    mod5      
+    mod5
 ```
 
 -  in this example `mod3` is free, so we bind the `ScrollLock` key to it:
      $ xmodmap -e "add mod3 = Scroll_Lock"
    this invocation of `xmodmap` should be put in the script that starts the
-   window manager, for example `$HOME/.xinit` or `$HOME/.xsession`, see 
+   window manager, for example `$HOME/.xinit` or `$HOME/.xsession`, see
 
 ### How to lock the screen
 
@@ -1375,7 +1372,7 @@ but of course you can always start your favorite apps upon X start-up/login
 using the `.xinitrc` or `.xsession`files. Or use IceWM as the
 window manager instead of the default GNOME/KDE wm.
 
-### Can I have icons on the desktop? 
+### Can I have icons on the desktop?
 
 
 Sure, but not from IceWM. Again, this is desktop environment work, but
@@ -1404,17 +1401,17 @@ HugeIconSize=48
 ```
 These values are default but you can change them to whatever you want.
 `MenuIconSize` specifies size of icons in menu. Three other are used for
-any other icon in IceWM. E.g. `SmallIconSize` is used in taskbar, 
+any other icon in IceWM. E.g. `SmallIconSize` is used in taskbar,
 application frames and window list. `LargeIconSize` is used in quickswitch.
 
-You have to take in mind that when you change size of `SmallIconsSize` 
-then all above described parts will have icons of different size, but taskbar 
+You have to take in mind that when you change size of `SmallIconsSize`
+then all above described parts will have icons of different size, but taskbar
 and frames will not change their high accordingly! Also when you specify the size
 that is not available, then icons will be resize - this can cause some disturbance
 mainly when you are using xpm icons.
 
 There is a trick to increase size of taskbar however. Taskbar height is sized according
-size of start button. E.g. for linux if your `linux.xpm` in taskbar 
+size of start button. E.g. for linux if your `linux.xpm` in taskbar
 folder is 50x32 then your taskbar will be 32 pixels high.
 
 To change the height of frames you have to make theme with higher frames.
@@ -1423,7 +1420,7 @@ To change the height of frames you have to make theme with higher frames.
 ### How can I translate IceWM into my language?
 
 
-Create a copy of `icewm.pot` and rename it to 
+Create a copy of `icewm.pot` and rename it to
 `cs.po` or whatever is right for your language.
 
 Then you have to translate the file using any of the tools for
@@ -1432,7 +1429,7 @@ After translation you can send it to icewm-devel list or post it
 as patch in patch tracker.
 
 
-If you want to test file yourself you can add this file 
+If you want to test file yourself you can add this file
 into `po` directory under IceWM sources and then configure IceWM
 (`./configure`) and type `make` in `po` directory.
 This creates .mo file, which you can either copy to locale locations
@@ -1451,7 +1448,7 @@ have checked which resolutions work and then you can put it into your
 `./icewm/toolbar` file
 
 ```
-# IceWM toolbar menu to change the display resolution. 
+# IceWM toolbar menu to change the display resolution.
 # This needs xrandr support from both X11 and Icewm.
 #
 # Xrandr is considered an experimental feature, so your screen may go
@@ -1495,14 +1492,14 @@ then you need to do following things:
   #!/bin/bash
   exec /etc/X11/xdm/Xsession icewm
 ```
- 
+
 - Modify `/etc/X11/xdm/Xsession` to understand what "icewm" is (this is not necessary)
 - Add to `/usr/share/apps/switchdesk/` file `Xclients.icewm` with content
 ```
   #!/bin/bash
   exec /usr/local/bin/icewm-session
 ```
-  
+
 
 
 ### IceWM configuration
@@ -1542,10 +1539,10 @@ table Config
   Bold: false
 end
 ```
- 
+
 - Add `~/.idesktop` directory
 - Add `whatever.lnk` files into it, with content like this
-  
+
 ```
 table Icon
   Caption: Mozilla
@@ -1555,8 +1552,8 @@ table Icon
   Y: 13
 end
 ```
-  
-- Do not forget you need to start idesk at the beginning of the session. 
+
+- Do not forget you need to start idesk at the beginning of the session.
   Best to achieve this is using your `~/.icewm/startup` file (for details see Configuration section).
   In case of idesk you can add line:
 ```
@@ -1570,7 +1567,7 @@ idesk > /dev/null & # start idesk - desktop icon manager
 
 ### Control tools
 
-To have some "control center" like application you can use Vadim A. Khohlov's `icecc` - 
+To have some "control center" like application you can use Vadim A. Khohlov's `icecc` -
 IceWM Control center. (see Tools to find it) His utility is also very simple, fast and has editors
 for all of the IceWM options.
 
@@ -1581,7 +1578,7 @@ prog "Control Center" "icecc_icon" icecc
 
 Please note that icecc needs some other programs like gvim and python to work properly.
 
-### Tools for IceWM 
+### Tools for IceWM
 
 
 This section is a collection of tools that simplify the usage of
@@ -1636,14 +1633,14 @@ It is included in *IceWM Control Panel*.
 ### Description (by author of IceWM Control Panel)
 
 
-IceWM Control Panel is the first full-featured, Gtk-based control panel 
-for IceWM. It is meant to run in IceWM, but can be used in ANY window 
-manager as a general-purpose control panel. It was inspired by the Qt-based 
-application called IceMC, but includes many more tools, a more familiar 
-Windoze Control Panel-like interface, and uses the MUCH faster Gtk user 
-interface (Who runs a fast Window Manager like IceWM, to launch SLOW-running, 
-memory-intensive Qt/KDE-based applications?? I sure don't). 
-Let's face it: IceWM and fast Gtk interfaces work well together. 
+IceWM Control Panel is the first full-featured, Gtk-based control panel
+for IceWM. It is meant to run in IceWM, but can be used in ANY window
+manager as a general-purpose control panel. It was inspired by the Qt-based
+application called IceMC, but includes many more tools, a more familiar
+Windoze Control Panel-like interface, and uses the MUCH faster Gtk user
+interface (Who runs a fast Window Manager like IceWM, to launch SLOW-running,
+memory-intensive Qt/KDE-based applications?? I sure don't).
+Let's face it: IceWM and fast Gtk interfaces work well together.
 
 IceWM Control Panel includes applications for editing preferences (IcePref2),
 menus (IceMe), themes, sounds (IceSoundMngr), cursors, keys, mouse, wallpapers,
@@ -1655,9 +1652,9 @@ winoptions, icon browser etc.
 ### Description
 
 
-This is Vadim Khohlov's software. A good collection of the configuration 
-software for IceWM, include: menu/toolbar editor, Ice Sound Configurator, 
-theme Switcher, backgroundoptions editor, IceWM's winoptions editor, keys 
+This is Vadim Khohlov's software. A good collection of the configuration
+software for IceWM, include: menu/toolbar editor, Ice Sound Configurator,
+theme Switcher, backgroundoptions editor, IceWM's winoptions editor, keys
 editor.
 
 
@@ -1687,7 +1684,7 @@ want a really user friendly configuration tool, I suggest IcePref.
 ### Description
 
 
-IceWO is an icewm's winoption file editor. It allows you to set winoptions 
+IceWO is an icewm's winoption file editor. It allows you to set winoptions
 for any window by clicking on buttons, without manual editing winoptions file.
 
 
@@ -1705,10 +1702,10 @@ You can configure your menu entries with copy, paste, and drag'n'drop.
 ### Description
 
 
-MenuMaker is utility written entirely in Python that scans through the system for 
-installed programs and generates menu for specified X window manager. 
-It is by far more superior to existing solutions in terms of knowledge base size, 
-maintainability and extensibility, and has a number of features that have no counterparts 
+MenuMaker is utility written entirely in Python that scans through the system for
+installed programs and generates menu for specified X window manager.
+It is by far more superior to existing solutions in terms of knowledge base size,
+maintainability and extensibility, and has a number of features that have no counterparts
 in its class. MenuMaker is intended for users of lightweight *NIX graphical desktop environments.
 
 ### IDesk
@@ -1716,11 +1713,11 @@ in its class. MenuMaker is intended for users of lightweight *NIX graphical desk
 ### Description
 
 
-iDesk gives users of minimal wm's (fluxbox, pekwm, windowmaker...) icons on 
-their desktop. The icon graphics are either from a png or svg (vector) file 
+iDesk gives users of minimal wm's (fluxbox, pekwm, windowmaker...) icons on
+their desktop. The icon graphics are either from a png or svg (vector) file
 and support some eyecandy effects like transparency. Each icon can be confgured
-to run one or more shell commands and the actions which run those commands are 
-completely configurable. In a nutshell if you want icons on your desktop and 
+to run one or more shell commands and the actions which run those commands are
+completely configurable. In a nutshell if you want icons on your desktop and
 you don't have or dont't want KDE or gnome doing it, you can use idesk.
 
 
@@ -1729,8 +1726,8 @@ you don't have or dont't want KDE or gnome doing it, you can use idesk.
 ### Description
 
 
-DFM is a file manager for Linux and other UNIX like Operating Systems. 
-DFM is the abrvabation for Desktop File Manager. "Desktop" stands for the 
+DFM is a file manager for Linux and other UNIX like Operating Systems.
+DFM is the abrvabation for Desktop File Manager. "Desktop" stands for the
 capability to place icons on the root window.
 
 
@@ -1790,12 +1787,9 @@ PATH).
 To fix the problem you have at least three possibilities:
 
 
-1. 
-    You give the full path and not only the program name itself.
-2. 
-    You set the path in your `.xinitrc`, `.xsession` or `.Xclients`.
-- 
-    You use a wrapper script for running IceWM.
+1.  You give the full path and not only the program name itself.
+2.  You set the path in your `.xinitrc`, `.xsession` or `.Xclients`.
+3.  You use a wrapper script for running IceWM.
 
 
 The first two solutions are straightforward. Using a wrapper script
@@ -1893,7 +1887,7 @@ a different lock command.
 IceWM is divided in few separated parts. One of them is `icewmbg`.
 This part takes care of bacground setup. Therefore if you want IceWM to
 take care of desktop background you have to start `icewmbg` at
-IceWM startup. The proper way is to start "icewm-session" in your 
+IceWM startup. The proper way is to start "icewm-session" in your
 X startup instead of just icewm.
 See "Configuration".
 
@@ -1959,59 +1953,39 @@ recently.
 
 
 	pridat jak udelat backtrace, kompilace s debug apod.
-- 
-    Adam Pribyl, menuprogreload, runonce, win95 key usage, MFAQ about WM_CLASS, removed some refs to icewm.moal.ch, xrandr (thnx Tomas Linden), taskbar can only be increased (fix), how to disable alt+mouse
-- 
-    Marko Macek, updates to icewm-session / startup / icewmbg (2005-05-24) 
-- 
-    Adam Pribyl, alt+drag, winoption .workspace (thnx Oliver Kosmann and Christophe Badoit), font defs explain better, some udates regarding 1.2.14 (2004/06/15)
-- 
-    Adam Pribyl, translation howto, Vadims idesk lnk maker add, minor correction. (2004/03/01)
-- 
-    Adam Pribyl, font handling problem question and answer. (2004/02/10)
-- 
-    Adam Pribyl, startup script section improvements, corrected path in example section (thx to Michael Dipperstein), MFAQ add showdestop
-- 
-    Adam Pribyl, added icewm-session to most FAQ; Fulltext advice made more visible;
+- Adam Pribyl, menuprogreload, runonce, win95 key usage, MFAQ about WM_CLASS, removed some refs to icewm.moal.ch, xrandr (thnx Tomas Linden), taskbar can only be increased (fix), how to disable alt+mouse
+- Marko Macek, updates to icewm-session / startup / icewmbg (2005-05-24)
+- Adam Pribyl, alt+drag, winoption .workspace (thnx Oliver Kosmann and Christophe Badoit), font defs explain better, some udates regarding 1.2.14 (2004/06/15)
+- Adam Pribyl, translation howto, Vadims idesk lnk maker add, minor correction. (2004/03/01)
+- Adam Pribyl, font handling problem question and answer. (2004/02/10)
+- Adam Pribyl, startup script section improvements, corrected path in example section (thx to Michael Dipperstein), MFAQ add showdestop
+- Adam Pribyl, added icewm-session to most FAQ; Fulltext advice made more visible;
     Section Example configuration A-Z added - this is preliminary version - comments welcomed. (2003/10/14)
-- 
-    Adam Pribyl, added idesk and dfm links to tools section. icewm-session
+- Adam Pribyl, added idesk and dfm links to tools section. icewm-session
     and prefoverride added. Some small improvements. (2003/09/14)
-- 
-    Adam Pribyl, updated Howto prevent IceWM from grabbing keystrokes, with text sent by Marco Molteni. 
+- Adam Pribyl, updated Howto prevent IceWM from grabbing keystrokes, with text sent by Marco Molteni.
     Some more hyperlinking. (2003/09/11)
-- 
-    Adam Pribyl, updates to reflect latest icewm development (icewmtray, icewmbg,
+- Adam Pribyl, updates to reflect latest icewm development (icewmtray, icewmbg,
     .icewm/theme). License note add. MenuMaker add. Minor hyperlink and some answers updates. (2003/08/25)
-- 
-    Adam Pribyl makes some answers more accurate, added IceMC, bigger icons answer.
+- Adam Pribyl makes some answers more accurate, added IceMC, bigger icons answer.
     (2003/05/10)
-- 
-    Adam Pribyl updated FAQs to fit nowadays needs, put them on
+- Adam Pribyl updated FAQs to fit nowadays needs, put them on
     icewm.org site and added few new things. (2003/03/29)
-- 
-    New maintainer. Markus Ackermann took over and reorganized much of the
+- New maintainer. Markus Ackermann took over and reorganized much of the
     FAQ. I've even renamed it to "IceWM FAQ and Howto", since that's what it's already
     been. Moved homepage of the English version.
     (2001/07/25).
-- 
-    Revision of FAQ because some formats (Postscript for example)
+- Revision of FAQ because some formats (Postscript for example)
     weren't OK (2000/01/08).
-- 
-    Added sections *"Switching Desktop using keyboard"* and
+- Added sections *"Switching Desktop using keyboard"* and
     *"Moving windows between desktops using keyboard"*
     (2000/01/08).
-- 
-    IceWM homepage has moved, update URL (1999/12/26).
-- 
-    This section has been added (1999/10/10).
-- 
-    The themes.org site  is up now. This information has been
+- IceWM homepage has moved, update URL (1999/12/26).
+- This section has been added (1999/10/10).
+- The themes.org site  is up now. This information has been
     added to "IceWM related web pages"
     section (1999/10/10).
-- 
-    Contact mail address has been changed.
-    (1999/10/10).
+- Contact mail address has been changed.  (1999/10/10).
 
 
 
