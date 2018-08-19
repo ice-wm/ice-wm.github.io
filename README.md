@@ -1,5 +1,3 @@
-## The IceWM window manager
-
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
 and not getting in the user's way.
