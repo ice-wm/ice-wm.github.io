@@ -88,19 +88,19 @@ Focus models
 
 IceWM implements four general focus models:
 
-- **clickToRaise** -
+- **clickToRaise**
 
   Exactly like Win95, OS/2 Warp. When window is clicked with a mouse, it is raised and activated.
 
-- **clickToFocus** -
+- **clickToFocus**
 
   Window is raised and focused when titlebar or frame border is clicked. Window is focused but not raised when window interior is clicked.
 
-- **pointerFocus** -
+- **pointerFocus**
 
   When the mouse is moved, focus is set to window under a mouse. It should be possible to change focus with the keyboard when mouse is not moved.
 
-- **explicitFocus** -
+- **explicitFocus**
 
   When a window is clicked, it is activated, but not raised. New windows do not automatically get the focus unless they are transient windows for the active window.
 
@@ -112,30 +112,30 @@ Mouse Commands
 Frame Commands
 --------------
 
-- **Left Button** -
+- **Left Button**
 
   Select and raise the window. On the window frame, resize the window.
 
-- **Right Button** -
+- **Right Button**
 
   When dragged, moves the window. When clicked, displays the context menu.
 
 Title Bar Commands
 ------------------
 
-- **Any Button Drag** -
+- **Any Button Drag**
 
   Move the window.
 
-- **Alt + Left Button** -
+- **Alt + Left Button**
 
   Lower the window.
 
-- **Left Button Double Click** -
+- **Left Button Double Click**
 
   Maximize/Restore the window.
 
-- **Middle Button Double Click** -
+- **Middle Button Double Click**
 
   Rollup/Unroll the window.
 
@@ -144,31 +144,31 @@ The Ctrl key can be used together with a mouse button to prevent a window from b
 Taskbar commands
 ----------------
 
-- **Left Button Click** -
+- **Left Button Click**
 
   Activate the workspace with the window and raise the window. Toggles the minimized/active state of the window.
 
-- **Shift + Left Button Click** -
+- **Shift + Left Button Click**
 
   Move window to current workspace. This only works when windows from all workspaces are shown on the taskbar all the time.
 
-- **Control + Left Button Click** -
+- **Control + Left Button Click**
 
   Minimize/restore the window.
 
-- **Middle Button Click** -
+- **Middle Button Click**
 
   Toggle raised/lowered state of the window.
 
-- **Shift + Middle Button Click** -
+- **Shift + Middle Button Click**
 
   Add the window to the current workspace.
 
-- **Control + Middle Button Click** -
+- **Control + Middle Button Click**
 
   Lower the window.
 
-- **Right Button Click** -
+- **Right Button Click**
 
   Display a context menu.
 
@@ -318,35 +318,35 @@ Configuration Files
 
 IceWM uses the following configuration files:
 
-- **theme** -
+- **theme**
 
   Currently selected theme
 
-- **preferences** -
+- **preferences**
 
   General settings - paths, colors, fonts…​
 
-- **prefoverride** -
+- **prefoverride**
 
   Settings that should override the themes.
 
-- **menu** -
+- **menu**
 
   Menu of startable applications. Usually customized by the user.
 
-- **programs** -
+- **programs**
 
   Automatically generated menu of startable applications (this should be used for **wmconfig**, **menu** or similar packages, perhaps as a part of the login or X startup sequence).
 
-- **winoptions** -
+- **winoptions**
 
   Application window options
 
-- **keys** -
+- **keys**
 
   Global keybindings to launch applications (not window manager related)
 
-- **toolbar** -
+- **toolbar**
 
   Quick launch application icons on the taskbar.
 
@@ -2113,17 +2113,17 @@ Window Options (updated 2018-03-04)
 
 The **winoptions** file is used to configure settings for individual application windows. Each line in this file must have one of the following formats:
 
-- **  window\_name.window\_class.option: argument** -
+- **  window\_name.window\_class.option: argument**
 
-- **  window\_name.window\_role.option: argument** -
+- **  window\_name.window\_role.option: argument**
 
-- **  window\_class.option: argument** -
+- **  window\_class.option: argument**
 
-- **  window\_name.option: argument** -
+- **  window\_name.option: argument**
 
-- **  window\_role.option: argument** -
+- **  window\_role.option: argument**
 
-- **  .option: argument** -
+- **  .option: argument**
 
 The last format sets a default option value for all windows. Each window on the desktop should have **name** and **class** resources associated with it. Some applications also have a **window role** resource. They can be determined using the `xprop` utility. When used on a toplevel window, `xprop | grep -e CLASS -e ROLE` should output a line like this:
 
@@ -2139,15 +2139,15 @@ It’s possible that an application’s **name** and/or **class** contains a dot
 
 Options that can be set per window are as follows:
 
-- **icon** -
+- **icon**
 
   The name of the icon.
 
-- **workspace** -
+- **workspace**
 
   Default workspace for window (number, counting from 0)
 
-- **layer** -
+- **layer**
 
   The default stacking layer for the window. Layer can be one of the following seven strings:
 
@@ -2176,13 +2176,13 @@ Options that can be set per window are as follows:
 
   You can also use a number from 0 to 15.
 
-- **geometry** -
+- **geometry**
 
   The default geometry for the window. This geometry should be specified in the usual X11-geometry-syntax, formal notation:
 
         [=][<width>{xX}<height>][{+-}<xoffset>{+-}<yoffset>]
 
-- **tray** -
+- **tray**
 
   The default tray option for the window. This affects both the tray and the task pane. Tray can be one of the following strings:
 
@@ -2196,147 +2196,147 @@ Options that can be set per window are as follows:
   - *Exclusive*
     Add an icon the the tray. Never create a task pane button.
 
-- **order: 0** -
+- **order: 0**
 
   The sorting order of task buttons and tray icons. The default value is zero. Increasing positive values go farther right, while decreasing negative values go farther left. The order option applies to the task pane, the tray pane and the system tray.
 
-- **allWorkspaces: 0** -
+- **allWorkspaces: 0**
 
   If set to 1, window will be visible on all workspaces.
 
-- **appTakesFocus: 0** -
+- **appTakesFocus: 0**
 
   if set to 1, IceWM will assume the window supports the WM\_TAKE\_FOCUS protocol even if the window did not advertise that it does.
 
-- **dBorder: 1** -
+- **dBorder: 1**
 
   If set to 0, window will not have a border.
 
-- **dClose: 1** -
+- **dClose: 1**
 
   If set to 0, window will not have a close button.
 
-- **dMaximize: 1** -
+- **dMaximize: 1**
 
   If set to 0, window will not have a maximize button.
 
-- **dMinimize: 1** -
+- **dMinimize: 1**
 
   If set to 0, window will not have a minimize button.
 
-- **dResize: 1** -
+- **dResize: 1**
 
   If set to 0, window will not have a resize border.
 
-- **dSysMenu: 1** -
+- **dSysMenu: 1**
 
   If set to 0, window will not have a system menu.
 
-- **dTitleBar: 1** -
+- **dTitleBar: 1**
 
   If set to 0, window will not have a title bar.
 
-- **doNotCover: 0** -
+- **doNotCover: 0**
 
   if set to 1, this window will limit the workspace available for regular applications. At the moment the window has to be sticky to make it work.
 
-- **doNotFocus: 0** -
+- **doNotFocus: 0**
 
   if set to 1, IceWM will never give focus to the window.
 
-- **fClose: 1** -
+- **fClose: 1**
 
   If set to 0, window will not be closable.
 
-- **fHide: 1** -
+- **fHide: 1**
 
   If set to 0, window will not be hidable.
 
-- **fMaximize: 1** -
+- **fMaximize: 1**
 
   If set to 0, window will not be maximizable.
 
-- **fMinimize: 1** -
+- **fMinimize: 1**
 
   If set to 0, window will not be minimizable.
 
-- **fMove: 1** -
+- **fMove: 1**
 
   If set to 0, window will not be movable.
 
-- **fResize: 1** -
+- **fResize: 1**
 
   If set to 0, window will not be resizable.
 
-- **fRollup: 1** -
+- **fRollup: 1**
 
   If set to 0, window will not be shadable.
 
-- **forcedClose: 0** -
+- **forcedClose: 0**
 
   if set to 1 and the application had not registered WM\_DELETE\_WINDOW, a close confirmation dialog won’t be offered upon closing the window.
 
-- **fullKeys: 0** -
+- **fullKeys: 0**
 
   If set to 1, the window manager leave more keys (Alt+F?) to the application.
 
-- **ignoreNoFocusHint: 0** -
+- **ignoreNoFocusHint: 0**
 
   if set to 1, IceWM will focus even if the window does not handle input.
 
-- **ignorePagerPreview: 0** -
+- **ignorePagerPreview: 0**
 
   If set to 1, window will not appear in pager preview.
 
-- **ignorePositionHint: 0** -
+- **ignorePositionHint: 0**
 
   if set to 1, IceWM will ignore the position hint.
 
-- **ignoreQuickSwitch: 0** -
+- **ignoreQuickSwitch: 0**
 
   If set to 1, window will not be accessible using QuickSwitch feature (Alt+Tab).
 
-- **ignoreTaskBar: 0** -
+- **ignoreTaskBar: 0**
 
   If set to 1, window will not appear on the task bar.
 
-- **ignoreUrgentHint: 0** -
+- **ignoreUrgentHint: 0**
 
   if set to 1, IceWM will ignore it if the window sets the urgent hint.
 
-- **ignoreWinList: 0** -
+- **ignoreWinList: 0**
 
   If set to 1, window will not appear in the window list.
 
-- **noFocusOnAppRaise: 0** -
+- **noFocusOnAppRaise: 0**
 
   if set to 1, window will not automatically get focus as application raises it.
 
-- **noFocusOnMap: 0** -
+- **noFocusOnMap: 0**
 
   if set to 1, IceWM will not assign focus when the window is mapped for the first time.
 
-- **nonICCCMconfigureRequest: 0** -
+- **nonICCCMconfigureRequest: 0**
 
   if set to 1, IceWM assumes the application does not support the ICCCM standard wrt positioning and compensate for that.
 
-- **startFullscreen: 0** -
+- **startFullscreen: 0**
 
   if set to 1, window will cover the entire screen.
 
-- **startMaximized: 0** -
+- **startMaximized: 0**
 
   if set to 1, window starts maximized.
 
-- **startMaximizedHorz: 0** -
+- **startMaximizedHorz: 0**
 
   if set to 1, window starts maximized horizontally.
 
-- **startMaximizedVert: 0** -
+- **startMaximizedVert: 0**
 
   if set to 1, window starts maximized vertically.
 
-- **startMinimized: 0** -
+- **startMinimized: 0**
 
   if set to 1, window starts minimized.
 
@@ -2348,15 +2348,15 @@ Generic
 
 The window manager expects to find two XPM files for each icon specified in the configuration files as *ICON*. They should be named like this:
 
-- **ICON\_16x16.xpm** -
+- **ICON\_16x16.xpm**
 
   A small 16x16 pixmap.
 
-- **ICON\_32x32.xpm** -
+- **ICON\_32x32.xpm**
 
   A normal 32x32 pixmap.
 
-- **ICON\_48x48.xpm** -
+- **ICON\_48x48.xpm**
 
   A large 48x48 pixmap.
 
@@ -2369,11 +2369,11 @@ GDK-Pixbuf
 
 When icewm was configured with the `--enable-gdk-pixbuf` option all of GdkPixbuf’s image formats are supported. Use them by specifying the full filename or an absolute path:
 
-- **ICON.bmp** -
+- **ICON.bmp**
 
   A PPM icon in your IconPath.
 
-- **/usr/share/pixmap/ICON.png** -
+- **/usr/share/pixmap/ICON.png**
 
   An PNG image with absolute location.
 
@@ -2382,47 +2382,47 @@ Mouse cursors
 
 IceWM scans the theme and configuration directories for a subdirectory called *cursors* containing monochrome but transparent XPM files. To change the mouse cursor you have to use this filenames:
 
-- **left.xbm** -
+- **left.xbm**
 
   Default cursor (usually pointer to the left).
 
-- **right.xbm** -
+- **right.xbm**
 
   Menu cursor (usually pointer to the right).
 
-- **move.xbm** -
+- **move.xbm**
 
   Window movement cursor.
 
-- **sizeTL.xbm** -
+- **sizeTL.xbm**
 
   Cursor when you resize the window by top left.
 
-- **sizeT.xbm** -
+- **sizeT.xbm**
 
   Cursor when you resize the window by top.
 
-- **sizeTR.xbm** -
+- **sizeTR.xbm**
 
   Cursor when you resize the window by top right.
 
-- **sizeL.xbm** -
+- **sizeL.xbm**
 
   Cursor when you resize the window by left.
 
-- **sizeR.xbm** -
+- **sizeR.xbm**
 
   Cursor when you resize the window by right.
 
-- **sizeBL.xbm** -
+- **sizeBL.xbm**
 
   Cursor when you resize the window by bottom left.
 
-- **sizeB.xbm** -
+- **sizeB.xbm**
 
   Cursor when you resize the window by bottom.
 
-- **sizeBR.xbm** -
+- **sizeBR.xbm**
 
   Cursor when you resize the window by bottom right.
 
