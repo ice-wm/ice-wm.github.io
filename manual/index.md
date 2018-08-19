@@ -108,144 +108,144 @@ Mouse Commands
 Frame Commands
 --------------
 
-Left Button
-Select and raise the window. On the window frame, resize the window.
+- Left Button
+  Select and raise the window. On the window frame, resize the window.
 
-Right Button
-When dragged, moves the window. When clicked, displays the context menu.
+- Right Button
+  When dragged, moves the window. When clicked, displays the context menu.
 
 Title Bar Commands
 ------------------
 
-Any Button Drag
-Move the window.
+- Any Button Drag
+  Move the window.
 
-Alt + Left Button
-Lower the window.
+- Alt + Left Button
+  Lower the window.
 
-Left Button Double Click
-Maximize/Restore the window.
+- Left Button Double Click
+  Maximize/Restore the window.
 
-Middle Button Double Click
-Rollup/Unroll the window.
+- Middle Button Double Click
+  Rollup/Unroll the window.
 
-The Ctrl key can be used together with a mouse button to prevent a window from being raised to the top of the stack.
+- The Ctrl key can be used together with a mouse button to prevent a window from being raised to the top of the stack.
 
 Taskbar commands
 ----------------
 
-Left Button Click
-Activate the workspace with the window and raise the window. Toggles the minimized/active state of the window.
+- Left Button Click
+  Activate the workspace with the window and raise the window. Toggles the minimized/active state of the window.
 
-Shift + Left Button Click
-Move window to current workspace. This only works when windows from all workspaces are shown on the taskbar all the time.
+- Shift + Left Button Click
+  Move window to current workspace. This only works when windows from all workspaces are shown on the taskbar all the time.
 
-Control + Left Button Click
-Minimize/restore the window.
+- Control + Left Button Click
+  Minimize/restore the window.
 
-Middle Button Click
-Toggle raised/lowered state of the window.
+- Middle Button Click
+  Toggle raised/lowered state of the window.
 
-Shift + Middle Button Click
-Add the window to the current workspace.
+- Shift + Middle Button Click
+  Add the window to the current workspace.
 
-Control + Middle Button Click
-Lower the window.
+- Control + Middle Button Click
+  Lower the window.
 
-Right Button Click
-Display a context menu.
+- Right Button Click
+  Display a context menu.
 
 Keyboard Commands
 =================
 
 The Alt key is assumed to be the key defined as the Mod1 modifier.
 
-`Alt+F1`
-Raise the window.
+- `Alt+F1`
+  Raise the window.
 
-`Alt+F2`
-Make a window occupy all desktops.
+- `Alt+F2`
+  Make a window occupy all desktops.
 
-`Alt+F3`
-Lower the window to the bottom of the stack.
+- `Alt+F3`
+  Lower the window to the bottom of the stack.
 
-`Alt+F4`
-Close the window.
+- `Alt+F4`
+  Close the window.
 
-`Alt+F5`
-Restore the window state if maximized or minimized/hidden.
+- `Alt+F5`
+  Restore the window state if maximized or minimized/hidden.
 
-`Alt+F6`
-Focus to next window.
+- `Alt+F6`
+  Focus to next window.
 
-`Alt+Shift+F6`
-Focus to previous window.
+- `Alt+Shift+F6`
+  Focus to previous window.
 
-`Alt+F7`
-Starts movement of the active window. Move the window either by the mouse or by the arrow keys. The arrow keys can be accelerated four times by the Shift key or sixteen times by the Control key. Press the left button or the Enter key when done. To cancel press Escape.
+- `Alt+F7`
+  Starts movement of the active window. Move the window either by the mouse or by the arrow keys. The arrow keys can be accelerated four times by the Shift key or sixteen times by the Control key. Press the left button or the Enter key when done. To cancel press Escape.
 
-`Alt+F8`
-Starts resizing of the active window. Resize the window either by the mouse or by the arrow keys. The arrow keys can be accelerated four times by the Shift key or sixteen times by the Control key. Press the left button or the Enter key when done. To cancel press Escape.
+- `Alt+F8`
+  Starts resizing of the active window. Resize the window either by the mouse or by the arrow keys. The arrow keys can be accelerated four times by the Shift key or sixteen times by the Control key. Press the left button or the Enter key when done. To cancel press Escape.
 
-`Alt+F9`
-Minimize the window to taskbar.
+- `Alt+F9`
+  Minimize the window to taskbar.
 
-`Alt+F10`
-Maximize the window.
+- `Alt+F10`
+  Maximize the window.
 
-`Alt+Shift+F10`
-Maximize the window vertically (toggle).
+- `Alt+Shift+F10`
+  Maximize the window vertically (toggle).
 
-`Alt+F11`
-Hide the window (appears in window list, but not on taskbar).
+- `Alt+F11`
+  Hide the window (appears in window list, but not on taskbar).
 
-`Alt+F12`
-Rollup the window.
+- `Alt+F12`
+  Rollup the window.
 
-`Ctrl+Escape`
-Show the start menu.
+- `Ctrl+Escape`
+  Show the start menu.
 
-`Ctrl+Alt+Escape`
-Show the window list.
+- `Ctrl+Alt+Escape`
+  Show the window list.
 
-`Shift+Escape`
-Show the system-menu of the window.
+- `Shift+Escape`
+  Show the system-menu of the window.
 
-`Alt+Escape`
-Focus to next window (down in zorder)
+- `Alt+Escape`
+  Focus to next window (down in zorder)
 
-`Alt+Shift+Escape`
-Focus to previous window (up in zorder)
+- `Alt+Shift+Escape`
+  Focus to previous window (up in zorder)
 
-`Alt+Tab`
-Switch between windows (top→bottom).
+- `Alt+Tab`
+  Switch between windows (top→bottom).
 
-`Alt+Shift+Tab`
-Switch between windows (bottom→top).
+- `Alt+Shift+Tab`
+  Switch between windows (bottom→top).
 
-`Ctrl+Alt+LeftArrow`
-Switch to the previous workspace (cycle).
+- `Ctrl+Alt+LeftArrow`
+  Switch to the previous workspace (cycle).
 
-`Ctrl+Alt+RightArrow`
-Switch to the next workspace (cycle).
+- `Ctrl+Alt+RightArrow`
+  Switch to the next workspace (cycle).
 
-`Ctrl+Alt+DownArrow`
-Switch to the previously active workspace.
+- `Ctrl+Alt+DownArrow`
+  Switch to the previously active workspace.
 
-`Ctrl+Alt+Shift+LeftArrow`
-Move the focused window to the previous workspace and activate it.
+- `Ctrl+Alt+Shift+LeftArrow`
+  Move the focused window to the previous workspace and activate it.
 
-`Ctrl+Alt+Shift+RightArrow`
-Move the focused window to the next workspace and activate it.
+- `Ctrl+Alt+Shift+RightArrow`
+  Move the focused window to the next workspace and activate it.
 
-`Ctrl+Alt+Shift+DownArrow`
-Move the focused window to the previously active workspace and activate it.
+- `Ctrl+Alt+Shift+DownArrow`
+  Move the focused window to the previously active workspace and activate it.
 
-`Ctrl+Alt+Delete`
-displays the session dialog.
+- `Ctrl+Alt+Delete`
+  displays the session dialog.
 
-`Ctrl+Alt+Space`
-Activate the AddressBar. This is a command line in the taskbar where a shell command can be typed. Pressing the Enter key will execute the command. If **AddressBarCommand** was configured it will be used to execute the command otherwise `/bin/sh` is used. If the **Control** key was also pressed then the command is executed in a terminal as given by **TerminalCommand**. The address bar maintains a history which is navigable by the Up and Down keys. A rich set of editing operations is supported, including cut-/copy-/paste-operations and file completion using **Tab** or **Ctrl-I**.
+- `Ctrl+Alt+Space`
+  Activate the AddressBar. This is a command line in the taskbar where a shell command can be typed. Pressing the Enter key will execute the command. If **AddressBarCommand** was configured it will be used to execute the command otherwise `/bin/sh` is used. If the **Control** key was also pressed then the command is executed in a terminal as given by **TerminalCommand**. The address bar maintains a history which is navigable by the Up and Down keys. A rich set of editing operations is supported, including cut-/copy-/paste-operations and file completion using **Tab** or **Ctrl-I**.
 
 The Resource Path
 =================
@@ -273,28 +273,28 @@ Configuration Files
 IceWM uses the following configuration files:
 
 - theme
-Currently selected theme
+  Currently selected theme
 
 - preferences
-General settings - paths, colors, fonts…​
+  General settings - paths, colors, fonts…​
 
 - prefoverride
-Settings that should override the themes.
+  Settings that should override the themes.
 
 - menu
-Menu of startable applications. Usually customized by the user.
+  Menu of startable applications. Usually customized by the user.
 
 - programs
-Automatically generated menu of startable applications (this should be used for **wmconfig**, **menu** or similar packages, perhaps as a part of the login or X startup sequence).
+  Automatically generated menu of startable applications (this should be used for **wmconfig**, **menu** or similar packages, perhaps as a part of the login or X startup sequence).
 
 - winoptions
-Application window options
+  Application window options
 
 - keys
-Global keybindings to launch applications (not window manager related)
+  Global keybindings to launch applications (not window manager related)
 
 - toolbar
-Quick launch application icons on the taskbar.
+  Quick launch application icons on the taskbar.
 
 Theme
 =====
@@ -312,332 +312,332 @@ Focus and Behavior
 The following settings can be set to value 1 (enabled) or value 0 (disabled).
 
 - ClickToFocus = 1
-Enables click to focus mode.
+  Enables click to focus mode.
 
 - RaiseOnFocus = 1
-Window is raised when focused.
+  Window is raised when focused.
 
 - FocusOnClickClient = 1
-Window is focused when client area is clicked.
+  Window is focused when client area is clicked.
 
 - RaiseOnClickClient = 1
-Window is raised when client area is clicked.
+  Window is raised when client area is clicked.
 
 - RaiseOnClickTitleBar = 1
-Window is raised when titlebar is clicked.
+  Window is raised when titlebar is clicked.
 
 - RaiseOnClickButton = 1
-Window is raised when title bar button is clicked.
+  Window is raised when title bar button is clicked.
 
 - RaiseOnClickFrame = 1
-Window is raised when frame is clicked.
+  Window is raised when frame is clicked.
 
 - LowerOnClickWhenRaised = 0
-Lower the active window when clicked again.
+  Lower the active window when clicked again.
 
 - PassFirstClickToClient = 1
-The click which raises the window is also passed to the client.
+  The click which raises the window is also passed to the client.
 
 - FocusChangesWorkspace = 0
-Change to the workspace of newly focused windows.
+  Change to the workspace of newly focused windows.
 
 - AutoRaise = 0
-Windows will raise automatically after AutoRaiseDelay when focused.
+  Windows will raise automatically after AutoRaiseDelay when focused.
 
 - StrongPointerFocus = 0
-When focus follows mouse always give the focus to the window under mouse pointer - Even when no mouse motion has occured. Using this is not recommended. Please prefer to use just ClickToFocus=0.
+  When focus follows mouse always give the focus to the window under mouse pointer - Even when no mouse motion has occured. Using this is not recommended. Please prefer to use just ClickToFocus=0.
 
 - FocusOnMap = 1
-Window is focused after being mapped.
+  Window is focused after being mapped.
 
 - FocusOnMapTransient = 1
-Transient window is focused after being mapped.
+  Transient window is focused after being mapped.
 
 - FocusOnMapTransientActive = 1
-Focus dialog window when initially mapped only if parent frame focused.
+  Focus dialog window when initially mapped only if parent frame focused.
 
 - FocusOnAppRaise = 1
-The window is focused when application raises it.
+  The window is focused when application raises it.
 
 - RequestFocusOnAppRaise = 1
-Request focus (flashing in taskbar) when application requests raise.
+  Request focus (flashing in taskbar) when application requests raise.
 
 - MapInactiveOnTop = 1
-Put new windows on top even if not focusing them.
+  Put new windows on top even if not focusing them.
 
 - PointerColormap = 0
-Colormap focus follows pointer.
+  Colormap focus follows pointer.
 
 - DontRotateMenuPointer = 1
-Don’t rotate the cursor for popup menus.
+  Don’t rotate the cursor for popup menus.
 
 - LimitSize = 1
-Limit size of windows to screen.
+  Limit size of windows to screen.
 
 - LimitPosition = 1
-Limit position of windows to screen.
+  Limit position of windows to screen.
 
 - LimitByDockLayer = 0
-Let the Dock layer limit the workspace (incompatible with GNOME Panel).
+  Let the Dock layer limit the workspace (incompatible with GNOME Panel).
 
 - ConsiderHBorder = 0
-Consider border frames when maximizing horizontally.
+  Consider border frames when maximizing horizontally.
 
 - ConsiderVBorder = 0
-Consider border frames when maximizing vertically.
+  Consider border frames when maximizing vertically.
 
 - ConsiderSizeHintsMaximized = 1
-Consider XSizeHints if frame is maximized.
+  Consider XSizeHints if frame is maximized.
 
 - CenterMaximizedWindows = 0
-Center maximized windows which can’t fit the screen (like terminals).
+  Center maximized windows which can’t fit the screen (like terminals).
 
 - HideBordersMaximized = 0
-Hide window borders if window is maximized.
+  Hide window borders if window is maximized.
 
 - HideTitleBarWhenMaximized = 0
-Hide title bar when maximized.
+  Hide title bar when maximized.
 
 - CenterLarge = 0
-Center large windows.
+  Center large windows.
 
 - CenterTransientsOnOwner = 1
-Center dialogs on owner window.
+  Center dialogs on owner window.
 
 - SizeMaximized = 0
-Window can be resized when maximized.
+  Window can be resized when maximized.
 
 - MinimizeToDesktop = 0
-Window is minimized to desktop area (in addition to the taskbar).
+  Window is minimized to desktop area (in addition to the taskbar).
 
 - MiniIconsPlaceHorizontal = 0
-Place the mini-icons horizontal instead of vertical.
+  Place the mini-icons horizontal instead of vertical.
 
 - MiniIconsRightToLeft = 0
-Place new mini-icons from right to left.
+  Place new mini-icons from right to left.
 
 - MiniIconsBottomToTop = 0
-Place new mini-icons from bottom to top.
+  Place new mini-icons from bottom to top.
 
 - GrabRootWindow = 1
-Manage root window (EXPERIMENTAL - normally enabled!).
+  Manage root window (EXPERIMENTAL - normally enabled!).
 
 - ShowMoveSizeStatus = 1
-Move/resize status window is visible when moving/resizing the window.
+  Move/resize status window is visible when moving/resizing the window.
 
 - ShowWorkspaceStatus = 1
-Show name of current workspace while switching.
+  Show name of current workspace while switching.
 
 - ShowWorkspaceStatusAfterSwitch = 1
-Show name of current workspace while switching workspaces.
+  Show name of current workspace while switching workspaces.
 
 - ShowWorkspaceStatusAfterActivation = 1
-Show name of current workspace after explicit activation.
+  Show name of current workspace after explicit activation.
 
 - WarpPointer = 0
-Pointer is moved in pointer focus move when focus is moved using the keyboard.
+  Pointer is moved in pointer focus move when focus is moved using the keyboard.
 
 - OpaqueMove = 1
-Window is immediately moved when dragged, no outline is shown.
+  Window is immediately moved when dragged, no outline is shown.
 
 - OpaqueResize = 0
-Window is immediately resized when dragged, no outline is shown.
+  Window is immediately resized when dragged, no outline is shown.
 
 - DelayPointerFocus = 1
-Similar to delayed auto raise.
+  Similar to delayed auto raise.
 
 - Win95Keys = 0
-Makes 3 additional keys perform sensible functions. The keys must be mapped to MetaL,MetaR and Menu. The left one will activate the start menu and the right one will display the window list.
+  Makes 3 additional keys perform sensible functions. The keys must be mapped to MetaL,MetaR and Menu. The left one will activate the start menu and the right one will display the window list.
 
 - ModSuperIsCtrlAlt = 1
-Treat Super/Win modifier as Ctrl+Alt.
+  Treat Super/Win modifier as Ctrl+Alt.
 
 - UseMouseWheel = 0
-mouse wheel support
+  mouse wheel support
 
 - ShowPopupsAbovePointer = 0
-Show popup menus above mouse pointer.
+  Show popup menus above mouse pointer.
 
 - ReplayMenuCancelClick = 0
-Send the clicks outside menus to target window.
+  Send the clicks outside menus to target window.
 
 - ManualPlacement = 0
-Windows must be placed manually by the user.
+  Windows must be placed manually by the user.
 
 - SmartPlacement = 1
-Smart window placement (minimal overlap).
+  Smart window placement (minimal overlap).
 
 - IgnoreNoFocusHint = 0
-Ignore no-accept-focus hint set by some windows.
+  Ignore no-accept-focus hint set by some windows.
 
 - MenuMouseTracking = 0
-If enabled, menus will track the mouse even when no mouse button is pressed.
+  If enabled, menus will track the mouse even when no mouse button is pressed.
 
 - ClientWindowMouseActions = 1
-Allow mouse actions on client windows.
+  Allow mouse actions on client windows.
 
 - SnapMove = 1
-Snap to nearest screen edge/window when moving windows.
+  Snap to nearest screen edge/window when moving windows.
 
 - SnapDistance = 8
-Distance in pixels before windows snap together
+  Distance in pixels before windows snap together
 
 - ArrangeWindowsOnScreenSizeChange = 1
-Automatically arrange windows when screen size changes.
+  Automatically arrange windows when screen size changes.
 
 - MsgBoxDefaultAction = 0
-Preselect to Cancel (0) or the OK (1) button in message boxes
+  Preselect to Cancel (0) or the OK (1) button in message boxes
 
 - EdgeResistance = 32
-Resistance to move window with mouse outside screen limits. Setting it to 10000 makes the resistance infinite.
+  Resistance to move window with mouse outside screen limits. Setting it to 10000 makes the resistance infinite.
 
 - AllowFullscreen = 1
-Allow to switch a window to fullscreen.
+  Allow to switch a window to fullscreen.
 
 - FullscreenUseAllMonitors = 0
-Span over all available screens if window goes into fullscreen.
+  Span over all available screens if window goes into fullscreen.
 
 - NetWorkAreaBehaviour = 0
-NET\_WORKAREA behaviour: 0 (single/multimonitor with STRUT information, like metacity), 1 (always full desktop), 2 (singlemonitor with STRUT, multimonitor without STRUT).
+  NET\_WORKAREA behaviour: 0 (single/multimonitor with STRUT information, like metacity), 1 (always full desktop), 2 (singlemonitor with STRUT, multimonitor without STRUT).
 
 - ConfirmLogout = 1
-Confirm Logout.
+  Confirm Logout.
 
 - MultiByte = 1
-Overrides automatic multiple byte detection.
+  Overrides automatic multiple byte detection.
 
 - ShapesProtectClientWindow = 1
-Don’t cut client windows by shapes set trough frame corner pixmap.
+  Don’t cut client windows by shapes set trough frame corner pixmap.
 
 - DoubleBuffer = 1
-Use double buffering when redrawing the display.
+  Use double buffering when redrawing the display.
 
 - XRRDisable = 0
-Disable use of new XRANDR API for dual head (nvidia workaround)
+  Disable use of new XRANDR API for dual head (nvidia workaround)
 
 - PreferFreetypeFonts = 1
-Favor \*Xft fonts over core X11 fonts where possible.
+  Favor \*Xft fonts over core X11 fonts where possible.
 
 - IconPath = /usr/share/icons/hicolor:/usr/share/icons:/usr/share/pixmaps
-Icon search path (colon separated)
+  Icon search path (colon separated)
 
 - MailCommand = xterm -name mutt -e mutt
-Command to run on mailbox.
+  Command to run on mailbox.
 
 - MailClassHint = mutt.XTerm
-WM\_CLASS to allow runonce for MailCommand.
+  WM\_CLASS to allow runonce for MailCommand.
 
-NewMailCommand =
-Command to run when new mail arrives.
+- NewMailCommand =
+  Command to run when new mail arrives.
 
-LockCommand =
-Command to lock display/screensaver.
+- LockCommand =
+  Command to lock display/screensaver.
 
 - ClockCommand = xclock -name icewm -title Clock
-Command to run on clock.
+  Command to run on clock.
 
 - ClockClassHint = icewm.XClock
-WM\_CLASS to allow runonce for ClockCommand.
+  WM\_CLASS to allow runonce for ClockCommand.
 
-RunCommand =
-Command to select and run a program.
+- RunCommand =
+  Command to select and run a program.
 
-OpenCommand =
-Command to run to open a file.
+- OpenCommand =
+  Command to run to open a file.
 
 - TerminalCommand = xterm
 Terminal emulator must accept -e option.
 
-LogoutCommand =
-Command to start logout.
+- LogoutCommand =
+  Command to start logout.
 
-LogoutCancelCommand =
-Command to cancel logout.
+- LogoutCancelCommand =
+  Command to cancel logout.
 
-ShutdownCommand =
-Command to shutdown the system.
+- ShutdownCommand =
+  Command to shutdown the system.
 
-RebootCommand =
-Command to reboot the system.
+- RebootCommand =
+  Command to reboot the system.
 
-SuspendCommand =
-Command to send the system to standby mode.
+- SuspendCommand =
+  Command to send the system to standby mode.
 
-CPUStatusCommand =
-Command to run on CPU status.
+- CPUStatusCommand =
+  Command to run on CPU status.
 
 - CPUStatusClassHint = top.XTerm
-WM\_CLASS to allow runonce for CPUStatusCommand.
+  WM\_CLASS to allow runonce for CPUStatusCommand.
 
 - CPUStatusCombine = 1
-Combine all CPUs to one.
+  Combine all CPUs to one.
 
-NetStatusCommand =
-Command to run on Net status.
+- NetStatusCommand =
+  Command to run on Net status.
 
 - NetStatusClassHint = netstat.XTerm
-WM\_CLASS to allow runonce for NetStatusCommand.
+  WM\_CLASS to allow runonce for NetStatusCommand.
 
-AddressBarCommand =
-Command to run for address bar entries.
+- AddressBarCommand =
+  Command to run for address bar entries.
 
-XRRPrimaryScreenName =
-screen/output name of the primary screen.
+- XRRPrimaryScreenName =
+  screen/output name of the primary screen.
 
 ### Quick Switch List
 
 - QuickSwitch = 1
-enable Alt+Tab window switcher.
+  enable Alt+Tab window switcher.
 
 - QuickSwitchToMinimized = 1
-Alt+Tab switches to minimized windows too.
+  Alt+Tab switches to minimized windows too.
 
 - QuickSwitchToHidden = 1
-Alt+Tab to hidden windows.
+  Alt+Tab to hidden windows.
 
 - QuickSwitchToUrgent = 1
-Priorize Alt+Tab to urgent windows.
+  Priorize Alt+Tab to urgent windows.
 
 - QuickSwitchToAllWorkspaces = 1
-Alt+Tab switches to windows on any workspace.
+  Alt+Tab switches to windows on any workspace.
 
 - QuickSwitchGroupWorkspaces = 1
-Alt+Tab: group windows on current workspace.
+  Alt+Tab: group windows on current workspace.
 
 - QuickSwitchAllIcons = 1
-Show all reachable icons when quick switching.
+  Show all reachable icons when quick switching.
 
 - QuickSwitchTextFirst = 0
-Show the window title above (all reachable) icons.
+  Show the window title above (all reachable) icons.
 
 - QuickSwitchSmallWindow = 0
-Attempt to create a small QuickSwitch window (1/3 instead of 3/5 of
+  Attempt to create a small QuickSwitch window (1/3 instead of 3/5 of
 
 - QuickSwitchMaxWidth = 0
-Go through all window titles and choose width of the longest one.
+  Go through all window titles and choose width of the longest one.
 
 - QuickSwitchVertical = 1
-Place the icons and titles vertical instead of horizontal.
+  Place the icons and titles vertical instead of horizontal.
 
 - QuickSwitchHugeIcon = 0
-Show the huge (48x48) of the window icon for the active window.
+  Show the huge (48x48) of the window icon for the active window.
 
 - QuickSwitchFillSelection = 0
-Fill the rectangle highlighting the current icon.
+  Fill the rectangle highlighting the current icon.
 
 ### Edge Workspace Switching
 
 - EdgeSwitch = 0
-Workspace switches by moving mouse to left/right screen edge.
+  Workspace switches by moving mouse to left/right screen edge.
 
 - HorizontalEdgeSwitch = 0
-Workspace switches by moving mouse to left/right screen edge.
+  Workspace switches by moving mouse to left/right screen edge.
 
 - VerticalEdgeSwitch = 0
-Workspace switches by moving mouse to top/bottom screen edge.
+  Workspace switches by moving mouse to top/bottom screen edge.
 
 - ContinuousEdgeSwitch = 1
-Workspace switches continuously when moving mouse to screen edge.
+  Workspace switches continuously when moving mouse to screen edge.
 
 Task Bar
 --------
@@ -645,181 +645,181 @@ Task Bar
 The following settings can be set to value 1 (enabled) or value 0 (disabled).
 
 - ShowTaskBar = 1
-Task bar is visible.
+  Task bar is visible.
 
 - TaskBarAtTop = 0
-Task bar is located at top of screen.
+  Task bar is located at top of screen.
 
 - TaskBarKeepBelow = 1
-Keep the task bar below regular windows
+  Keep the task bar below regular windows
 
 - TaskBarAutoHide = 0
-Task bar will auto hide when mouse leaves it.
+  Task bar will auto hide when mouse leaves it.
 
 - TaskBarFullscreenAutoShow = 1
-Auto show task bar when fullscreen window active.
+  Auto show task bar when fullscreen window active.
 
 - TaskBarShowClock = 1
-Task bar clock is visible.
+  Task bar clock is visible.
 
 - TaskBarShowAPMStatus = 0
-Show APM/ACPI/Battery/Power status monitor on task bar.
+  Show APM/ACPI/Battery/Power status monitor on task bar.
 
 - TaskBarShowAPMAuto = 1
-Enable TaskBarShowAPMStatus if a battery is present.
+  Enable TaskBarShowAPMStatus if a battery is present.
 
 - TaskBarShowAPMTime = 1
-Show APM status on task bar in time-format.
+  Show APM status on task bar in time-format.
 
 - TaskBarShowAPMGraph = 1
-Show APM status in graph mode.
+  Show APM status in graph mode.
 
 - TaskBarShowMailboxStatus = 1
-Display status of mailbox (see 'Mailbox' below).
+  Display status of mailbox (see 'Mailbox' below).
 
 - TaskBarMailboxStatusBeepOnNewMail = 0
-Beep when new mail arrives.
+  Beep when new mail arrives.
 
 - TaskBarMailboxStatusCountMessages = 0
-Display mail message count as tooltip.
+  Display mail message count as tooltip.
 
 - TaskBarShowWorkspaces = 1
-Show workspace switching buttons on task bar.
+  Show workspace switching buttons on task bar.
 
 - TaskBarShowWindows = 1
-Show windows on the taskbar.
+  Show windows on the taskbar.
 
 - TaskBarShowShowDesktopButton = 1
-Show 'show desktop' button on taskbar.
+  Show 'show desktop' button on taskbar.
 
 - ShowEllipsis = 0
-Show Ellipsis in taskbar items.
+  Show Ellipsis in taskbar items.
 
 - TaskBarShowTray = 1
-Show windows in the tray.
+  Show windows in the tray.
 
 - TrayShowAllWindows = 1
-Show windows from all workspaces on tray.
+  Show windows from all workspaces on tray.
 
 - TaskBarEnableSystemTray = 1
-Enable the system tray in the taskbar.
+  Enable the system tray in the taskbar.
 
 - TaskBarShowTransientWindows = 1
-Show transient (dialogs, …​) windows on task bar.
+  Show transient (dialogs, …​) windows on task bar.
 
 - TaskBarShowAllWindows = 0
-Show windows from all workspaces on task bar.
+  Show windows from all workspaces on task bar.
 
 - TaskBarShowWindowIcons = 1
-Show icons of windows on the task bar.
+  Show icons of windows on the task bar.
 
 - TaskBarShowStartMenu = 1
-Show button for the start menu on the task bar.
+  Show button for the start menu on the task bar.
 
 - TaskBarShowWindowListMenu = 1
-Show button for window list menu on taskbar.
+  Show button for window list menu on taskbar.
 
 - TaskBarShowCPUStatus = 1
-Show CPU status on task bar (Linux & Solaris).
+  Show CPU status on task bar (Linux & Solaris).
 
 - CPUStatusShowRamUsage = 1
-Show RAM usage in CPU status tool tip.
+  Show RAM usage in CPU status tool tip.
 
 - CPUStatusShowSwapUsage = 1
-Show swap usage in CPU status tool tip.
+  Show swap usage in CPU status tool tip.
 
 - CPUStatusShowAcpiTemp = 1
-Show ACPI temperature in CPU status tool tip.
+  Show ACPI temperature in CPU status tool tip.
 
 - CPUStatusShowAcpiTempInGraph = 0
-Show ACPI temperature in CPU graph.
+  Show ACPI temperature in CPU graph.
 
-AcpiIgnoreBatteries =
-List of battery names ignore.
+- AcpiIgnoreBatteries =
+  List of battery names ignore.
 
 - CPUStatusShowCpuFreq = 1
-Show CPU frequency in CPU status tool tip.
+  Show CPU frequency in CPU status tool tip.
 
 - TaskBarShowMEMStatus = 1
-Show memory usage status on task bar (Linux only).
+  Show memory usage status on task bar (Linux only).
 
 - TaskBarShowNetStatus = 1
-Show network status on task bar (Linux only).
+  Show network status on task bar (Linux only).
 
 - NetworkStatusDevice = "\[ew\]\*"
-List of network devices to be displayed in tray, space separated. Shell wildcard patterns can also be used.
+  List of network devices to be displayed in tray, space separated. Shell wildcard patterns can also be used.
 
 - TaskBarShowCollapseButton = 0
-Show a button to collapse the taskbar.
+  Show a button to collapse the taskbar.
 
 - TaskBarDoubleHeight = 0
-Double height task bar
+  Double height task bar
 
 - TaskBarWorkspacesLeft = 1
-Place workspace pager on left, not right.
+  Place workspace pager on left, not right.
 
 - TaskBarWorkspacesTop = 0
-Place workspace pager on top row when using dual-height taskbar.
+  Place workspace pager on top row when using dual-height taskbar.
 
 - PagerShowPreview = 1
-Show a mini desktop preview on each workspace button. By pressing the middle mouse button the 'window list' is shown. The right button activates the 'window list menu'. By using the scroll wheel over the 'workspace list' one can quickly cycle over all workspaces.
+  Show a mini desktop preview on each workspace button. By pressing the middle mouse button the 'window list' is shown. The right button activates the 'window list menu'. By using the scroll wheel over the 'workspace list' one can quickly cycle over all workspaces.
 
 - PagerShowWindowIcons = 1
-Draw window icons inside large enough preview windows on pager (if PagerShowPreview=1).
+  Draw window icons inside large enough preview windows on pager (if PagerShowPreview=1).
 
 - PagerShowMinimized = 1
-Draw even minimized windows as unfilled rectangles (if PagerShowPreview=1).
+  Draw even minimized windows as unfilled rectangles (if PagerShowPreview=1).
 
 - PagerShowBorders = 1
-Draw border around workspace buttons (if PagerShowPreview=1).
+  Draw border around workspace buttons (if PagerShowPreview=1).
 
 - PagerShowNumbers = 1
-Show number of workspace on workspace button (if PagerShowPreview=1).
+  Show number of workspace on workspace button (if PagerShowPreview=1).
 
 - TaskBarLaunchOnSingleClick = 1
-Execute taskbar applet commands (like MailCommand, ClockCommand, …​) on single click.
+  Execute taskbar applet commands (like MailCommand, ClockCommand, …​) on single click.
 
 - EnableAddressBar = 1
-Enable address bar functionality in taskbar.
+  Enable address bar functionality in taskbar.
 
 - ShowAddressBar = 1
-Show address bar in task bar.
+  Show address bar in task bar.
 
 - TimeFormat = "%X"
-format for the taskbar clock (time) (see strftime(3) manpage).
+  format for the taskbar clock (time) (see strftime(3) manpage).
 
 - TimeFormatAlt = ""
-Alternate Clock Time format (e.g. for blinking effects).
+  Alternate Clock Time format (e.g. for blinking effects).
 
 - DateFormat = "%c"
-format for the taskbar clock tooltip (date+time) (see strftime(3) manpage).
+  format for the taskbar clock tooltip (date+time) (see strftime(3) manpage).
 
 - TaskBarCPUSamples = 20
-Width of CPU Monitor.
+  Width of CPU Monitor.
 
 - TaskBarMEMSamples = 20
-Width of Memory Monitor.
+  Width of Memory Monitor.
 
 - TaskBarNetSamples = 20
-Width of Net Monitor.
+  Width of Net Monitor.
 
 - TaskbarButtonWidthDivisor = 3
-Default number of tasks in taskbar.
+  Default number of tasks in taskbar.
 
 - TaskBarWidthPercentage = 100
-Task bar width as percentage of the screen width.
+  Task bar width as percentage of the screen width.
 
 - TaskBarJustify = "left"
-Taskbar justify left, right or center.
+  Taskbar justify left, right or center.
 
 - TaskBarApmGraphWidth = 10
-Width of APM Monitor.
+  Width of APM Monitor.
 
 - TaskBarGraphHeight = 20
-Height of taskbar monitoring applets.
+  Height of taskbar monitoring applets.
 
 - XineramaPrimaryScreen = 0
-Primary screen for xinerama (taskbar, …​).
+  Primary screen for xinerama (taskbar, …​).
 
 Mailbox Monitoring (updated 2018-03-04)
 ---------------------------------------
@@ -1078,14 +1078,14 @@ Theme Settings
 
 This section shows settings that can be set in theme files. They can also be set in `preferences` file but themes will override the values set there. To override the theme values the settings should be set in `prefoverride` file. Default values are shown following the equal sign.
 
-ThemeAuthor =
-Theme author, e-mail address, credits.
+- ThemeAuthor =
+  Theme author, e-mail address, credits.
 
-ThemeDescription =
-Description of the theme, credits.
+- ThemeDescription =
+  Description of the theme, credits.
 
-Gradients =
-List of gradient pixmaps in the current theme.
+- Gradients =
+  List of gradient pixmaps in the current theme.
 
 Borders
 -------
@@ -1093,88 +1093,88 @@ Borders
 The following settings can be set to a numeric value.
 
 - BorderSizeX = 6
-Left/right border width.
+  Left/right border width.
 
 - BorderSizeY = 6
-Top/bottom border height.
+  Top/bottom border height.
 
 - DlgBorderSizeX = 2
-Left/right border width of non-resizable windows.
+  Left/right border width of non-resizable windows.
 
 - DlgBorderSizeY = 2
-Top/bottom border height of non-resizable windows.
+  Top/bottom border height of non-resizable windows.
 
 - CornerSizeX = 24
-Width of the window corner.
+  Width of the window corner.
 
 - CornerSizeY = 24
-Height of the window corner.
+  Height of the window corner.
 
 - TitleBarHeight = 20
-Height of the title bar.
+  Height of the title bar.
 
 - TitleBarJustify = 0
-Justification of the window title.
+  Justification of the window title.
 
 - TitleBarHorzOffset = 0
-Horizontal offset for the window title text.
+  Horizontal offset for the window title text.
 
 - TitleBarVertOffset = 0
-Vertical offset for the window title text.
+  Vertical offset for the window title text.
 
 - TitleBarCentered = 0
-Draw window title centered (obsoleted by TitleBarJustify)
+  Draw window title centered (obsoleted by TitleBarJustify)
 
 - TitleBarJoinLeft = 0
-Join title\*S and title\*T
+  Join title\*S and title\*T
 
 - TitleBarJoinRight = 0
-Join title\*T and title\*B
+  Join title\*T and title\*B
 
 - ScrollBarX = 16
-Scrollbar width.
+  Scrollbar width.
 
 - ScrollBarY = 16
-Scrollbar (button) height.
+  Scrollbar (button) height.
 
 - MenuIconSize = 16
-Menu icon size.
+  Menu icon size.
 
 - SmallIconSize = 16
-Dimension of the small icons.
+  Dimension of the small icons.
 
 - LargeIconSize = 32
-Dimension of the large icons.
+  Dimension of the large icons.
 
 - HugeIconSize = 48
-Dimension of the large icons.
+  Dimension of the large icons.
 
 - QuickSwitchHorzMargin = 3
-Horizontal margin of the quickswitch window.
+  Horizontal margin of the quickswitch window.
 
 - QuickSwitchVertMargin = 3
-Vertical margin of the quickswitch window.
+  Vertical margin of the quickswitch window.
 
 - QuickSwitchIconMargin = 4
-Vertical margin in the quickswitch window.
+  Vertical margin in the quickswitch window.
 
 - QuickSwitchIconBorder = 2
-Distance between the active icon and it’s border.
+  Distance between the active icon and it’s border.
 
 - QuickSwitchSeparatorSize = 6
-Height of the separator between (all reachable) icons and text, 0 to avoid it.
+  Height of the separator between (all reachable) icons and text, 0 to avoid it.
 
 - ShowMenuButtonIcon = 1
-Show application icon over menu button.
+  Show application icon over menu button.
 
 - TitleButtonsLeft = "s"
-Titlebar buttons from left to right (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
+  Titlebar buttons from left to right (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
 
 - TitleButtonsRight = "xmir"
-Titlebar buttons from right to left (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
+  Titlebar buttons from right to left (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu, d=depth).
 
 - TitleButtonsSupported = "xmis"
-Titlebar buttons supported by theme (x,m,i,r,h,s,d).
+  Titlebar buttons supported by theme (x,m,i,r,h,s,d).
 
 Fonts
 -----
@@ -1182,122 +1182,122 @@ Fonts
 The following settings can be set to a string value.
 
 - TitleFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the title bar font.
+  Name of the title bar font.
 
 - MenuFontName = "-\*-sans-bold-r-\*-\*-\*-100-\*-\*-\*-\*-\*-\*"
-Name of the menu font.
+  Name of the menu font.
 
 - StatusFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the status display font.
+  Name of the status display font.
 
 - QuickSwitchFontName = "-\*-monospace-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the font for Alt+Tab switcher window.
+  Name of the font for Alt+Tab switcher window.
 
 - NormalButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the normal button font.
+  Name of the normal button font.
 
 - ActiveButtonFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the active button font.
+  Name of the active button font.
 
 - NormalTaskBarFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the normal task bar item font.
+  Name of the normal task bar item font.
 
 - ActiveTaskBarFontName = "-\*-sans-bold-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the active task bar item font.
+  Name of the active task bar item font.
 
 - ToolButtonFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the tool button font (fallback: NormalButtonFontName).
+  Name of the tool button font (fallback: NormalButtonFontName).
 
 - NormalWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the normal workspace button font (fallback: NormalButtonFontName).
+  Name of the normal workspace button font (fallback: NormalButtonFontName).
 
 - ActiveWorkspaceFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the active workspace button font (fallback: ActiveButtonFontName).
+  Name of the active workspace button font (fallback: ActiveButtonFontName).
 
 - MinimizedWindowFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the mini-window font.
+  Name of the mini-window font.
 
 - ListBoxFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the window list font.
+  Name of the window list font.
 
 - ToolTipFontName = "-\*-sans-medium-r-\*-\*-\*-120-\*-\*-\*-\*-\*-\*"
-Name of the tool tip font.
+  Name of the tool tip font.
 
 - ClockFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
-Name of the task bar clock font.
+  Name of the task bar clock font.
 
 - TempFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
-Name of the task bar temperature font.
+  Name of the task bar temperature font.
 
 - ApmFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
-Name of the task bar battery font.
+  Name of the task bar battery font.
 
 - InputFontName = "-\*-monospace-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
-Name of the input field font.
+  Name of the input field font.
 
 - LabelFontName = "-\*-sans-medium-r-\*-\*-\*-140-\*-\*-\*-\*-\*-\*"
-Name of the label font.
+  Name of the label font.
 
 New in 1.2.14: when IceWM is configured with `--enable-xfreetype`, only the settings with "Xft" suffix will be used. They specifiy the font name in fontconfig format:
 
     MenuFontNameXft="sans-serif:size=12:bold"
 
 - TitleFontNameXft = "sans-serif:size=12"
-Name of the title bar font.
+  Name of the title bar font.
 
 - MenuFontNameXft = "sans-serif:size=10:bold"
-Name of the menu font.
+  Name of the menu font.
 
 - StatusFontNameXft = "monospace:size=12:bold"
-Name of the status display font.
+  Name of the status display font.
 
 - QuickSwitchFontNameXft = "monospace:size=12:bold"
-Name of the font for Alt+Tab switcher window.
+  Name of the font for Alt+Tab switcher window.
 
 - NormalButtonFontNameXft = "sans-serif:size=12"
-Name of the normal button font.
+  Name of the normal button font.
 
 - ActiveButtonFontNameXft = "sans-serif:size=12:bold"
-Name of the active button font.
+  Name of the active button font.
 
 - NormalTaskBarFontNameXft = "sans-serif:size=12"
-Name of the normal task bar item font.
+  Name of the normal task bar item font.
 
 - ActiveTaskBarFontNameXft = "sans-serif:size=12:bold"
-Name of the active task bar item font.
+  Name of the active task bar item font.
 
 - ToolButtonFontNameXft = "sans-serif:size=12"
-Name of the tool button font (fallback: NormalButtonFontNameXft).
+  Name of the tool button font (fallback: NormalButtonFontNameXft).
 
 - NormalWorkspaceFontNameXft = "sans-serif:size=12"
-Name of the normal workspace button font (fallback: NormalButtonFontNameXft).
+  Name of the normal workspace button font (fallback: NormalButtonFontNameXft).
 
 - ActiveWorkspaceFontNameXft = "sans-serif:size=12"
-Name of the active workspace button font (fallback: ActiveButtonFontNameXft).
+  Name of the active workspace button font (fallback: ActiveButtonFontNameXft).
 
 - MinimizedWindowFontNameXft = "sans-serif:size=12"
-Name of the mini-window font.
+  Name of the mini-window font.
 
 - ListBoxFontNameXft = "sans-serif:size=12"
-Name of the window list font.
+  Name of the window list font.
 
 - ToolTipFontNameXft = "sans-serif:size=12"
-Name of the tool tip font.
+  Name of the tool tip font.
 
 - ClockFontNameXft = "monospace:size=12"
-Name of the task bar clock font.
+  Name of the task bar clock font.
 
 - TempFontNameXft = "monospace:size=12"
-Name of the task bar temperature font.
+  Name of the task bar temperature font.
 
 - ApmFontNameXft = "monospace:size=12"
-Name of the task bar battery font.
+  Name of the task bar battery font.
 
 - InputFontNameXft = "monospace:size=12"
-Name of the input field font.
+  Name of the input field font.
 
 - LabelFontNameXft = "sans-serif:size=12"
-Name of the label font.
+  Name of the label font.
 
 Colors
 ------
@@ -1700,167 +1700,165 @@ It’s possible that an application’s **name** and/or **class** contains a dot
 
 Options that can be set per window are as follows:
 
-icon
-The name of the icon.
+- icon
+  The name of the icon.
 
-workspace
-Default workspace for window (number, counting from 0)
+- workspace
+  Default workspace for window (number, counting from 0)
 
-layer
-The default stacking layer for the window. Layer can be one of the following seven strings:
-
-
-*Desktop*
-Desktop window. There should be only one window in this layer.
-
-*Below*
-Below default layer.
-
-*Normal*
-Default layer for the windows.
-
-*OnTop*
-Above the default.
-
-*Dock*
-Layer for windows docked to the edge of the screen.
-
-*AboveDock*
-Layer for the windows above the dock.
-
-*Menu*
-Layer for the windows above the dock.
+- layer
+  The default stacking layer for the window. Layer can be one of the following seven strings:
 
 
-You can also use a number from 0 to 15.
+  - *Desktop*
+    Desktop window. There should be only one window in this layer.
 
-geometry
-The default geometry for the window. This geometry should be specified in the usual X11-geometry-syntax, formal notation:
+  - *Below*
+    Below default layer.
 
-<!-- -->
+  - *Normal*
+    Default layer for the windows.
+
+  - *OnTop*
+    Above the default.
+
+  - *Dock*
+    Layer for windows docked to the edge of the screen.
+
+  - *AboveDock*
+    Layer for the windows above the dock.
+
+  - *Menu*
+    Layer for the windows above the dock.
+
+
+  You can also use a number from 0 to 15.
+
+- geometry
+  The default geometry for the window. This geometry should be specified in the usual X11-geometry-syntax, formal notation:
 
         [=][<width>{xX}<height>][{+-}<xoffset>{+-}<yoffset>]
 
-tray
-The default tray option for the window. This affects both the tray and the task pane. Tray can be one of the following strings:
+- tray
+  The default tray option for the window. This affects both the tray and the task pane. Tray can be one of the following strings:
 
 
-*Ignore*
-Don’t add an icon to the tray pane.
+  - *Ignore*
+    Don’t add an icon to the tray pane.
 
-*Minimized*
-Add an icon the the tray. Remove the task pane button when minimized.
+  - *Minimized*
+    Add an icon the the tray. Remove the task pane button when minimized.
 
-*Exclusive*
-Add an icon the the tray. Never create a task pane button.
+  - *Exclusive*
+    Add an icon the the tray. Never create a task pane button.
 
-order: 0
-The sorting order of task buttons and tray icons. The default value is zero. Increasing positive values go farther right, while decreasing negative values go farther left. The order option applies to the task pane, the tray pane and the system tray.
+- order: 0
+  The sorting order of task buttons and tray icons. The default value is zero. Increasing positive values go farther right, while decreasing negative values go farther left. The order option applies to the task pane, the tray pane and the system tray.
 
-allWorkspaces: 0
-If set to 1, window will be visible on all workspaces.
+- allWorkspaces: 0
+  If set to 1, window will be visible on all workspaces.
 
-appTakesFocus: 0
-if set to 1, IceWM will assume the window supports the WM\_TAKE\_FOCUS protocol even if the window did not advertise that it does.
+- appTakesFocus: 0
+  if set to 1, IceWM will assume the window supports the WM\_TAKE\_FOCUS protocol even if the window did not advertise that it does.
 
-dBorder: 1
-If set to 0, window will not have a border.
+- dBorder: 1
+  If set to 0, window will not have a border.
 
-dClose: 1
-If set to 0, window will not have a close button.
+- dClose: 1
+  If set to 0, window will not have a close button.
 
-dMaximize: 1
-If set to 0, window will not have a maximize button.
+- dMaximize: 1
+  If set to 0, window will not have a maximize button.
 
-dMinimize: 1
-If set to 0, window will not have a minimize button.
+- dMinimize: 1
+  If set to 0, window will not have a minimize button.
 
-dResize: 1
-If set to 0, window will not have a resize border.
+- dResize: 1
+  If set to 0, window will not have a resize border.
 
-dSysMenu: 1
-If set to 0, window will not have a system menu.
+- dSysMenu: 1
+  If set to 0, window will not have a system menu.
 
-dTitleBar: 1
-If set to 0, window will not have a title bar.
+- dTitleBar: 1
+  If set to 0, window will not have a title bar.
 
-doNotCover: 0
-if set to 1, this window will limit the workspace available for regular applications. At the moment the window has to be sticky to make it work.
+- doNotCover: 0
+  if set to 1, this window will limit the workspace available for regular applications. At the moment the window has to be sticky to make it work.
 
-doNotFocus: 0
-if set to 1, IceWM will never give focus to the window.
+- doNotFocus: 0
+  if set to 1, IceWM will never give focus to the window.
 
-fClose: 1
-If set to 0, window will not be closable.
+- fClose: 1
+  If set to 0, window will not be closable.
 
-fHide: 1
-If set to 0, window will not be hidable.
+- fHide: 1
+  If set to 0, window will not be hidable.
 
-fMaximize: 1
-If set to 0, window will not be maximizable.
+- fMaximize: 1
+  If set to 0, window will not be maximizable.
 
-fMinimize: 1
-If set to 0, window will not be minimizable.
+- fMinimize: 1
+  If set to 0, window will not be minimizable.
 
-fMove: 1
-If set to 0, window will not be movable.
+- fMove: 1
+  If set to 0, window will not be movable.
 
-fResize: 1
-If set to 0, window will not be resizable.
+- fResize: 1
+  If set to 0, window will not be resizable.
 
-fRollup: 1
-If set to 0, window will not be shadable.
+- fRollup: 1
+  If set to 0, window will not be shadable.
 
-forcedClose: 0
-if set to 1 and the application had not registered WM\_DELETE\_WINDOW, a close confirmation dialog won’t be offered upon closing the window.
+- forcedClose: 0
+  if set to 1 and the application had not registered WM\_DELETE\_WINDOW, a close confirmation dialog won’t be offered upon closing the window.
 
-fullKeys: 0
-If set to 1, the window manager leave more keys (Alt+F?) to the application.
+- fullKeys: 0
+  If set to 1, the window manager leave more keys (Alt+F?) to the application.
 
-ignoreNoFocusHint: 0
-if set to 1, IceWM will focus even if the window does not handle input.
+- ignoreNoFocusHint: 0
+  if set to 1, IceWM will focus even if the window does not handle input.
 
-ignorePagerPreview: 0
-If set to 1, window will not appear in pager preview.
+- ignorePagerPreview: 0
+  If set to 1, window will not appear in pager preview.
 
-ignorePositionHint: 0
-if set to 1, IceWM will ignore the position hint.
+- ignorePositionHint: 0
+  if set to 1, IceWM will ignore the position hint.
 
-ignoreQuickSwitch: 0
-If set to 1, window will not be accessible using QuickSwitch feature (Alt+Tab).
+- ignoreQuickSwitch: 0
+  If set to 1, window will not be accessible using QuickSwitch feature (Alt+Tab).
 
-ignoreTaskBar: 0
-If set to 1, window will not appear on the task bar.
+- ignoreTaskBar: 0
+  If set to 1, window will not appear on the task bar.
 
-ignoreUrgentHint: 0
-if set to 1, IceWM will ignore it if the window sets the urgent hint.
+- ignoreUrgentHint: 0
+  if set to 1, IceWM will ignore it if the window sets the urgent hint.
 
-ignoreWinList: 0
-If set to 1, window will not appear in the window list.
+- ignoreWinList: 0
+  If set to 1, window will not appear in the window list.
 
-noFocusOnAppRaise: 0
-if set to 1, window will not automatically get focus as application raises it.
+- noFocusOnAppRaise: 0
+  if set to 1, window will not automatically get focus as application raises it.
 
-noFocusOnMap: 0
-if set to 1, IceWM will not assign focus when the window is mapped for the first time.
+- noFocusOnMap: 0
+  if set to 1, IceWM will not assign focus when the window is mapped for the first time.
 
-nonICCCMconfigureRequest: 0
-if set to 1, IceWM assumes the application does not support the ICCCM standard wrt positioning and compensate for that.
+- nonICCCMconfigureRequest: 0
+  if set to 1, IceWM assumes the application does not support the ICCCM standard wrt positioning and compensate for that.
 
-startFullscreen: 0
-if set to 1, window will cover the entire screen.
+- startFullscreen: 0
+  if set to 1, window will cover the entire screen.
 
-startMaximized: 0
-if set to 1, window starts maximized.
+- startMaximized: 0
+  if set to 1, window starts maximized.
 
-startMaximizedHorz: 0
-if set to 1, window starts maximized horizontally.
+- startMaximizedHorz: 0
+  if set to 1, window starts maximized horizontally.
 
-startMaximizedVert: 0
-if set to 1, window starts maximized vertically.
+- startMaximizedVert: 0
+  if set to 1, window starts maximized vertically.
 
-startMinimized: 0
-if set to 1, window starts minimized.
+- startMinimized: 0
+  if set to 1, window starts minimized.
 
 Icon handling
 =============
@@ -1870,14 +1868,14 @@ Generic
 
 The window manager expects to find two XPM files for each icon specified in the configuration files as *ICON*. They should be named like this:
 
-ICON\_16x16.xpm
-A small 16x16 pixmap.
+- ICON\_16x16.xpm
+  A small 16x16 pixmap.
 
-ICON\_32x32.xpm
-A normal 32x32 pixmap.
+- ICON\_32x32.xpm
+  A normal 32x32 pixmap.
 
-ICON\_48x48.xpm
-A large 48x48 pixmap.
+- ICON\_48x48.xpm
+  A large 48x48 pixmap.
 
 Other pixmap sizes like 20x20, 24x24, 40x40, 48x48, 64x64 might be used in the future. Perhaps we need a file format that can contain more than one image (with different sizes and color depths) like Windows'95 and OS/2 .ICO files.
 
@@ -1888,49 +1886,49 @@ GDK-Pixbuf
 
 When icewm was configured with the `--enable-gdk-pixbuf` option all of GdkPixbuf’s image formats are supported. Use them by specifying the full filename or an absolute path:
 
-ICON.bmp
-A PPM icon in your IconPath.
+- ICON.bmp
+  A PPM icon in your IconPath.
 
-/usr/share/pixmap/ICON.png
-An PNG image with absolute location.
+- /usr/share/pixmap/ICON.png
+  An PNG image with absolute location.
 
 Mouse cursors
 =============
 
 IceWM scans the theme and configuration directories for a subdirectory called *cursors* containing monochrome but transparent XPM files. To change the mouse cursor you have to use this filenames:
 
-left.xbm
-Default cursor (usually pointer to the left).
+- left.xbm
+  Default cursor (usually pointer to the left).
 
-right.xbm
-Menu cursor (usually pointer to the right).
+- right.xbm
+  Menu cursor (usually pointer to the right).
 
-move.xbm
-Window movement cursor.
+- move.xbm
+  Window movement cursor.
 
-sizeTL.xbm
-Cursor when you resize the window by top left.
+- sizeTL.xbm
+  Cursor when you resize the window by top left.
 
-sizeT.xbm
-Cursor when you resize the window by top.
+- sizeT.xbm
+  Cursor when you resize the window by top.
 
-sizeTR.xbm
-Cursor when you resize the window by top right.
+- sizeTR.xbm
+  Cursor when you resize the window by top right.
 
-sizeL.xbm
-Cursor when you resize the window by left.
+- sizeL.xbm
+  Cursor when you resize the window by left.
 
-sizeR.xbm
-Cursor when you resize the window by right.
+- sizeR.xbm
+  Cursor when you resize the window by right.
 
-sizeBL.xbm
-Cursor when you resize the window by bottom left.
+- sizeBL.xbm
+  Cursor when you resize the window by bottom left.
 
-sizeB.xbm
-Cursor when you resize the window by bottom.
+- sizeB.xbm
+  Cursor when you resize the window by bottom.
 
-sizeBR.xbm
-Cursor when you resize the window by bottom right.
+- sizeBR.xbm
+  Cursor when you resize the window by bottom right.
 
 Themes
 ======
@@ -1944,7 +1942,7 @@ These directories contain other directories that contain related theme files and
 The theme to use is specified in `~/.icewm/theme` file:
 
 - Theme = "nice/default.theme"
-Name of the theme to use. Both the directory and theme file name must be specified.
+  Name of the theme to use. Both the directory and theme file name must be specified.
 
 If the theme directory contains a file named *fonts.dir* created by mkfontdir the theme directory is inserted into the X servers font search path.
 
@@ -1955,6 +1953,7 @@ Command Line Options
 
 `icewm` supports the following options:
 
+```
 -d, --display=NAME
 NAME of the X server to use.
 
@@ -1993,6 +1992,7 @@ Print the configuration directories.
 
 -l, --list-themes
 Print a list of all available themes.
+```
 
 The restart option can be used to reload the IceWM configuration after modifications. It is the preferred way to restart IceWM from the command line or in scripts. To load a different theme from the command line, combine this with the `--theme=NAME` option like:
 
