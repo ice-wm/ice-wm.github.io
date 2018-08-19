@@ -54,7 +54,6 @@ IceWM is translated into about three dozen languages.
 ### Documentation
 
 - [IceWM Manual](manual/)
-- [IceWM FAQ](FAQ/)
 - [Themes Howto](themes/)
 
 ### Bug Tracking
