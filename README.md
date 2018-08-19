@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+## The IceWM window manager
 
-You can use the [editor on GitHub](https://github.com/ice-wm/ice-wm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+IceWM is a window manager for the X Window System.
+The goal of IceWM is speed, simplicity,
+and not getting in the user's way.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+IceWM is available on popular Linux distributions
+like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
-### Markdown
+### Software
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+IceWM has been coded from scratch in C++.
+It is maintained at [https://github.com/bbidulock/icewm](https://github.com/bbidulock/icewm).
 
-```markdown
-Syntax highlighted code block
+### Releases
 
-# Header 1
-## Header 2
-### Header 3
+The latest released version is [1.4.2.](https://github.com/bbidulock/icewm/releases).
 
-- Bulleted
-- List
+### Features
 
-1. Numbered
-2. List
+- Easy to use, simple and fast
+- Standards compliant
+- Fully usable with keyboard
+- Alt+Tab window switching
+- Efficient resource usage
+- Task bar (optional)
+- Multiple workspaces
+- Fully documented
+- A large number of themes
+- Usable with GNOME and KDE environments
+- Menus are automatically redefined when configuration changes
+- Sound support
+- Multiple focus modes
+- Manual placement of windows option
+- Autoraising of windows option
+- Tooltips
+- Configurable keybindings
+- [Some screenshots](https://github.com/bbidulock/icewm/issues/156)
 
-**Bold** and _Italic_ and `Code` text
+### Themable
 
-[Link](url) and ![Image](src)
+IceWM is themeable. Every setting from the preferences file can be changed
+by a theme. This includes titlebars, borders, icons, events, the taskbar,
+etc. IceWM supports pixmapped and non-pixmapped themes and comes with an
+example theme for all the theme types (warp3, warp4, win95, motif, nice,
+pixmap, metal, gtk) that IceWM supports.
+Currently more than 400 themes can be downloaded from
+[box-look.org](https://www.box-look.org/browse/cat/142/ord/latest/).
+
+### Translations
+
+IceWM is translated into about three dozen languages.
+
+### Documentation
+
+- [IceWM Manual](manual/)
+- [IceWM FAQ](FAQ/)
+- [Themes Howto](themes/)
+
+### Bug Tracking
+
+See [issues on Github](https://github.com/bbidulock/icewm/issues).
+
+### Source code
+
+```bash
+$ git clone https://github.com/bbidulock/icewm
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Links
 
-### Jekyll Themes
+- IceIcons - package of [icons](http://sandbox.cz/~covex/icewm/iceicons/) suitable for IceWM.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ice-wm/ice-wm.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### License
 
-### Support or Contact
+IceWM is released under the terms of the GNU Library General Public License.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
