@@ -762,9 +762,8 @@ Netscape Navigator window, use this option:
 ```
 
 The other options work according to roughly the same pattern. The list
-of winoptions you can find in
-<HTMLURL URL="http://www.icewm.org/manual/"
-NAME="IceWM manual"> chapter about Window Options.
+of winoptions you can find in the [manual](/manual/)
+ chapter about Window Options.
 
 
 ### How do I make a window stay on top?
