@@ -73,6 +73,7 @@ $ git clone https://github.com/bbidulock/icewm
 
 ### Links
 
+- [IceWM sound files](https://ice-wm.github.io/icewm-sounds/).
 - IceIcons - package of [icons](http://sandbox.cz/~covex/icewm/iceicons/) suitable for IceWM.
 
 ### License
