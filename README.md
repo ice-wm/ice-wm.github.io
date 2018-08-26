@@ -1,4 +1,4 @@
-## IceWM Window Manager
+## ![][1] IceWM Window Manager
 
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
@@ -10,11 +10,12 @@ like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 ### Software
 
 IceWM has been coded from scratch in C++.
+
 It is maintained at [https://github.com/bbidulock/icewm](https://github.com/bbidulock/icewm).
 
 ### Releases
 
-The latest released version is [1.4.2.](https://github.com/bbidulock/icewm/releases).
+The latest released version is [1.4.2](https://github.com/bbidulock/icewm/releases).
 
 ### Features
 
@@ -35,7 +36,10 @@ The latest released version is [1.4.2.](https://github.com/bbidulock/icewm/relea
 - Autoraising of windows option
 - Tooltips
 - Configurable keybindings
-- [Some screenshots](https://github.com/bbidulock/icewm/issues/156)
+
+### Screenshots
+
+The [IceWM Screenshots Collection](https://github.com/bbidulock/icewm/issues/156)
 
 ### Themable
 
@@ -75,3 +79,4 @@ $ git clone https://github.com/bbidulock/icewm
 
 IceWM is released under the terms of the GNU Library General Public License.
 
+[1]: images/logo.jpg
