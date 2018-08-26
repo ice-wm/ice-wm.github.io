@@ -11,7 +11,7 @@ like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
 IceWM has been coded from scratch in C++.
 
-It is maintained at https://github.com/bbidulock/icewm.
+It is maintained at [https://github.com/bbidulock/icewm](https://github.com/bbidulock/icewm).
 
 ### Releases
 
@@ -79,6 +79,7 @@ $ git clone https://github.com/bbidulock/icewm
 
 IceWM is released under the terms of the GNU Library General Public License.
 
-![][1]
+[![IceWM website logo][1]][2]
 
 [1]: images/logo.jpg
+[2]: https://ice-wm.github.io/
