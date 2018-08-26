@@ -1,5 +1,4 @@
 ## IceWM Window Manager
-![][1]
 
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
@@ -79,5 +78,7 @@ $ git clone https://github.com/bbidulock/icewm
 ### License
 
 IceWM is released under the terms of the GNU Library General Public License.
+
+![][1]
 
 [1]: images/logo.jpg
