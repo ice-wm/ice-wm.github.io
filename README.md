@@ -1,4 +1,5 @@
-## ![][1] IceWM Window Manager
+## IceWM Window Manager
+![][1]
 
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
@@ -11,7 +12,7 @@ like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
 IceWM has been coded from scratch in C++.
 
-It is maintained at [https://github.com/bbidulock/icewm](https://github.com/bbidulock/icewm).
+It is maintained at https://github.com/bbidulock/icewm.
 
 ### Releases
 
