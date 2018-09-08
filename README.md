@@ -11,7 +11,7 @@ like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
 IceWM has been coded from scratch in C++.
 
-It is maintained at [https://github.com/bbidulock/icewm](https://github.com/bbidulock/icewm).
+It is maintained at [https://github.com/bbidulock/icewm][3].
 
 ### Releases
 
@@ -39,7 +39,7 @@ The latest released version is [1.4.2](https://github.com/bbidulock/icewm/releas
 
 ### Screenshots
 
-The [IceWM Screenshots Collection](https://github.com/bbidulock/icewm/issues/156)
+The [IceWM Screenshots Collection](screenshots)
 
 ### Themable
 
@@ -57,9 +57,9 @@ IceWM is translated into about three dozen languages.
 
 ### Documentation
 
-- [IceWM Manual](manual/)
-- [Themes Howto](themes/)
-- [IceWM FAQ](FAQ/)
+- [IceWM Manual](manual)
+- [Themes Howto](themes)
+- [IceWM FAQ](FAQ)
 
 ### Bug Tracking
 
@@ -73,7 +73,7 @@ $ git clone https://github.com/bbidulock/icewm
 
 ### Links
 
-- [IceWM sound files](https://ice-wm.github.io/icewm-sounds/).
+- [IceWM sound files](icewm-sounds).
 - IceIcons - package of [icons](http://sandbox.cz/~covex/icewm/iceicons/) suitable for IceWM.
 
 ### License
@@ -83,4 +83,5 @@ IceWM is released under the terms of the GNU Library General Public License.
 [![IceWM website logo][1]][2]
 
 [1]: images/logo.jpg
-[2]: https://ice-wm.github.io/
+[2]: /
+[3]: https://github.com/bbidulock/icewm
