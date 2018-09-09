@@ -1,4 +1,6 @@
-# 
+---
+title: ice-wm.org
+---
 
 [![IceWM website logo][1]][2]
 
