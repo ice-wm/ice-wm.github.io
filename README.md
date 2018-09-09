@@ -1,4 +1,5 @@
-## IceWM Window Manager
+[![IceWM website logo][1]][2]
+
 
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
@@ -65,10 +66,15 @@ IceWM is translated into about three dozen languages.
 
 See [issues on Github](https://github.com/bbidulock/icewm/issues).
 
-### Source code
+### Install from source
 
 ```bash
 $ git clone https://github.com/bbidulock/icewm
+$ cd icewm
+$ ./autogen.sh
+$ ./configure --enable-gdk-pixbuf --prefix=/usr
+$ make
+$ sudo make install
 ```
 
 ### Links
@@ -80,8 +86,6 @@ $ git clone https://github.com/bbidulock/icewm
 
 IceWM is released under the terms of the GNU Library General Public License.
 
-[![IceWM website logo][1]][2]
-
-[1]: images/logo.jpg
-[2]: /
+[1]: images/logo.jpg "ice-wm.org"
+[2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
