@@ -16,11 +16,11 @@ like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
 IceWM has been coded from scratch in C++.
 
-It is maintained at [https://github.com/bbidulock/icewm][3].
+It is maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.4.2](https://github.com/bbidulock/icewm/releases).
+The latest released version is [1.4.2][4].
 
 ### Features
 
@@ -54,21 +54,22 @@ etc. IceWM supports pixmapped and non-pixmapped themes and comes with an
 example theme for all the theme types (warp3, warp4, win95, motif, nice,
 pixmap, metal, gtk) that IceWM supports.
 Currently more than 400 themes can be downloaded from
-[box-look.org](https://www.box-look.org/browse/cat/142/ord/latest/).
+[box-look.org][6].
 
 ### Translations
 
-IceWM is translated into about three dozen languages.
+IceWM is [translated][8] into three dozen languages.
 
 ### Documentation
 
 - [IceWM Manual](manual)
 - [Themes Howto](themes)
 - [IceWM FAQ](FAQ)
+- [IceWM man pages](man)
 
 ### Bug Tracking
 
-See [issues on Github](https://github.com/bbidulock/icewm/issues).
+See [issues on Github][5].
 
 ### Install from source
 
@@ -84,7 +85,7 @@ $ sudo make install
 ### Links
 
 - [IceWM sound files](icewm-sounds).
-- IceIcons - package of [icons](http://sandbox.cz/~covex/icewm/iceicons/) suitable for IceWM.
+- IceIcons - package of [icons][7] suitable for IceWM.
 
 ### License
 
@@ -93,3 +94,9 @@ IceWM is released under the terms of the GNU Library General Public License.
 [1]: images/logo.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
+[4]: https://github.com/bbidulock/icewm/releases
+[5]: https://github.com/bbidulock/icewm/issues
+[6]: https://www.box-look.org/browse/cat/142/ord/latest/
+[7]: https://sandbox.cz/~covex/icewm/iceicons/
+[8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
+
