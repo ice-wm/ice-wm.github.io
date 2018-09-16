@@ -91,7 +91,7 @@ $ sudo make install
 
 IceWM is released under the terms of the GNU Library General Public License.
 
-[1]: images/logo.jpg "ice-wm.org"
+[1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
 [4]: https://github.com/bbidulock/icewm/releases
