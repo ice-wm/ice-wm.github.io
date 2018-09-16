@@ -85,7 +85,7 @@ $ sudo make install
 ### Links
 
 - [IceWM sound files](icewm-sounds).
-- IceIcons - package of [icons][7] suitable for IceWM.
+- [IceIcons][7] - has [icons][9] designed for IceWM.
 
 ### License
 
@@ -99,4 +99,4 @@ IceWM is released under the terms of the GNU Library General Public License.
 [6]: https://www.box-look.org/browse/cat/142/ord/latest/
 [7]: https://sandbox.cz/~covex/icewm/iceicons/
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
-
+[9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
