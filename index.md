@@ -85,6 +85,7 @@ $ sudo make install
 ### Links
 
 - [IceWM sound files](icewm-sounds).
+- [IceWM release history](versions.html).
 - [IceIcons][7] - has [icons][9] designed for IceWM.
 
 ### License
