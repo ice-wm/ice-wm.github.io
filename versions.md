@@ -1,5 +1,6 @@
-### Release History
-
+---
+title: IceWM Release History
+---
 Version | Released
 --------|----------
 1.4.2	|2017-07-30
