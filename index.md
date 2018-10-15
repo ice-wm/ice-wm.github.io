@@ -1,5 +1,6 @@
 ---
 title: IceWM
+description: Window Manager
 ---
 
 [![IceWM website logo][1]][2]
