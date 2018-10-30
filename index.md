@@ -9,21 +9,20 @@ description: Window Manager
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
 and not getting in the user's way.
-
 IceWM is available on popular Linux distributions
 like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
 
 ### Software
 
 IceWM has been coded from scratch in C++.
-
 It is maintained at [Github][3].
 
 ### Releases
 
 The latest released version is [1.4.2][4] (2017-07-30).
-
-Or try an [unofficial pre-release](https://github.com/ice-wm/beta/releases/download/1.4.2.1627/icewm-1.4.2.1627.tar.xz) (2018-10-20).
+These stable pre-releases have many improvements:
+- [2018-10-30](https://github.com/ice-wm/beta/releases/download/1.4.2.1663/icewm-1.4.2.1663.tar.xz).
+- [2018-10-20](https://github.com/ice-wm/beta/releases/download/1.4.2.1627/icewm-1.4.2.1627.tar.xz).
 
 ### Features
 
