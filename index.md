@@ -5,12 +5,15 @@ description: Window Manager
 
 [![IceWM website logo][1]][2]
 
-
 IceWM is a window manager for the X Window System.
 The goal of IceWM is speed, simplicity,
 and not getting in the user's way.
-IceWM is available on popular Linux distributions
-like Debian, Ubuntu, Arch, OpenSUSE and Slackware.
+It comes with a taskbar with pager,
+global and per-window keybindings
+and a dynamic menu system.
+IceWM is available on popular Linux distributions like
+Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS
+and also compiles on \*BSDs.
 
 ### Software
 
@@ -48,7 +51,7 @@ These stable pre-releases have many improvements:
 
 The [IceWM Screenshots Collection](screenshots)
 
-### Themable
+### Themes
 
 IceWM is themeable. Every setting from the preferences file can be changed
 by a theme. This includes titlebars, borders, icons, events, the taskbar,
@@ -83,6 +86,15 @@ $ ./configure --enable-gdk-pixbuf --prefix=/usr
 $ make
 $ sudo make install
 ```
+### Install package dependencies
+
+To install all required package dependencies
+in one go use the following script.
+
+```bash
+$ wget https://ice-wm.org/scripts/os-depends.sh
+$ sudo bash -x ./os-depends.sh
+```
 
 ### Links
 
@@ -99,7 +111,7 @@ IceWM is released under the terms of the GNU Library General Public License.
 [3]: https://github.com/bbidulock/icewm
 [4]: https://github.com/bbidulock/icewm/releases
 [5]: https://github.com/bbidulock/icewm/issues
-[6]: https://www.box-look.org/browse/cat/142/ord/latest/
+[6]: https://themes.ice-wm.org
 [7]: https://sandbox.cz/~covex/icewm/iceicons/
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
