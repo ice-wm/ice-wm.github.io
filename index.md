@@ -11,9 +11,20 @@ and not getting in the user's way.
 It comes with a taskbar with pager,
 global and per-window keybindings
 and a dynamic menu system.
+Application windows can be managed by keyboard and mouse.
+Windows can be iconified to the taskbar,
+to the tray, to the desktop or be made hidden.
+They are controllable by a quick switch
+window (Alt+Tab) and in a window list.
+A handful of configurable focus models are menu-selectable.
+Setups with multiple monitors are supported by RandR and Xinerama.
+IceWM is very configurable, themable and well documented.
+It includes an optional external background
+wallpaper manager with transparency support,
+a simple session manager and a system tray.
 IceWM is available on popular Linux distributions like
 Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS
-and also compiles on \*BSDs.
+and also compiles on most \*BSDs.
 
 ### Software
 
@@ -23,9 +34,34 @@ It is maintained at [Github][3].
 ### Releases
 
 The latest released version is [1.4.2][4] (2017-07-30).
-These stable pre-releases have many improvements:
-- [2018-10-30](https://github.com/ice-wm/beta/releases/download/1.4.2.1663/icewm-1.4.2.1663.tar.xz).
-- [2018-10-20](https://github.com/ice-wm/beta/releases/download/1.4.2.1627/icewm-1.4.2.1627.tar.xz).
+The following stable pre-releases have many improvements and are recommended:
+* [2018-10-30](https://github.com/ice-wm/beta/releases/download/1.4.2.1663/icewm-1.4.2.1663.tar.xz).
+* [2018-10-20](https://github.com/ice-wm/beta/releases/download/1.4.2.1627/icewm-1.4.2.1627.tar.xz).
+
+Compared to 1.4.2, the latest pre-release contains many bugfixes,
+many portability fixes and updated translations.
+A new quickswitch, new hotkeys, new focus behavior `FocusCurrentWorkspace`,
+new theme option `TaskbuttonIconOffset`, SVG support for gdk-pixbuf.
+Change focus model without restart. Change preferences via menus.
+Improved locating and loading of icons. Extended window list menus.
+Switch windows of same class. Monitoring applet options.
+`MouseWinLower` hotkey. Omit borders for shaped applications.
+Shuffle and cycle backgrounds periodically. A new website ice-wm.org.
+Quickswitch can be either horizontal or vertical.
+Easily change focus or workspaces by mouse wheel.
+A gui to select `RandR` settings. A new compliant menu generator.
+The monitoring applets require a lot less processor time.
+The improved system tray supports more applications.
+Mailbox monitoring was overhauled and now supports `TLS/SSL` connections
+to POP and IMAP servers, supports Gmail accounts and Maildirs.
+The order of buttons and icons on taskbar, tray bar and system tray
+is now fully configurable.
+Many new manual pages have been written and documentation is fully updated.
+The addressbar now has a recallable history of previous commands.
+`PagerShowPreview` is now the default.
+IceWM now supports `_NET_WM_PING`, `_NET_REQUEST_FRAME_EXTENTS`,
+`_NET_WM_STATE_FOCUSED` and `_NET_WM_WINDOW_OPACITY` protocols.
+Support for sounds on guievents was updated.
 
 ### Features
 
