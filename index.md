@@ -53,7 +53,8 @@ A gui to select `RandR` settings. A new compliant menu generator.
 The monitoring applets require a lot less processor time.
 The improved system tray supports more applications.
 Mailbox monitoring was overhauled and now supports `TLS/SSL` connections
-to POP and IMAP servers, supports Gmail accounts and Maildirs.
+to POP and IMAP servers, Gmail and Maildirs.
+Support for 32-bit visuals and compositing managers was added.
 The order of buttons and icons on taskbar, tray bar and system tray
 is now fully configurable.
 Many new manual pages have been written and documentation is fully updated.
