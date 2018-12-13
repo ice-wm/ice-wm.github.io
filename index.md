@@ -35,8 +35,8 @@ It is maintained at [Github][3].
 
 The latest released version is [1.4.2][4] (2017-07-30).
 The following stable pre-releases have many improvements and are recommended:
+* [2018-12-13](https://github.com/ice-wm/beta/releases/download/1.4.2.1704/icewm-1.4.2.1704.tar.xz).
 * [2018-10-30](https://github.com/ice-wm/beta/releases/download/1.4.2.1663/icewm-1.4.2.1663.tar.xz).
-* [2018-10-20](https://github.com/ice-wm/beta/releases/download/1.4.2.1627/icewm-1.4.2.1627.tar.xz).
 
 Compared to 1.4.2, the latest pre-release contains many bugfixes,
 many portability fixes and updated translations.
