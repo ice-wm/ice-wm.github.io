@@ -34,7 +34,8 @@ It is maintained at [Github][3].
 ### Releases
 
 The latest released version is [1.5.0][4] (2018-12-23).
-Compared to 1.4.2, this release contains many bugfixes,
+Compared to version 1.4.2 (2017-07-30),
+this release contains many bugfixes,
 many portability fixes and updated translations.
 A new quickswitch, new hotkeys, new focus behavior `FocusCurrentWorkspace`,
 new theme option `TaskbuttonIconOffset` which is used
