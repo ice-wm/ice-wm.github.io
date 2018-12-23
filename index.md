@@ -33,15 +33,12 @@ It is maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.4.2][4] (2017-07-30).
-The following stable pre-releases have many improvements and are recommended:
-* [2018-12-13](https://github.com/ice-wm/beta/releases/download/1.4.2.1704/icewm-1.4.2.1704.tar.xz).
-* [2018-10-30](https://github.com/ice-wm/beta/releases/download/1.4.2.1663/icewm-1.4.2.1663.tar.xz).
-
-Compared to 1.4.2, the latest pre-release contains many bugfixes,
+The latest released version is [1.5.0][4] (2018-12-23).
+Compared to 1.4.2, this release contains many bugfixes,
 many portability fixes and updated translations.
 A new quickswitch, new hotkeys, new focus behavior `FocusCurrentWorkspace`,
-new theme option `TaskbuttonIconOffset`, SVG support for gdk-pixbuf.
+new theme option `TaskbuttonIconOffset` which is used
+in theme [Outside-ice][10], SVG support for gdk-pixbuf.
 Change focus model without restart. Change preferences via menus.
 Improved locating and loading of icons. Extended window list menus.
 Switch windows of same class. Monitoring applet options.
@@ -138,6 +135,8 @@ $ sudo bash -x ./os-depends.sh
 - [IceWM sound files](icewm-sounds).
 - [IceWM release history](versions.html).
 - [IceIcons][7] - has [icons][9] designed for IceWM.
+- [Compare window managers][11].
+- [List all window managers][12].
 
 ### License
 
@@ -146,9 +145,12 @@ IceWM is released under the terms of the GNU Library General Public License.
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/bbidulock/icewm/releases
+[4]: https://github.com/ice-wm/icewm/releases/download/1.5.0/icewm-1.5.0.tar.xz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [7]: https://sandbox.cz/~covex/icewm/iceicons/
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
+[10]: https://www.box-look.org/p/1018109/
+[11]: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
+[12]: http://www.gilesorr.com/wm/table.html
