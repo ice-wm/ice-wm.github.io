@@ -33,7 +33,7 @@ It is maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.5.0][4] (2018-12-23).
+The latest released version is [1.5.1][4] (2019-01-05).
 Compared to version 1.4.2 (2017-07-30),
 this release contains many bugfixes,
 many portability fixes and updated translations.
