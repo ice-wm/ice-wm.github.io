@@ -33,7 +33,7 @@ It is maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.5.1][4] (2019-01-05).
+The latest released version is [1.5.2][4] (2019-02-04).
 Compared to version 1.4.2 (2017-07-30),
 this release contains many bugfixes,
 many portability fixes and updated translations.
@@ -138,6 +138,7 @@ $ sudo bash -x ./os-depends.sh
 - [IceIcons][7] - has [icons][9] designed for IceWM.
 - [Compare window managers][11].
 - [List all window managers][12].
+- [GNOME window manager hints][13].
 
 ### License
 
@@ -146,7 +147,7 @@ IceWM is released under the terms of the GNU Library General Public License.
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/1.5.1/icewm-1.5.1.tar.xz
+[4]: https://github.com/ice-wm/icewm/releases/download/1.5.2/icewm-1.5.2.tar.xz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [7]: https://sandbox.cz/~covex/icewm/iceicons/
@@ -154,4 +155,6 @@ IceWM is released under the terms of the GNU Library General Public License.
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
 [10]: https://www.box-look.org/p/1018109/
 [11]: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
-[12]: http://www.gilesorr.com/wm/table.html
+[12]: https://www.gilesorr.com/wm/table.html
+[13]: https://ice-wm.org/gnome-wm-hints/
+
