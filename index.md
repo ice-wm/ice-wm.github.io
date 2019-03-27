@@ -33,7 +33,7 @@ It is maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.5.2][4] (2019-02-04).
+The latest released version is [1.5.3][4] (2019-03-27).
 Compared to version 1.4.2 (2017-07-30),
 this release contains many bugfixes,
 many portability fixes and updated translations.
@@ -147,7 +147,7 @@ IceWM is released under the terms of the GNU Library General Public License.
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/1.5.2/icewm-1.5.2.tar.xz
+[4]: https://github.com/ice-wm/icewm/releases/download/1.5.3/icewm-1.5.3.tar.xz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [7]: https://sandbox.cz/~covex/icewm/iceicons/

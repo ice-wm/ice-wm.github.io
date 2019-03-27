@@ -3,6 +3,7 @@ title: IceWM Release History
 ---
 Version | Released
 --------|:---------
+[1.5.3][4]|2019-03-27
 [1.5.2][3]|2019-02-04
 [1.5.1][2]|2019-01-05
 [1.5.0][1]|2018-12-23
@@ -71,3 +72,4 @@ Version | Released
 [1]: https://github.com/ice-wm/icewm/releases/download/1.5.0/icewm-1.5.0.tar.xz
 [2]: https://github.com/ice-wm/icewm/releases/download/1.5.1/icewm-1.5.1.tar.xz
 [3]: https://github.com/ice-wm/icewm/releases/download/1.5.2/icewm-1.5.2.tar.xz
+[4]: https://github.com/ice-wm/icewm/releases/download/1.5.3/icewm-1.5.3.tar.xz
