@@ -1,2 +1,5 @@
 theme: jekyll-theme-tactile
 show_downloads: false
+site_name: ice-wm.org
+description: Window Manager
+title: IceWM

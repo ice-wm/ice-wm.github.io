@@ -1,6 +1,8 @@
 ---
 title: IceWM
 description: Window Manager
+show_downloads: false
+site_name: ice-wm.org
 ---
 
 [![IceWM website logo][1]][2]
@@ -102,10 +104,10 @@ IceWM is [translated][8] into three dozen languages.
 
 ### Documentation
 
+- [IceWM man pages](man)
 - [IceWM Manual](manual)
 - [Themes Howto](themes)
 - [IceWM FAQ](FAQ)
-- [IceWM man pages](man)
 
 ### Bug Tracking
 
@@ -144,6 +146,10 @@ $ sudo bash -x ./os-depends.sh
 
 IceWM is released under the terms of the GNU Library General Public License.
 
+### Donate
+
+Contribute to ongoing development and support of IceWM by [donating][14].
+
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
@@ -157,4 +163,5 @@ IceWM is released under the terms of the GNU Library General Public License.
 [11]: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
 [12]: https://www.gilesorr.com/wm/table.html
 [13]: https://ice-wm.org/gnome-wm-hints/
+[14]: https://gijsbers.github.io/donate/
 
