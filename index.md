@@ -30,8 +30,8 @@ and also compiles on most \*BSDs.
 
 ### Software
 
-IceWM has been coded from scratch in C++.
-It is maintained at [Github][3].
+IceWM was coded from scratch in C++ by Marko Maček since 1997.
+It is now maintained at [Github][3].
 
 ### Releases
 
