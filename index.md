@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The latest released version is [1.5.3][4] (2019-03-27).
+The [latest][15] released version is [1.5.3][4] (2019-03-27).
 Compared to version 1.4.2 (2017-07-30),
 this release contains many bugfixes,
 many portability fixes and updated translations.
@@ -86,7 +86,7 @@ Support for sounds on guievents was updated.
 
 ### Screenshots
 
-The [IceWM Screenshots Collection](screenshots)
+The [IceWM Screenshots Collection](screenshots/)
 
 ### Themes
 
@@ -104,16 +104,25 @@ IceWM is [translated][8] into three dozen languages.
 
 ### Documentation
 
-- [IceWM man pages](man)
-- [IceWM Manual](manual)
-- [Themes Howto](themes)
-- [IceWM FAQ](FAQ)
+- [IceWM man pages](man/)
+- [IceWM Manual](manual/)
+- [Themes Howto](themes/)
+- [IceWM FAQ](FAQ/)
 
 ### Bug Tracking
 
 See [issues on Github][5].
 
-### Install from source
+### Install the latest release as follows
+
+```bash
+$ curl -L -s https://github.com/ice-wm/icewm/releases/download/1.5.3/icewm-1.5.3.tar.xz | tar Jxvpf -
+$ cd icewm-1.5.3
+$ CC=gcc CXX=g++ ./configure --prefix=/usr
+$ make
+$ sudo make install
+```
+### Install from unreleased development source code
 
 ```bash
 $ git clone https://github.com/bbidulock/icewm
@@ -135,7 +144,7 @@ $ sudo bash -x ./os-depends.sh
 
 ### Links
 
-- [IceWM sound files](icewm-sounds).
+- [IceWM sound files](icewm-sounds/).
 - [IceWM release history](versions.html).
 - [IceIcons][7] - has [icons][9] designed for IceWM.
 - [Compare window managers][11].
@@ -164,4 +173,6 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [12]: https://www.gilesorr.com/wm/table.html
 [13]: https://ice-wm.org/gnome-wm-hints/
 [14]: https://gijsbers.github.io/donate/
+[15]: https://github.com/ice-wm/icewm/releases/latest
 
+[ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
