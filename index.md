@@ -36,33 +36,6 @@ It is now maintained at [Github][3].
 ### Releases
 
 The [latest][15] released version is [1.5.5][4] (2019-06-07).
-Compared to version 1.4.2 (2017-07-30),
-this release contains many bugfixes,
-many portability fixes and updated translations.
-A new quickswitch, new hotkeys, new focus behavior `FocusCurrentWorkspace`,
-new theme option `TaskbuttonIconOffset` which is used
-in theme [Outside-ice][10], SVG support for gdk-pixbuf.
-Change focus model without restart. Change preferences via menus.
-Improved locating and loading of icons. Extended window list menus.
-Switch windows of same class. Monitoring applet options.
-`MouseWinLower` hotkey. Omit borders for shaped applications.
-Shuffle and cycle backgrounds periodically. A new website ice-wm.org.
-Quickswitch can be either horizontal or vertical.
-Easily change focus or workspaces by mouse wheel.
-A gui to select `RandR` settings. A new compliant menu generator.
-The monitoring applets require a lot less processor time.
-The improved system tray supports more applications.
-Mailbox monitoring was overhauled and now supports `TLS/SSL` connections
-to POP and IMAP servers, Gmail and Maildirs.
-Support for 32-bit visuals and compositing managers was added.
-The order of buttons and icons on taskbar, tray bar and system tray
-is now fully configurable.
-Many new manual pages have been written and documentation is fully updated.
-The addressbar now has a recallable history of previous commands.
-`PagerShowPreview` is now the default.
-IceWM now supports `_NET_WM_PING`, `_NET_REQUEST_FRAME_EXTENTS`,
-`_NET_WM_STATE_FOCUSED` and `_NET_WM_WINDOW_OPACITY` protocols.
-Support for sounds on guievents was updated.
 
 ### Features
 
@@ -134,7 +107,7 @@ $ sudo make install
 ```
 ### Install package dependencies
 
-To install all required package dependencies
+To install all package dependencies
 in one go use the following script.
 
 ```bash
@@ -142,13 +115,22 @@ $ wget https://ice-wm.org/scripts/os-depends.sh
 $ sudo bash -x ./os-depends.sh
 ```
 
+Verify package dependencies by:
+
+```bash
+$ pkg-config --modversion x11 xext xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 librsvg-2.0 xpm libpng libjpeg
+```
+
+### More installation instructions
+
+- [IceWM from scratch][10].
+
 ### Links
 
 - [IceWM sound files](icewm-sounds/).
 - [IceWM release history](versions.html).
-- [IceIcons][7] - has [icons][9] designed for IceWM.
 - [Compare window managers][11].
-- [List all window managers][12].
+- [List of all window managers][12].
 - [GNOME window manager hints][13].
 
 ### License
@@ -165,10 +147,9 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [4]: https://github.com/ice-wm/icewm/releases/download/1.5.5/icewm-1.5.5.tar.xz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
-[7]: https://sandbox.cz/~covex/icewm/iceicons/
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
-[10]: https://www.box-look.org/p/1018109/
+[10]: http://www.linuxfromscratch.org/blfs/view/svn/x/icewm.html
 [11]: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
 [12]: https://www.gilesorr.com/wm/table.html
 [13]: https://ice-wm.org/gnome-wm-hints/
