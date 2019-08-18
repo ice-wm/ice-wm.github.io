@@ -118,7 +118,7 @@ $ sudo bash -x ./os-depends.sh
 Verify package dependencies by:
 
 ```bash
-$ pkg-config --modversion x11 xext xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 librsvg-2.0 xpm libpng libjpeg
+$ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 librsvg-2.0 xpm libpng libjpeg
 ```
 
 ### More installation instructions
@@ -127,7 +127,7 @@ $ pkg-config --modversion x11 xext xrender xrandr xinerama xft fontconfig sm ice
 
 ### Links
 
-- [IceWM sound files](icewm-sounds/).
+- [IceWM sound files](icewm-sounds).
 - [IceWM release history](versions.html).
 - [Compare window managers][11].
 - [List of all window managers][12].
