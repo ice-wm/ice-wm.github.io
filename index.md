@@ -121,9 +121,11 @@ Verify package dependencies by:
 $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 librsvg-2.0 xpm libpng libjpeg
 ```
 
-### More installation instructions
+### More installation and configuration
 
 - [IceWM from scratch][10].
+- [IceWM on arch wiki][16].
+- [IceWM by arch user][17].
 
 ### Links
 
@@ -155,5 +157,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [13]: https://ice-wm.org/gnome-wm-hints/
 [14]: https://gijsbers.github.io/donate/
 [15]: https://github.com/ice-wm/icewm/releases/latest
+[16]: https://wiki.archlinux.org/index.php/IceWM
+[17]: https://www.archlinuxuser.com/2013/02/how-to-install-configure-icewm-window.html
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
