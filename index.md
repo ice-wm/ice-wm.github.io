@@ -20,7 +20,7 @@ They are controllable by a quick switch
 window (Alt+Tab) and in a window list.
 A handful of configurable focus models are menu-selectable.
 Setups with multiple monitors are supported by RandR and Xinerama.
-IceWM is very configurable, themable and well documented.
+IceWM is very configurable, themeable and well documented.
 It includes an optional external background
 wallpaper manager with transparency support,
 a simple session manager and a system tray.
@@ -63,12 +63,13 @@ The [IceWM Screenshots Collection](screenshots/)
 
 ### Themes
 
-IceWM is themeable. Every setting from the preferences file can be changed
+IceWM is [themeable](themes/).
+Every setting from the preferences file can be changed
 by a theme. This includes titlebars, borders, icons, events, the taskbar,
 etc. IceWM supports pixmapped and non-pixmapped themes and comes with an
 example theme for all the theme types (warp3, warp4, win95, motif, nice,
 pixmap, metal, gtk) that IceWM supports.
-Currently more than 400 themes can be downloaded from
+Currently, more than 400 themes can be downloaded from
 [box-look.org][6].
 
 ### Translations
