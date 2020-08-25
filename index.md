@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [1.7.0][4] (2020-07-12).
+The [latest][15] released version is [1.8.0][4] (2020-08-25).
 
 ### Features
 
@@ -90,8 +90,9 @@ See [issues on Github][5].
 ### Install the latest release as follows
 
 ```bash
-$ curl -L -s https://github.com/ice-wm/icewm/releases/download/1.7.0/icewm-1.7.0.tar.lz | tar xvpf - --lzip
-$ cd icewm-1.7.0
+$ wget https://github.com/ice-wm/icewm/releases/download/1.8.0/icewm-1.8.0.tar.lz
+$ tar -x --lzip -vpf icewm-1.8.0.tar.lz
+$ cd icewm-1.8.0
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -135,6 +136,7 @@ $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xine
 - [Compare window managers][11].
 - [List of all window managers][12].
 - [GNOME window manager hints][13].
+- [The anatomy of the modern window manager][18].
 
 ### License
 
@@ -147,7 +149,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/1.7.0/icewm-1.7.0.tar.lz
+[4]: https://github.com/ice-wm/icewm/releases/download/1.8.0/icewm-1.8.0.tar.lz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
@@ -160,5 +162,6 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [15]: https://github.com/ice-wm/icewm/releases/latest
 [16]: https://wiki.archlinux.org/index.php/IceWM
 [17]: https://www.archlinuxuser.com/2013/02/how-to-install-configure-icewm-window.html
+[18]: https://www.cs.ru.nl/bachelors-theses/2019/Max_van_Deurzen___4581903___The_anatomy_of_the_modern_window_manager_-_a_case_study_for_X_in_an_Agile_manner.pdf
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
