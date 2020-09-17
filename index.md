@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [1.8.3][4] (2020-09-16).
+The [latest][15] released version is [1.8.3][4] (2020-09-17).
 
 ### Features
 
