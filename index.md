@@ -99,14 +99,27 @@ $ sudo make install
 ```
 ### Install from unreleased development source code
 
+Gettext and asciidoc must be installed.
+
 ```bash
 $ git clone https://github.com/bbidulock/icewm
 $ cd icewm
 $ ./autogen.sh
-$ ./configure --enable-gdk-pixbuf --prefix=/usr
+$ ./configure --prefix=/usr
 $ make
 $ sudo make install
 ```
+
+If you have cmake, an alternative is:
+
+```bash
+$ git clone https://github.com/bbidulock/icewm
+$ cd icewm
+$ ./rebuild.sh -r --prefix=/usr
+$ cd build
+$ sudo make install
+```
+
 ### Install package dependencies
 
 To install all package dependencies
