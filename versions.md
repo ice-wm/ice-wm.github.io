@@ -3,26 +3,27 @@ title: IceWM Release History
 ---
 Version | Released
 --------|:---------
-[1.9.1][20]|2020-11-05
-[1.9.0][19]|2020-10-29
-[1.8.3][18]|2020-09-17
-[1.8.2][17]|2020-09-08
-[1.8.1][16]|2020-08-31
-[1.8.0][15]|2020-08-25
-[1.7.0][14]|2020-07-12
-[1.6.6][13]|2020-05-29
-[1.6.5][12]|2020-03-16
-[1.6.4][11]|2020-01-07
-[1.6.3][10]|2019-11-24
-[1.6.2][9]|2019-09-17
-[1.6.1][8]|2019-08-22
-[1.6.0][7]|2019-08-18
-[1.5.5][6]|2019-06-07
-[1.5.4][5]|2019-04-23
-[1.5.3][4]|2019-03-27
-[1.5.2][3]|2019-02-04
-[1.5.1][2]|2019-01-05
-[1.5.0][1]|2018-12-23
+1.9.2   |2020-11-10
+1.9.1   |2020-11-05
+1.9.0   |2020-10-29
+1.8.3   |2020-09-17
+1.8.2   |2020-09-08
+1.8.1   |2020-08-31
+1.8.0   |2020-08-25
+1.7.0   |2020-07-12
+1.6.6   |2020-05-29
+1.6.5   |2020-03-16
+1.6.4   |2020-01-07
+1.6.3   |2019-11-24
+1.6.2   |2019-09-17
+1.6.1   |2019-08-22
+1.6.0   |2019-08-18
+1.5.5   |2019-06-07
+1.5.4   |2019-04-23
+1.5.3   |2019-03-27
+1.5.2   |2019-02-04
+1.5.1   |2019-01-05
+1.5.0   |2018-12-23
 1.4.2	|2017-07-30
 1.4.1	|2017-07-28
 1.4.0	|2017-07-24
@@ -92,24 +93,3 @@ Version | Released
 0.9.33  |1999-02-04
 0.9.32  |1999-02-02
 0.8.9  	|1999-03-29
-
-[1]: https://github.com/ice-wm/icewm/releases/download/1.5.0/icewm-1.5.0.tar.xz
-[2]: https://github.com/ice-wm/icewm/releases/download/1.5.1/icewm-1.5.1.tar.xz
-[3]: https://github.com/ice-wm/icewm/releases/download/1.5.2/icewm-1.5.2.tar.xz
-[4]: https://github.com/ice-wm/icewm/releases/download/1.5.3/icewm-1.5.3.tar.xz
-[5]: https://github.com/ice-wm/icewm/releases/download/1.5.4/icewm-1.5.4.tar.xz
-[6]: https://github.com/ice-wm/icewm/releases/download/1.5.5/icewm-1.5.5.tar.xz
-[7]: https://github.com/ice-wm/icewm/releases/download/1.6.0/icewm-1.6.0.tar.xz
-[8]: https://github.com/ice-wm/icewm/releases/download/1.6.1/icewm-1.6.1.tar.lz
-[9]: https://github.com/ice-wm/icewm/releases/download/1.6.2/icewm-1.6.2.tar.lz
-[10]: https://github.com/ice-wm/icewm/releases/download/1.6.3/icewm-1.6.3.tar.lz
-[11]: https://github.com/ice-wm/icewm/releases/download/1.6.4/icewm-1.6.4.tar.lz
-[12]: https://github.com/ice-wm/icewm/releases/download/1.6.5/icewm-1.6.5.tar.lz
-[13]: https://github.com/ice-wm/icewm/releases/download/1.6.6/icewm-1.6.6.tar.lz
-[14]: https://github.com/ice-wm/icewm/releases/download/1.7.0/icewm-1.7.0.tar.lz
-[15]: https://github.com/ice-wm/icewm/releases/download/1.8.0/icewm-1.8.0.tar.lz
-[16]: https://github.com/ice-wm/icewm/releases/download/1.8.1/icewm-1.8.1.tar.lz
-[17]: https://github.com/ice-wm/icewm/releases/download/1.8.2/icewm-1.8.2.tar.lz
-[18]: https://github.com/ice-wm/icewm/releases/download/1.8.3/icewm-1.8.3.tar.lz
-[19]: https://github.com/ice-wm/icewm/releases/download/1.9.0/icewm-1.9.0.tar.lz
-[20]: https://github.com/ice-wm/icewm/releases/download/1.9.1/icewm-1.9.1.tar.lz
