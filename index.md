@@ -133,7 +133,7 @@ $ sudo bash -x ./os-depends.sh
 Verify package dependencies by:
 
 ```bash
-$ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 librsvg-2.0 xpm libpng libjpeg
+$ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 imlib2 librsvg-2.0 xpm libpng libjpeg
 ```
 
 ### More installation and configuration
