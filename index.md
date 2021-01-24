@@ -149,7 +149,9 @@ $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xine
 - [Compare window managers][11].
 - [List of all window managers][12].
 - [GNOME window manager hints][13].
+- [Extended window manager hints][19].
 - [The anatomy of the modern window manager][18].
+- [Porting a Window Manager from Xlib to XCB][20].
 
 ### License
 
@@ -176,5 +178,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [16]: https://wiki.archlinux.org/index.php/IceWM
 [17]: https://www.archlinuxuser.com/2013/02/how-to-install-configure-icewm-window.html
 [18]: https://www.cs.ru.nl/bachelors-theses/2019/Max_van_Deurzen___4581903___The_anatomy_of_the_modern_window_manager_-_a_case_study_for_X_in_an_Agile_manner.pdf
+[19]: https://developer.gnome.org/wm-spec/
+[20]: https://projects.mini-dweeb.org/attachments/download/4/report.pdf
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
