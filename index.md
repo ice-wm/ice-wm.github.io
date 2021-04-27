@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [2.3.2][4] (2021-04-15).
+The [latest][15] released version is [2.3.3][4] (2021-04-28).
 
 ### Features
 
@@ -90,9 +90,9 @@ See [issues on Github][5].
 ### Install the latest release as follows
 
 ```bash
-$ wget https://github.com/ice-wm/icewm/releases/download/2.3.2/icewm-2.3.2.tar.lz
-$ tar -x --lzip -vpf icewm-2.3.2.tar.lz
-$ cd icewm-2.3.2
+$ wget https://github.com/ice-wm/icewm/releases/download/2.3.3/icewm-2.3.3.tar.lz
+$ tar -x --lzip -vpf icewm-2.3.3.tar.lz
+$ cd icewm-2.3.3
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -164,7 +164,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/2.3.2/icewm-2.3.2.tar.lz
+[4]: https://github.com/ice-wm/icewm/releases/download/2.3.3/icewm-2.3.3.tar.lz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
