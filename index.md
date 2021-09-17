@@ -26,7 +26,7 @@ wallpaper manager with transparency support,
 a simple session manager and a system tray.
 IceWM is available on popular Linux distributions like
 Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS
-and also compiles on most \*BSDs.
+antiX, NixOS, and also compiles on most \*BSDs.
 
 ### Software
 
@@ -40,22 +40,22 @@ The [latest][15] released version is [2.7.0][4] (2021-08-06).
 ### Features
 
 - Easy to use, simple and fast
-- Standards compliant
+- Standards compliant[&rarr;][22]
 - Fully usable with keyboard
 - Alt+Tab window switching
 - Efficient resource usage
 - Task bar (optional)
 - Multiple workspaces
-- Fully documented
-- A large number of themes
+- Fully documented[&rarr;][23]
+- A large number of themes[&rarr;][6]
 - Usable with GNOME and KDE environments
-- Menus are automatically redefined when configuration changes
-- Sound support
+- Regenerates menus when configuration changes
+- Support for sound effects[&rarr;][24]
 - Multiple focus modes
 - Manual placement of windows option
 - Autoraising of windows option
 - Tooltips
-- Configurable keybindings
+- Configurable keybindings[&rarr;][25]
 
 ### Screenshots
 
@@ -75,6 +75,8 @@ Currently, more than 400 themes can be downloaded from
 ### Translations
 
 IceWM is [translated][8] into three dozen languages.
+To improve the translation for your language at Weblate,
+first [register an account][21], then [update][8].
 
 ### Documentation
 
@@ -148,10 +150,8 @@ $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xine
 - [IceWM release history](versions.html).
 - [Compare window managers][11].
 - [List of all window managers][12].
-- [GNOME window manager hints][13].
 - [Extended window manager hints][19].
-- [The anatomy of the modern window manager][18].
-- [Porting a Window Manager from Xlib to XCB][20].
+- [The anatomy of the modern window manager (thesis)][18].
 
 ### License
 
@@ -180,5 +180,10 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [18]: https://www.cs.ru.nl/bachelors-theses/2019/Max_van_Deurzen___4581903___The_anatomy_of_the_modern_window_manager_-_a_case_study_for_X_in_an_Agile_manner.pdf
 [19]: https://developer.gnome.org/wm-spec/
 [20]: https://projects.mini-dweeb.org/attachments/download/4/report.pdf
+[21]: https://l10n.opensuse.org/accounts/register/
+[22]: https://github.com/bbidulock/icewm/blob/master/COMPLIANCE
+[23]: https://ice-wm.org/man/
+[24]: https://ice-wm.org/man/icesound
+[25]: https://ice-wm.org/man/icewm-keys
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
