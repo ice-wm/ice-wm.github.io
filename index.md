@@ -25,7 +25,7 @@ It includes an optional external background
 wallpaper manager with transparency support,
 a simple session manager and a system tray.
 IceWM is available on popular Linux distributions like
-Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS
+Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS,
 antiX, NixOS, and also compiles on most \*BSDs.
 
 ### Software
@@ -76,7 +76,8 @@ Currently, more than 400 themes can be downloaded from
 
 IceWM is [translated][8] into three dozen languages.
 To improve the translation for your language at Weblate,
-first [register an account][21], then [update][8].
+first register an account either [here][21] or [there][26],
+then [update][8].
 
 ### Documentation
 
@@ -185,5 +186,6 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [23]: https://ice-wm.org/man/
 [24]: https://ice-wm.org/man/icesound
 [25]: https://ice-wm.org/man/icewm-keys
+[26]: https://idp-portal.suse.com/univention/self-service/#page=createaccount
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
