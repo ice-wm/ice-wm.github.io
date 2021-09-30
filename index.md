@@ -56,6 +56,7 @@ The [latest][15] released version is [2.7.0][4] (2021-08-06).
 - Autoraising of windows option
 - Tooltips
 - Configurable keybindings[&rarr;][25]
+- Support for DockApps in a container
 
 ### Screenshots
 
@@ -182,7 +183,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [19]: https://developer.gnome.org/wm-spec/
 [20]: https://projects.mini-dweeb.org/attachments/download/4/report.pdf
 [21]: https://l10n.opensuse.org/accounts/register/
-[22]: https://github.com/bbidulock/icewm/blob/master/COMPLIANCE
+[22]: https://github.com/ice-wm/icewm/blob/master/COMPLIANCE
 [23]: https://ice-wm.org/man/
 [24]: https://ice-wm.org/man/icesound
 [25]: https://ice-wm.org/man/icewm-keys
