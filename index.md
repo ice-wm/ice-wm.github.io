@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [2.7.0][4] (2021-08-06).
+The [latest][15] released version is [2.8.0][4] (2021-10-04).
 
 ### Features
 
@@ -56,7 +56,7 @@ The [latest][15] released version is [2.7.0][4] (2021-08-06).
 - Autoraising of windows option
 - Tooltips
 - Configurable keybindings[&rarr;][25]
-- Support for DockApps in a container
+- Supports DockApps in a container
 
 ### Screenshots
 
@@ -94,9 +94,9 @@ See [issues on Github][5].
 ### Install the latest release as follows
 
 ```bash
-$ wget https://github.com/ice-wm/icewm/releases/download/2.7.0/icewm-2.7.0.tar.lz
-$ tar -x --lzip -vpf icewm-2.7.0.tar.lz
-$ cd icewm-2.7.0
+$ wget https://github.com/ice-wm/icewm/releases/download/2.8.0/icewm-2.8.0.tar.lz
+$ tar -x --lzip -vpf icewm-2.8.0.tar.lz
+$ cd icewm-2.8.0
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -166,7 +166,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/2.7.0/icewm-2.7.0.tar.lz
+[4]: https://github.com/ice-wm/icewm/releases/download/2.8.0/icewm-2.8.0.tar.lz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
