@@ -180,7 +180,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [16]: https://wiki.archlinux.org/index.php/IceWM
 [17]: https://www.archlinuxuser.com/2013/02/how-to-install-configure-icewm-window.html
 [18]: https://www.cs.ru.nl/bachelors-theses/2019/Max_van_Deurzen___4581903___The_anatomy_of_the_modern_window_manager_-_a_case_study_for_X_in_an_Agile_manner.pdf
-[19]: https://developer.gnome.org/wm-spec/
+[19]: https://specifications.freedesktop.org/wm-spec/wm-spec-latest.html
 [20]: https://projects.mini-dweeb.org/attachments/download/4/report.pdf
 [21]: https://l10n.opensuse.org/accounts/register/
 [22]: https://github.com/ice-wm/icewm/blob/master/COMPLIANCE
