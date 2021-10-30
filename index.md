@@ -106,7 +106,7 @@ $ sudo make install
 Gettext and asciidoc must be installed.
 
 ```bash
-$ git clone https://github.com/bbidulock/icewm
+$ git clone https://github.com/ice-wm/icewm.git
 $ cd icewm
 $ ./autogen.sh
 $ ./configure --prefix=/usr
@@ -117,7 +117,7 @@ $ sudo make install
 If you have cmake, an alternative is:
 
 ```bash
-$ git clone https://github.com/bbidulock/icewm
+$ git clone https://github.com/ice-wm/icewm.git
 $ cd icewm
 $ ./rebuild.sh -r --prefix=/usr
 $ cd build
@@ -165,9 +165,9 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
-[3]: https://github.com/bbidulock/icewm
+[3]: https://github.com/ice-wm/icewm
 [4]: https://github.com/ice-wm/icewm/releases/download/2.8.0/icewm-2.8.0.tar.lz
-[5]: https://github.com/bbidulock/icewm/issues
+[5]: https://github.com/ice-wm/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
