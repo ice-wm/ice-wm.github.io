@@ -65,13 +65,11 @@ The [IceWM Screenshots Collection](screenshots/)
 ### Themes
 
 IceWM is [themeable](themes/).
-Every setting from the preferences file can be changed
-by a theme. This includes titlebars, borders, icons, events, the taskbar,
-etc. IceWM supports pixmapped and non-pixmapped themes and comes with an
-example theme for all the theme types (warp3, warp4, win95, motif, nice,
-pixmap, metal, gtk) that IceWM supports.
-Currently, more than 400 themes can be downloaded from
-[box-look.org][6].
+The visual appearance of icewm can be changed by a theme,
+which is a collection of settings and small images.
+More than 400 themes can be downloaded from [box-look.org][6].
+[Extra](https://github.com/bbidulock/icewm-extra-themes/)
+is a collection of 75 highlights.
 
 ### Translations
 
