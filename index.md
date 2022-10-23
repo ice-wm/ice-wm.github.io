@@ -57,6 +57,7 @@ The [latest][15] released version is [3.1.0][4] (2022-10-24).
 - Tooltips
 - Configurable keybindings[&rarr;][25]
 - Supports DockApps in a container
+- Tabbed windows
 
 ### Screenshots
 
