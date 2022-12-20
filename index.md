@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [3.2.3][4] (2022-12-05).
+The [latest][15] released version is [3.3.0][4] (2022-12-20).
 
 ### Features
 
@@ -88,14 +88,14 @@ then [update][8].
 
 ### Bug Tracking
 
-See [issues on Github][5].
+See [Github][5] for a list of issues.
 
 ### Install the latest release as follows
 
 ```bash
-$ wget https://github.com/ice-wm/icewm/releases/download/3.2.3/icewm-3.2.3.tar.lz
-$ tar -x --lzip -vpf icewm-3.2.3.tar.lz
-$ cd icewm-3.2.3
+$ wget https://github.com/ice-wm/icewm/releases/download/3.3.0/icewm-3.3.0.tar.lz
+$ tar -x --lzip -vpf icewm-3.3.0.tar.lz
+$ cd icewm-3.3.0
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -150,9 +150,9 @@ $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xine
 - [IceWM sound files](icewm-sounds).
 - [IceWM release history](versions.html).
 - [Compare window managers][11].
-- [List of all window managers][12].
+- List of [all window managers][12] and [helpers][27].
 - [Extended window manager hints][19].
-- [The anatomy of the modern window manager (thesis)][18].
+- [The anatomy of the modern window manager][18] (thesis).
 
 ### License
 
@@ -165,7 +165,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/3.2.3/icewm-3.2.3.tar.lz
+[4]: https://github.com/ice-wm/icewm/releases/download/3.3.0/icewm-3.3.0.tar.lz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
@@ -187,5 +187,6 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [24]: https://ice-wm.org/man/icesound
 [25]: https://ice-wm.org/man/icewm-keys
 [26]: https://idp-portal.suse.com/univention/self-service/#page=createaccount
+[27]: https://www.gilesorr.com/wm/helpers.html
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
