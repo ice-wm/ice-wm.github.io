@@ -35,7 +35,7 @@ It is now maintained at [Github][3].
 
 ### Releases
 
-The [latest][15] released version is [3.3.0][4] (2022-12-20).
+The [latest][15] released version is [3.3.1][4] (2023-01-23).
 
 ### Features
 
@@ -88,14 +88,14 @@ then [update][8].
 
 ### Bug Tracking
 
-See [Github][5] for a list of issues.
+Report your icewm bugs on [Github][5].
 
 ### Install the latest release as follows
 
 ```bash
-$ wget https://github.com/ice-wm/icewm/releases/download/3.3.0/icewm-3.3.0.tar.lz
-$ tar -x --lzip -vpf icewm-3.3.0.tar.lz
-$ cd icewm-3.3.0
+$ wget https://github.com/ice-wm/icewm/releases/download/3.3.1/icewm-3.3.1.tar.lz
+$ tar -x --lzip -vpf icewm-3.3.1.tar.lz
+$ cd icewm-3.3.1
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -137,6 +137,8 @@ Verify package dependencies by:
 
 ```bash
 $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xinerama xft fontconfig sm ice sndfile alsa ao gio-2.0 gio-unix-2.0 gdk-pixbuf-xlib-2.0 imlib2 librsvg-2.0 xpm libpng libjpeg
+# or simpler:
+$ ./rebuild.sh -d
 ```
 
 ### More installation and configuration
@@ -150,7 +152,7 @@ $ pkg-config --modversion x11 xext xcomposite xdamage xfixes xrender xrandr xine
 - [IceWM sound files](icewm-sounds).
 - [IceWM release history](versions.html).
 - [Compare window managers][11].
-- List of [all window managers][12] and [helpers][27].
+- List of [all window managers][12] and their [helper programs][27].
 - [Extended window manager hints][19].
 - [The anatomy of the modern window manager][18] (thesis).
 
@@ -165,7 +167,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
-[4]: https://github.com/ice-wm/icewm/releases/download/3.3.0/icewm-3.3.0.tar.lz
+[4]: https://github.com/ice-wm/icewm/releases/download/3.3.1/icewm-3.3.1.tar.lz
 [5]: https://github.com/bbidulock/icewm/issues
 [6]: https://themes.ice-wm.org
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
