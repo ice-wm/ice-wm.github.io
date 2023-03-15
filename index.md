@@ -166,7 +166,7 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 
 ### Merchandise
 
-Show you're an afficionado and [visit our shop].
+Show you're an afficionado and [visit our shop][7].
 
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
