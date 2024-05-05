@@ -24,9 +24,9 @@ IceWM is very configurable, themeable and well documented.
 It includes an optional external background
 wallpaper manager with transparency support,
 a simple session manager and a system tray.
-IceWM is available on popular Linux distributions like
+IceWM [is available][28] on popular Linux distributions like
 Debian, Ubuntu, Arch, OpenSUSE, Gentoo, Slackware, CentOS,
-antiX, NixOS, and also compiles on most \*BSDs.
+antiX, NixOS and on most \*BSDs.
 
 ### Software
 
@@ -69,8 +69,7 @@ IceWM is [themeable](themes/).
 The visual appearance of icewm can be changed by a theme,
 which is a collection of settings and small images.
 More than 400 themes can be downloaded from [box-look.org][6].
-[Extra](https://github.com/bbidulock/icewm-extra-themes/)
-is a collection of 75 highlights.
+[Extra][29] is a collection of 90 highlights.
 
 ### Translations
 
@@ -172,7 +171,7 @@ Show you're an afficionado and [visit our shop][7].
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
 [4]: https://github.com/ice-wm/icewm/releases/download/3.4.7/icewm-3.4.7.tar.lz
-[5]: https://github.com/bbidulock/icewm/issues
+[5]: https://github.com/ice-wm/icewm/issues
 [6]: https://themes.ice-wm.org
 [7]: https://www.redbubble.com/people/icewm/shop
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
@@ -195,5 +194,7 @@ Show you're an afficionado and [visit our shop][7].
 [25]: https://ice-wm.org/man/icewm-keys
 [26]: https://idp-portal.suse.com/univention/self-service/#page=createaccount
 [27]: https://www.gilesorr.com/wm/helpers.html
+[28]: https://ice-wm.org/status/
+[29]: https://github.com/ice-wm/icewm-extra/releases/download/themes/icewm-extra.tar.lz
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
