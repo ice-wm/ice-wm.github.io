@@ -88,6 +88,7 @@ then [update][8].
 ### Bug Tracking
 
 Report your icewm bugs on [Github][5].
+Only report it once and give relevant details.
 
 ### Install the latest release as follows
 
