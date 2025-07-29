@@ -179,7 +179,7 @@ Show you're an afficionado and [visit our shop][7].
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
 [10]: http://www.linuxfromscratch.org/blfs/view/svn/x/icewm.html
 [11]: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
-[12]: https://www.gilesorr.com/wm/table.html
+[12]: https://www.gilesorr.com/wm/xwmtable.html
 [13]: https://ice-wm.org/gnome-wm-hints/
 [14]: https://gijsbers.github.io/donate/
 [15]: https://github.com/ice-wm/icewm/releases/latest
