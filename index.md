@@ -31,7 +31,7 @@ antiX, NixOS and on most \*BSDs.
 ### Software
 
 IceWM was coded from scratch in C++ by Marko Maček since 1997.
-It is now maintained at [Github][3].
+It is now maintained at [GitHub][3].
 
 ### Releases
 
@@ -39,7 +39,7 @@ The [latest][15] released version is [3.9.0][4] (2025-08-31).
 
 ### Features
 
-- Easy to use, simple and fast
+- Easy to use, simple, and fast
 - Standards compliant[&rarr;][22]
 - Fully usable with keyboard
 - Alt+Tab window switching
@@ -53,7 +53,7 @@ The [latest][15] released version is [3.9.0][4] (2025-08-31).
 - Support for sound effects[&rarr;][24]
 - Multiple focus modes
 - Manual placement of windows option
-- Autoraising of windows option
+- Auto-raising of windows option
 - Tooltips
 - Configurable keybindings[&rarr;][25]
 - Supports DockApps in a container
@@ -66,7 +66,7 @@ The [IceWM Screenshots Collection](screenshots/)
 ### Themes
 
 IceWM is [themeable](themes/).
-The visual appearance of icewm can be changed by a theme,
+The visual appearance of IceWM can be changed by a theme,
 which is a collection of settings and small images.
 More than 400 themes can be downloaded from [box-look.org][6].
 [Extra][29] is a collection of 90 highlights.
@@ -85,10 +85,10 @@ then [update][8].
 - [Themes Howto](themes/)
 - [IceWM FAQ](FAQ/)
 
-### Bug Tracking
+### Bug Reporting
 
-Report your icewm bugs on [Github][5].
-Only report it once and give relevant details.
+Issues can be reported on [GitHub][5]. Please try to submit short patches or
+pull requests if you can.
 
 ### Install the latest release as follows
 
@@ -144,7 +144,7 @@ $ ./rebuild.sh -d
 ### More installation and configuration
 
 - [IceWM from scratch][10].
-- [IceWM on arch wiki][16].
+- [IceWM on the Arch wiki][16].
 - [IceWM by arch user][17].
 
 ### Links
