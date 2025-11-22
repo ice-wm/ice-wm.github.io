@@ -164,17 +164,12 @@ IceWM is released under the terms of the GNU Library General Public License.
 
 Contribute to ongoing development and support of IceWM by [donating][14].
 
-### Merchandise
-
-Show you're an afficionado and [visit our shop][7].
-
 [1]: images/logom.jpg "ice-wm.org"
 [2]: https://ice-wm.org
 [3]: https://github.com/bbidulock/icewm
 [4]: https://github.com/ice-wm/icewm/releases/download/3.9.0/icewm-3.9.0.tar.lz
 [5]: https://github.com/ice-wm/icewm/issues
 [6]: https://themes.ice-wm.org
-[7]: https://www.redbubble.com/people/icewm/shop
 [8]: https://l10n.opensuse.org/projects/icewm/icewm-1-4-branch/
 [9]: https://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz
 [10]: http://www.linuxfromscratch.org/blfs/view/svn/x/icewm.html
