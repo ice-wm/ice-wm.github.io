@@ -68,8 +68,8 @@ The [IceWM Screenshots Collection](screenshots/)
 IceWM is [themeable](themes/).
 The visual appearance of icewm can be changed by a theme,
 which is a collection of settings and small images.
-More than 400 themes can be downloaded from [box-look.org][6].
-[Extra][29] is a collection of 90 highlights.
+Over 450 themes can be downloaded from [box-look.org][6].
+[Extra][29] is a collection of 91 highlights. See `icewm -i list`.
 
 ### Translations
 
