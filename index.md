@@ -149,6 +149,7 @@ $ ./rebuild.sh -d
 
 ### Links
 
+- [IceWM Menuator][30] for managing menu files with a GUI.
 - [IceWM sound files](icewm-sounds).
 - [IceWM release history](versions.html).
 - [Compare window managers][11].
@@ -192,5 +193,6 @@ Contribute to ongoing development and support of IceWM by [donating][14].
 [27]: https://www.gilesorr.com/wm/helpers.html
 [28]: https://ice-wm.org/status/
 [29]: https://github.com/ice-wm/icewm-extra/releases/download/themes/icewm-extra.tar.lz
+[30]: https://github.com/BaptistMissionsOS/icewm_menuator/releases
 
 [ vim: set ft=markdown sw=4 tw=80 nocin nosi fo+=tcqlorn: ]: #
