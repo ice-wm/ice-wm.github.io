@@ -30,7 +30,7 @@ antiX, NixOS and on most \*BSDs.
 
 ### Software
 
-IceWM was coded from scratch in C++ by Marko Maček since 1997.
+IceWM was created by Marko Maček in 1997 using C++.
 It is now maintained at [Github][3].
 
 ### Releases
